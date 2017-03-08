@@ -1,0 +1,22 @@
+Package: ukui-desktop-environment
+Version: 1.0.0
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 8
+Depends: ukui-desktop-environment-core (= 1.0.0)
+Recommends: evince, desktop-base | ubuntu-wallpapers, file-roller, eog, ffmpegthumbnailer, galculator, mate-media, notification-daemon, mate-power-manager, ukui-screensaver, mate-utils, gedit
+Suggests: mail-reader | icedove, network-manager-gnome, x-www-browser | iceweasel
+Provides: ukui
+Section: x11
+Priority: optional
+Homepage: http://www.ukui.org/
+Description: UKUI Desktop Environment (metapackage)
+ The UKUI Desktop Environment is the continuation of MATE. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ UKUI is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package installs the standard set of applications that are
+ part of the official UKUI release.

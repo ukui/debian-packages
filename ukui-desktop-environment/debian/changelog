@@ -1,0 +1,5 @@
+ukui-desktop-environment (1.0.0) zesty; urgency=medium
+
+  * Initial release. (LP:#1663477)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 06 Mar 2017 10:17:34 +0800

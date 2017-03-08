@@ -1,0 +1,5 @@
+ukui-control-center (1.0.0-0ubuntu1) zesty; urgency=medium
+
+  * Initial release. (LP:#1664244)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 06 Mar 2017 14:09:45 +0800

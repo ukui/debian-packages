@@ -1,0 +1,23 @@
+# If we are running the UKUI session, source ~/.ukuirc
+
+BASESTARTUP=${STARTUP%% *}
+BASESTARTUP=${BASESTARTUP##*/}
+if [ "$BASESTARTUP" = x-session-manager ]; then
+    BASESTARTUP=$(basename $(readlink /etc/alternatives/x-session-manager))
+fi
+case "$BASESTARTUP" in
+  ukui-session*)
+    UKUIRC=$HOME/.ukuirc
+    if [ -r "$UKUIRC" ]; then
+      . "$UKUIRC"
+    fi
+    # We prepend /usr/share/ukui since its defaults.list actually points
+    # to /etc so it is configurable.
+    if [ -z "$XDG_DATA_DIRS" ]; then
+      XDG_DATA_DIRS=/usr/share/ukui:/usr/local/share/:/usr/share/
+    else
+      XDG_DATA_DIRS=/usr/share/ukui:"$XDG_DATA_DIRS"
+    fi
+    export XDG_DATA_DIRS
+    ;;
+esac

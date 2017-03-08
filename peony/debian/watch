@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/peony-$1\.tar\.gz/ \
+  https://github.com/ukui/peony/releases .*/v?(\d\S+)\.tar\.gz

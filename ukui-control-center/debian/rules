@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+export NO_PKG_MANGLE=1
+
+%:
+	dh $@ $(DHFLAGS)
+
+override_dh_auto_configure:
+	# upstream tarball is without configure. autogen.sh will create it
+	NOCONFIGURE=1 ./autogen.sh
+	dh_auto_configure $(DHFLAGS) -- \
+		--disable-silent-rules \
+		--disable-scrollkeeper \
+		--localstatedir=/var \
+		--disable-static \
+		--disable-update-mimedb \
+		--with-gtk=3.0
+
+override_dh_strip:
+	dh_strip -pukui-control-center
+
+override_dh_makeshlibs:
+
+override_dh_install:
+	rm -f debian/ukui-control-center/usr/lib/*/*/*/*.la
+	dh_install --fail-missing

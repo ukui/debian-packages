@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/ukui-indicators-$1\.tar\.gz/ \
+  https://github.com/ukui/ukui-indicators/releases .*/v?(\d\S+)\.tar\.gz

@@ -1,0 +1,10 @@
+[org.mate.interface]
+font-name='Ubuntu 10'
+document-font-name='Ubuntu 10'
+monospace-font-name='Ubuntu Mono 12'
+
+[org.mate.Marco.general]
+titlebar-font='Ubuntu Bold 10'
+
+[org.mate.panel]
+default-layout='ukui'

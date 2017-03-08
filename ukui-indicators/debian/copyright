@@ -1,0 +1,80 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ukui-indicators
+Source: https://github.com/ukui/ukui-indicators
+
+Files: AUTHORS
+       CMakeLists.txt
+       COPYING
+       README.md
+       applet-data.h
+       config.h.in
+       data/*
+       indicator-application/CMakeLists.txt
+       src/CMakeLists.txt
+       indicator-calendar/CMakeLists.txt
+       indicator-desktop/CMakeLists.txt
+Copyright: *No Copyright*
+License: GPL-2+
+
+Files: debian/*
+       indicator-calendar/*
+       indicator-desktop/*
+       src/main.cpp
+Copyright: Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: indicator-application/fixedtip.h
+       indicator-application/fixedtip.c
+Copyright: Copyright (C) 2001 Havoc Pennington, 2002 Red Hat Inc.
+           Copyright (C) 2003-2006 Vincent Untz
+           Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: indicator-application/ia-marshal.h
+       indicator-application/ia-marshal.c
+       indicator-application/na-marshal.h
+       indicator-application/na-marshal.c
+Copyright: Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: indicator-application/na-tray-child.h
+       indicator-application/na-tray-child.c
+Copyright: Copyright (C) 2002 Anders Carlsson <andersca@gnu.org>
+           Copyright (C) 2003-2006 Vincent Untz
+           Copyright (C) 2008 Red Hat, Inc.
+           Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: indicator-application/na-tray.h
+       indicator-application/na-tray.c
+Copyright: Copyright (C) 2002 Red Hat, Inc.
+           Copyright (C) 2003-2006 Vincent Untz
+           Copyright (C) 2007 Christian Persch
+           Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: indicator-application/na-tray-manager.h
+       indicator-application/na-tray-manager.c
+       indicator-application/indicator-application.h
+       indicator-application/indicator-application.cpp
+Copyright: Copyright (C) 2002 Anders Carlsson <andersca@gnu.org>
+           Copyright (C) 2003-2006 Vincent Untz
+           Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

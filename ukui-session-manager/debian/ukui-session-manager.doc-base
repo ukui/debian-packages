@@ -1,0 +1,11 @@
+Document: ukui-session-manager
+Title: UKUI Session documentation
+Author: William Jon McCann
+Abstract: This documents describes how UKUI sessions integrate with DBUS.
+ This document has been derived from the former ukui session
+ documentation.
+Section: Programming/X11
+
+Format: HTML
+Index: /usr/share/doc/ukui-session-manager/dbus/ukui-session.html
+Files: /usr/share/doc/ukui-session-manager/dbus/ukui-session.html

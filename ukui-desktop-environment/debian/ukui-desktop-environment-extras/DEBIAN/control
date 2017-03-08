@@ -1,0 +1,22 @@
+Package: ukui-desktop-environment-extras
+Source: ukui-desktop-environment
+Version: 1.0.0
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 8
+Depends: ukui-desktop-environment (= 1.0.0)
+Recommends: blueman, dconf-editor, gnome-keyring, yelp
+Provides: ukui-extras
+Section: x11
+Priority: optional
+Homepage: http://www.ukui.org/
+Description: UKUI Desktop Environment (extra components, metapackage)
+ The UKUI Desktop Environment is the continuation of MATE. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ UKUI is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package installs an extra set of UKUI components that are
+ also part of the official UKUI release.

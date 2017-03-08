@@ -1,0 +1,34 @@
+Source: ukui-indicators
+Section: x11
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 9),
+               cmake,
+               libwebkit2gtk-4.0-dev,
+               libx11-dev,
+               python3,
+               libwnck-3-dev,
+               libmate-panel-applet-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/ukui/ukui-indicators
+
+Package: ukui-indicators
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libwebkit2gtk-4.0-37,
+         libmate-panel-applet-4-1,
+         libwnck-3-0,
+         python3,
+         gir1.2-gtk-3.0,
+         gnome-system-tools
+Description: notification area use to show time, network, etc.
+ A small applet to display information from various applications
+ consistently in the panel.
+ .
+ The indicator applet exposes Ayatana Indicators in the MATE Panel.
+ Ayatana Indicators are an initiative by Canonical to provide crisp and
+ clean system and application status indication. They take the form of an
+ icon and associated menu, displayed (usually) in the desktop panel.
+ Existing indicators include the Message Menu, Battery Menu and Sound
+ menu.

@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	# GSettings overrides for Ubuntu
+ifeq ($(shell dpkg-vendor --is Ubuntu && echo yes),yes)
+	dh_install -pukui-desktop-environment-core debian/ukui-ubuntu.gschema.override /usr/share/glib-2.0/schemas/
+endif

@@ -1,0 +1,68 @@
+Source: ukui-control-center
+Section: x11
+Priority: optional
+Maintainer: Ubuntu Kylin Team <ubuntuukui-members@list.launchpad.net>
+Build-Depends: debhelper (>= 9),
+               mate-common,
+               docbook-to-man,
+               autotools-dev,
+               yelp-tools,
+               intltool,
+               libtool-bin,
+               libxt-dev,
+               libx11-dev,
+               libxss-dev,
+               libcanberra-gtk3-dev,
+               libgtk-3-dev,
+               libglib2.0-dev,
+               libdbus-1-dev,
+               libdbus-glib-1-dev,
+               libxml2-dev,
+               libmarco-dev,
+               libmate-desktop-dev,
+               libxft-dev,
+               libxrender-dev,
+               libxrandr-dev,
+               libxcursor-dev,
+               libxi-dev,
+               libmatekbd-dev,
+               libxklavier-dev,
+               libunique-3.0-dev,
+               desktop-file-utils,
+               shared-mime-info,
+               libgtop2-dev,
+               xsltproc,
+               libstartup-notification0-dev,
+               libpango1.0-dev,
+               librsvg2-dev,
+               libdconf-dev,
+               mate-settings-daemon-dev,
+               libupower-glib-dev,
+               liboobs-1-dev,
+               libnotify-dev,
+               libpulse-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/ukui/ukui-control-center
+
+Package: ukui-control-center
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         peony-common,
+         marco-common (>= 1.8.0),
+         mate-settings-daemon,
+         ukui-indicators,
+         ukui-screensaver,
+         mate-menus,
+         mate-desktop,
+         desktop-file-utils,
+         gsettings-desktop-schemas,
+         libglib2.0-bin,
+         mate-power-manager,
+         mate-media
+Suggests: gconf2
+Description: utilities to configure the UKUI desktop
+ The UKUI control center contains configuration applets for the UKUI desktop,
+ allowing to set accessibility configuration, desktop fonts, keyboard
+ and mouse properties, sound setup, desktop theme and background, user
+ interface properties, screen resolution, and other MATE parameters.

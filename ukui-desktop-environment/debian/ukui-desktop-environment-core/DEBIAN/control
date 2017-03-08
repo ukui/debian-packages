@@ -1,0 +1,23 @@
+Package: ukui-desktop-environment-core
+Source: ukui-desktop-environment
+Version: 1.0.0
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 11
+Depends: peony, ukui-menu, ukui-indicators, ukui-control-center, ukui-session-manager, gvfs-backends, gvfs-bin, marco, mate-panel, mate-desktop, mate-menus, notification-daemon, mate-polkit, mate-settings-daemon, gnome-terminal, ubuntukylin-theme (>= 1.7.0), dconf-gsettings-backend | gsettings-backend
+Conflicts: mate-conf, mate-conf-editor, mate-dialogs, mate-dialogs-common, mate-dialogs-dbg, mate-doc-utils, mate-doc-utils-gnome, mate-gnome-main-menu-applet, mate-keyring
+Section: x11
+Priority: optional
+Homepage: http://www.ukui.org/
+Description: UKUI Desktop Environment (essential components, metapackage)
+ The UKUI Desktop Environment is the continuation of MATE. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ UKUI is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package depends on a very basic set of programs that are necessary to
+ start a UKUI desktop environment session. The set of programs includes the
+ UKUI file manager (Peony), the UKUI control center and a limited set of
+ other obligatory UKUI desktop components.
