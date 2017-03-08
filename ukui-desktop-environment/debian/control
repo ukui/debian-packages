@@ -25,17 +25,8 @@ Depends: peony,
          mate-polkit,
          mate-settings-daemon,
          gnome-terminal,
-         ubuntukylin-theme (>= 1.7.0),
+         ubuntukylin-theme (>= 1.6.2),
          ${misc:Depends},
-Conflicts: mate-conf,
-           mate-conf-editor,
-           mate-dialogs,
-           mate-dialogs-common,
-           mate-dialogs-dbg,
-           mate-doc-utils,
-           mate-doc-utils-gnome,
-           mate-keyring,
-           mate-gnome-main-menu-applet,
 Description: UKUI Desktop Environment (essential components, metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for
@@ -66,9 +57,9 @@ Recommends: evince,
             ukui-screensaver,
             mate-utils,
             gedit,
-Suggests: mail-reader | icedove,
+Suggests: mail-reader | thunderbird,
           network-manager-gnome,
-          x-www-browser | iceweasel,
+          x-www-browser | firefox,
 Description: UKUI Desktop Environment (metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for
