@@ -61,7 +61,6 @@ Depends: ${shlibs:Depends},
          libglib2.0-bin,
          mate-power-manager,
          mate-media
-Suggests: gconf2
 Description: utilities to configure the UKUI desktop
  The UKUI control center contains configuration applets for the UKUI desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
