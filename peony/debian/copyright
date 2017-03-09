@@ -1,5 +1,5 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Peony (old name: mate-file-manager)
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Peony
 Upstream-Contact: Xiaodong Liu <liuxiaodong@kylinos.cn>
                   Zuxun Yang <yangzuxun@kylinos.cn>
 Source: https://github.com/ukui/peony

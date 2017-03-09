@@ -45,6 +45,8 @@ Recommends: gvfs-backends,
 Suggests: engrampa,
           gstreamer1.0-tools,
           meld,
+Breaks: peony-common (<< 1.0.0-0ubuntu2~)
+Replaces: peony-common (<< 1.0.0-0ubuntu2~)
 Description: file manager for the UKUI desktop
  Peony is the official file manager for the UKUI desktop. It allows one
  to browse directories, preview files and launch applications associated
