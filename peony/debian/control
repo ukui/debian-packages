@@ -118,6 +118,7 @@ Description: libraries for Peony components (API documentation files)
 Package: gir1.2-peony-2.0
 Section: introspection
 Architecture: any
+Multi-Arch: same
 Depends: ${gir:Depends},
          ${misc:Depends},
          ${shlibs:Depends},

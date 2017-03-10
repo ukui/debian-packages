@@ -17,7 +17,7 @@ Package: ukui-indicators
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libwebkit2gtk-4.0-37,
+         libwebkit2gtk-4.0,
          libmate-panel-applet-4-1,
          libwnck-3-0,
          python3,
