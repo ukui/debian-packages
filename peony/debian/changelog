@@ -1,3 +1,9 @@
+peony (1.0.1-0ubuntu1) zesty; urgency=medium
+
+  * Add the ability to draw backgrounds.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 21 Mar 2017 11:40:01 +0800
+
 peony (1.0.0-0ubuntu3) zesty; urgency=medium
 
   * Initial release. (LP: #1664235)
