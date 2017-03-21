@@ -44,7 +44,7 @@ Files:data/*
       panels/keyboard/mate-keyboard-properties-layout-chooser.ui
       panels/keyboard/shortcut_dialog.ui
 Copyright:2016,Tianjin KYLIN Information Technology Co., Ltd
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/display/foo-marshal.c
       panels/display/foo-marshal.h
@@ -77,12 +77,12 @@ Files:panels/display/foo-marshal.c
       po/update-po
       po/zh_CN.po
 Copyright: *No copyright*
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/display/mate-display-properties-install-systemwide.c
 Copyright:Copyright (C) 2010 Novell, Inc.
           Copyright (C) 2016 Tianjin KYLIN Information Technology Co., Ltd.
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/display/scrollarea.c
       panels/display/scrollarea.h
@@ -93,34 +93,34 @@ License: LGPL-2+
 Files:panels/display/xrandr-capplet.c
 Copyright:Copyright (C) 2007, 2008  Red Hat, Inc.
           Copyright (C) 2016,Tianjin KYLIN Information Technology Co., Ltd.
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/display/xrandr-capplet.c
 Copyright:Copyright (C) 2007, 2008  Red Hat, Inc.
           Copyright (C) 2016,Tianjin KYLIN Information Technology Co., Ltd.
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/keyboard/dconf-util.c
       panels/keyboard/dconf-util.h
 Copyright:Copyright (C) 2012 Stefano Karapetsas
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/keyboard/eggaccelerators.c
       panels/keyboard/eggaccelerators.h
 Copyright:Copyright (C) 2002  Red Hat, Inc.;
           Copyright 1998, 2001 Tim Janik
           Copyright (C) 2016 Tianjin KYLIN Information Technology Co., Ltd.
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/keyboard/eggcellrendererkeys.c
       panels/keyboard/eggcellrendererkeys.h
 Copyright:Copyright (C) 2002  Red Hat, Inc.;
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/keyboard/mate-keyboard-properties-a11y.c
       panels/keyboard/mate-keyboard-properties-a11y.h
 Copyright:Copyright (C) 2007 The GNOME Foundation
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/keyboard/mate-keyboard-properties-xkb.c
       panels/keyboard/mate-keyboard-properties-xkb.h
@@ -130,13 +130,13 @@ Files:panels/keyboard/mate-keyboard-properties-xkb.c
       panels/keyboard/mate-keyboard-properties-xkbot.c
       panels/keyboard/mate-keyboard-properties-xkbpv.c
 Copyright:Copyright (C) 2003-2007 Sergey V. Udaltsov
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/keyboard/mate-keyboard-properties.c
       panels/keyboard/mate-keyboard-properties.h
 Copyright:Copyright (C) 2000-2001 Ximian, Inc.
           Copyright (C) 2001 Jonathan Blandford
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/power/egg-array-float.c
       panels/power/egg-array-float.h
@@ -171,7 +171,7 @@ Files:panels/power/egg-array-float.c
       panels/power/kpm-upower.c
       panels/power/kpm-upower.h
 Copyright:Copyright (C) 2007-2008 Richard Hughes <richard@hughsie.com>
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/session-properties/eggdesktopfile.c
       panels/session-properties/eggdesktopfile.h
@@ -183,7 +183,7 @@ License: LGPL-2+
 Files:panels/session-properties/gsm-app-dialog.c
       panels/session-properties/gsm-app-dialog.h
 Copyright:Copyright (C) 2008 William Jon McCann <jmccann@redhat.com>
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/session-properties/gsm-util.c
       panels/session-properties/gsm-util.h
@@ -200,12 +200,12 @@ Copyright:Copyright (C) 1999 Free Software Foundation, Inc.
           Copyright (C) 2007, 2009 Vincent Untz.
           Copyright (C) 2008 Lucas Rocha.
           Copyright (C) 2008 William Jon McCann <jmccann@redhat.com>
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/session-properties/gsp-keyfile.c
       panels/session-properties/gsp-keyfile.h
 Copyright:Copyright (C) 2008, 2009 Novell, Inc.
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-balance-bar.c
       panels/volume-control/gvc-balance-bar.h
@@ -214,35 +214,35 @@ Files:panels/volume-control/gvc-balance-bar.c
       panels/volume-control/gvc-channel-map.c
       panels/volume-control/gvc-channel-map.h
 Copyright:Copyright (C) 2008 William Jon McCann
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-combo-box.c
       panels/volume-control/gvc-combo-box.h
 Copyright:Copyright (C) 2009 Bastien Nocera
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-level-bar.c
       panels/volume-control/gvc-level-bar.h
 Copyright:Copyright (C) 2008 William Jon McCann <william.jon.mccann@gmail.com>
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-log.c
       panels/volume-control/gvc-log.h
 Copyright:Copyright (C) 2009 Red Hat, Inc.
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-mixer-card.c
       panels/volume-control/gvc-mixer-card.h
 Copyright:Copyright (C) 2008 William Jon McCann
           Copyright (C) 2009 Bastien Nocera
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-mixer-control.c
       panels/volume-control/gvc-mixer-control.h
 Copyright:Copyright (C) 2006-2008 Lennart Poettering
           Copyright (C) 2008 Sjoerd Simons <sjoerd@luon.net>
           Copyright (C) 2008 William Jon McCann
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-mixer-dialog.c
       panels/volume-control/gvc-mixer-dialog.h
@@ -259,20 +259,20 @@ Files:panels/volume-control/gvc-mixer-dialog.c
       panels/volume-control/gvc-mixer-stream.c
       panels/volume-control/gvc-mixer-stream.h
 Copyright:Copyright (C) 2008 William Jon McCann
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-sound-theme-chooser.c
       panels/volume-control/gvc-sound-theme-chooser.h
 Copyright:Copyright (C) 2008 Bastien Nocera <hadess@hadess.net>
           Copyright (C) 2008 William Jon McCann
-License: LGPL-2+
+License: GPL-2+
 
 Files:panels/volume-control/gvc-speaker-test.c
       panels/volume-control/gvc-speaker-test.h
       panels/volume-control/sound-theme-file-utils.c
       panels/volume-control/sound-theme-file-utils.h
 Copyright:Copyright (C) 2009 Bastien Nocera
-License: LGPL-2+
+License: GPL-2+
 
 Files: debian/*
 Copyright: 2016,Tianjin KYLIN Information Technology Co., Ltd.
