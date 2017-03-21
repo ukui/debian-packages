@@ -57,6 +57,7 @@ Depends: ${shlibs:Depends},
          mate-desktop,
          desktop-file-utils,
          gsettings-desktop-schemas,
+         mate-control-center-common,
          libglib2.0-bin,
          mate-power-manager,
          mate-media
