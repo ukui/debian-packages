@@ -1,3 +1,10 @@
+ukui-menu (1.0.1-0ubuntu1) zesty; urgency=medium
+
+  * Fix the error when 'add to panel'
+  * Remove Logout, Shutdown, Reboot from 'All App'
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 11 Apr 2017 19:52:09 +0800
+
 ukui-menu (1.0.0-0ubuntu1) zesty; urgency=medium
 
   * Initial release (LP: #1664229)
