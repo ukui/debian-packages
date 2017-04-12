@@ -1,4 +1,4 @@
-ukui-screensaver (1.0.1-0ubuntu1) UNRELEASED; urgency=medium
+ukui-screensaver (1.0.1-0ubuntu1) zesty; urgency=medium
 
   * Fix the error of missing user face image and username.
 

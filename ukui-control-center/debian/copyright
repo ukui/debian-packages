@@ -64,6 +64,7 @@ Files:panels/display/foo-marshal.c
       panels/power/org.ukui.PowerManager.xml
       AUTHORS
       COPYING
+      COPYING.LGPL
       ChangeLog
       *Makefile.am
       NEWS
