@@ -1,11 +1,5 @@
-ukui-control-center (1.0.2-0ubuntu1) zesty; urgency=medium
+ukui-control-center (1.0.2-1) unstable; urgency=medium
 
-  * Set the range of 'hour' spinbutton.
+  * Initial release. (Closes: #nnnnn)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 11 Apr 2017 19:55:36 +0800
-
-ukui-control-center (1.0.1-0ubuntu1) zesty; urgency=medium
-
-  * Initial release. (LP: #1664244)
-
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 06 Mar 2017 14:09:45 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 18 May 2017 17:00:50 +0800

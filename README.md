@@ -1,2 +1,2 @@
 # debian-packages
-debian/ folders for UKUI packages
+debian/ folders of UKUI packages for Debian.
