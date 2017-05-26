@@ -1,9 +1,8 @@
 Source: ukui-menu
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
-Uploaders: penghuan <penguan@kylinos.cn>
+Maintainer: penghuan <penghuan@kylinos.cn>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python,

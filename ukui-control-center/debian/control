@@ -1,8 +1,8 @@
 Source: ukui-control-center
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
+Maintainer: Hen Zhang<zhanghen@kylinos.cn>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                mate-common,
                docbook-to-man,
