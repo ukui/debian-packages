@@ -5,6 +5,7 @@ Source: https://github.com/ukui/ukui-indicators
 Files: AUTHORS
        CMakeLists.txt
        COPYING
+       COPYING.LGPL
        README.md
        applet-data.h
        config.h.in
