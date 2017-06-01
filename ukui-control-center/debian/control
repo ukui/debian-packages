@@ -1,7 +1,7 @@
 Source: ukui-control-center
 Section: x11
 Priority: optional
-Maintainer: Hen Zhang<zhanghen@kylinos.cn>
+Maintainer: Hen Zhang <zhanghen@kylinos.cn>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                mate-common,

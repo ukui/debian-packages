@@ -71,12 +71,7 @@ Files:panels/display/foo-marshal.c
       README
       autogen.sh
       configure.ac
-      po/LINGUAS
-      po/POTFILES.in
-      po/POTFILES.skip
-      po/README
-      po/update-po
-      po/zh_CN.po
+      po/*
 Copyright: *No copyright*
 License: GPL-2+
 
