@@ -29,8 +29,7 @@ Package: ukui-session-manager
 Architecture: any
 Depends: dbus-x11,
          mate-desktop-common,
-         ubuntukylin-default-settings (>= 1.3.17),
-         upower,
+         debian-ukui-default-settings | ubuntukylin-default-settings (>= 1.3.17),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: marco,

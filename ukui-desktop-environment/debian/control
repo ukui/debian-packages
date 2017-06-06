@@ -24,7 +24,7 @@ Depends: peony,
          mate-polkit,
          mate-settings-daemon,
          gnome-terminal,
-         ubuntukylin-theme (>= 1.6.2),
+         ukui-themes | ubuntukylin-theme (>= 1.6.2),
          ${misc:Depends},
 Description: UKUI Desktop Environment (essential components, metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
