@@ -1,3 +1,10 @@
+ukui-indicators (1.0.3-0ubuntu1) artful; urgency=medium
+
+  * New upstream release.
+  * Fix wrong application icon size in indicators. (LP: #1681788)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2017 16:11:48 +0800
+
 ukui-indicators (1.0.2-0ubuntu1) zesty; urgency=medium
 
   * Initial release. (LP: #1664232)
