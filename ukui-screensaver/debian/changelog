@@ -1,4 +1,4 @@
-ukui-screensaver (1.0.2-0ubuntu1) ; urgency=medium
+ukui-screensaver (1.0.2-0ubuntu1) artful; urgency=medium
 
   * New upstream release.
   * Replace the ukui log. (LP: #1686647) 

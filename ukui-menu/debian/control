@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
                python,
                python-setuptools,
                python-distutils-extra,
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: http://www.ukui.org/
 X-Python-Version: >= 2.4
 

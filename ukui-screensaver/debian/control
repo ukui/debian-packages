@@ -29,7 +29,7 @@ Build-Depends: debhelper (>= 9),
                x11proto-xext-dev,
                x11proto-xf86vidmode-dev,
                xmlto,
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: http://www.ukui.org/
 
 Package: ukui-screensaver
