@@ -1,7 +1,7 @@
 peony (1.0.3-0ubuntu1) artful; urgency=medium
 
   * New upstream release.
-  * Create freedesktop-dbus. (LP: 1686644) 
+  * Create freedesktop-dbus. (LP: #1686644)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2017 15:46:53 +0800
 
