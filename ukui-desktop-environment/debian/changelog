@@ -1,7 +1,8 @@
 ukui-desktop-environment (1.0.1) artful; urgency=medium
 
   * Drop gnome-terminal, evince, file-roller, eog, galculator, gedit.
-  * Add mate-notification-daemon, mate-terminal, atril, engrampa, eom, mate-calc, pluma.
+  * Add mate-notification-daemon, mate-terminal, atril, engrampa,
+    eom, mate-calc, pluma.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2017 16:24:39 +0800
 

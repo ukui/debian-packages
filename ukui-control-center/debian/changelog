@@ -4,7 +4,8 @@ ukui-control-center (1.0.3-0ubuntu1) artful; urgency=medium
   * Adjust the user-create.ui. (LP: #1682118)
   * Make all combos adapt the size of the icon. (LP: #1682124)
   * Fix the touchpad settings. (LP: #1692885)
-  * Modify the condition that the text editor displays the current item. (LP: #1683572)
+  * Modify the condition that the text editor displays the current
+    item. (LP: #1683572)
   * Update zh_CN.po. (LP: #1682126)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2017 09:58:32 +0800
