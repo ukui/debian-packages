@@ -1,0 +1,5 @@
+[org.mate.panel]
+default-layout='ukui'
+
+[org.mate.Marco.global-keybindings]
+run-command-terminal='<Control><Alt>t'

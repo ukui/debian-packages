@@ -1,1 +1,2 @@
 debian/55ukui-session_ukuirc etc/X11/Xsession.d
+debian/settings/* /
