@@ -43,6 +43,7 @@ Files:data/*
       panels/volume-control/dialog-main.h
       panels/keyboard/mate-keyboard-properties-layout-chooser.ui
       panels/keyboard/shortcut_dialog.ui
+      panels/power/ukui-fullscreen-preview.ui
 Copyright:2016,Tianjin KYLIN Information Technology Co., Ltd
 License: GPL-2+
 
@@ -156,8 +157,6 @@ Files:panels/power/egg-array-float.c
       panels/power/egg-string.h
       panels/power/egg-test.c
       panels/power/egg-test.h
-      panels/power/egg-unique.c
-      panels/power/egg-unique.h
       panels/power/kpm-brightness.c
       panels/power/kpm-brightness.h
       panels/power/kpm-common.c
@@ -168,6 +167,30 @@ Files:panels/power/egg-array-float.c
       panels/power/kpm-upower.h
 Copyright:Copyright (C) 2007-2008 Richard Hughes <richard@hughsie.com>
 License: GPL-2+
+
+Files: panels/power/subprocs.c
+Copyright: 1991-2003, Jamie Zawinski <jwz@jwz.org>
+           2004, William Jon McCann <mccann@jhu.edu>
+License: MIT~OldStyle
+
+Files: panels/power/gs-job.c
+       panels/power/gs-job.h
+       panels/power/gs-prefs.c
+       panels/power/gs-prefs.h
+       panels/power/gs-theme-manager.c
+       panels/power/gs-theme-manager.h
+       panels/power/ukui-screensaver-preferences.c
+Copyright: 2004-2008, William Jon McCann <mccann@jhu.edu>
+License: GPL-2+
+
+Files: panels/power/copy-theme-dialog.c
+       panels/power/copy-theme-dialog.h
+Copyright: 2008, John Millikin <jmillikin@gmail.com>
+License: GPL-2+
+
+Files: panels/power/subprocs.h
+Copyright: 1991-2008, Jamie Zawinski <jwz@jwz.org>
+License: MIT~OldStyle
 
 Files:panels/session-properties/eggdesktopfile.c
       panels/session-properties/eggdesktopfile.h
