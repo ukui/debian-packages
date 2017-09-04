@@ -40,7 +40,8 @@ Build-Depends: debhelper (>= 9),
                libupower-glib-dev,
                liboobs-1-dev,
                libnotify-dev,
-               libpulse-dev
+               libpulse-dev,
+               libmate-menu-dev
 Standards-Version: 4.0.0
 Homepage: https://github.com/ukui/ukui-control-center
 
