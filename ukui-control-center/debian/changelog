@@ -1,3 +1,12 @@
+ukui-control-center (1.0.4-0ubuntu1) artful; urgency=medium
+
+  * Adjust the whole layout.
+  * Update translation.
+  * Update the icons.
+  * Add the page of screensaver-settings.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 13 Sep 2017 11:31:55 +0800
+
 ukui-control-center (1.0.3-0ubuntu1) artful; urgency=medium
 
   * New upstream release.

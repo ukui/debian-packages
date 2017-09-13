@@ -1,11 +1,11 @@
-ukui-screensaver (1.0.2-0ubuntu2) artful; urgency=medium
+ukui-screensaver (1.0.3-0ubuntu1) artful; urgency=medium
 
   * [Fixed] screensaver-preferences can't preview "Blank Screen" correctly. (LP: #1683601)
   * [Obsolete Bug] (LP: #1683600)
   * [Improved] Change the unlock arrow to button.
   * [Improved] Set the font style of username label.
 
- -- lihao <lihao@kylinos.cn>  Wed, 13 Sep 2017 09:14:54 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 13 Sep 2017 09:14:54 +0800
 
 ukui-screensaver (1.0.2-0ubuntu1) artful; urgency=medium
 

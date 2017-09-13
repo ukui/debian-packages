@@ -1,3 +1,9 @@
+ukui-session-manager (1.0.2-0ubuntu1) artful; urgency=medium
+
+  * Also launch 'OnlyShowIn=MATE' apps.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 13 Sep 2017 10:27:19 +0800
+
 ukui-session-manager (1.0.1-0ubuntu1) artful; urgency=medium
 
   * Replace deprecated upower functions with ConsoleKit2 equivatents.
