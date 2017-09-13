@@ -1,3 +1,9 @@
+peony (1.0.4-0ubuntu1) artful; urgency=medium
+
+  * Modify the BUG of multiple icon views in the upper right corner of the My Computer interface
+
+ -- liupeng <liupeng@kylinos.cn>  Wed, 13 Sep 2017 10:30:40 +0800
+
 peony (1.0.3-0ubuntu1) artful; urgency=medium
 
   * New upstream release.
