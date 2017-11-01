@@ -1,5 +1,12 @@
+ukui-session-manager (1.0.2-1) unstable; urgency=medium
+
+  * Add some default settings.
+  * Also launch "OnlyShowIn=MATE" apps. 
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 01 Nov 2017 17:36:37 +0800
+
 ukui-session-manager (1.0.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnnn)
+  * Initial release (Closes: #872969)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 18 May 2017 17:12:06 +0800
