@@ -20,12 +20,12 @@ override_dh_auto_configure:
 	NOCONFIGURE=1 ./autogen.sh
 	dh_auto_configure $(DHFLAGS) -- \
 		--disable-silent-rules \
-		--libexecdir=/usr/lib/mate-power-manager \
+		--libexecdir=/usr/lib/ukui-power-manager \
 		--enable-applets \
 		--enable-deprecated
 
 override_dh_strip:
-	dh_strip --dbg-package=mate-power-manager-dbg
+	dh_strip --dbg-package=ukui-power-manager-dbg
 
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..

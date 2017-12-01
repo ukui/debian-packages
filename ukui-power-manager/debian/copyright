@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: mate-power-manager
-Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
-Source: http://git.mate-desktop.org/mate-power-manager/
+Upstream-Name: ukui-power-manager
+Upstream-Contact: Kobe Lee <lixiang@kylinos.cn>
+Source: http://www.ukui.org/ukui-power-manager/
 
 Files: applets/brightness/egg-debug.c
        applets/brightness/egg-debug.h
@@ -195,7 +195,7 @@ Files: po/*.po
 Copyright: 2005-2010, Free Software Foundation, Inc.
            2005-2006, Adam Weinberger <adamw@gnome.org>
            2005-2009, Richard Hughes <richard@hughsie.com>
-           2005-2010, THE mate-power-manager'S COPYRIGHT HOLDER
+           2005-2010, THE ukui-power-manager'S COPYRIGHT HOLDER
            2006–2010, The Gnome Project.
            2006, Sharif FarsiWeb, Inc.
            2006-2007, Rosetta Contributors and Canonical Ltd.
