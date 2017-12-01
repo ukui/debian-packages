@@ -1,0 +1,3 @@
+version=3
+http://git.mate-desktop.org/mate-power-manager/ \
+    snapshot/mate-power-manager-(\d\.(?:[0-9]+|)[0-9]\.\d)\.tar\.xz
