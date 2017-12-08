@@ -1,0 +1,35 @@
+#!/usr/bin/make -f
+
+DHFLAGS=--parallel
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+%:
+	dh $@ $(DHFLAGS) --with gir
+
+override_dh_install:
+	rm -f debian/tmp/usr/lib/*/*.la
+	dh_install --fail-missing
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS
+
+override_dh_auto_configure:
+	# upstream tarball is without configure. autogen.sh will create it
+	NOCONFIGURE=1 ./autogen.sh
+	dh_auto_configure $(DHFLAGS) -- \
+		--disable-silent-rules \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib/mate-panel \
+		--disable-static \
+		--enable-introspection \
+		--enable-gtk-doc
+
+override_dh_strip:
+	dh_strip -pmate-panel --dbg-package=mate-panel-dbg
+	dh_strip -plibmate-panel-applet-4-1 --dbg-package=libmate-panel-applet-dbg
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
