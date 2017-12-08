@@ -27,6 +27,8 @@ Files:data/*
       panels/user-accounts/run-passwd.h
       panels/user-accounts/user-accounts.c
       panels/user-accounts/user-accounts.h
+      panels/user-accounts/check-passwd.c
+      panels/user-accounts/check-passwd.h
       panels/user-accounts/user-create.ui
       shell/Makefile.am
       shell/mainwindow.c
@@ -41,7 +43,7 @@ Files:data/*
       panels/session-properties/program_properties.ui
       panels/volume-control/dialog-main.c
       panels/volume-control/dialog-main.h
-      panels/keyboard/mate-keyboard-properties-layout-chooser.ui
+      panels/keyboard/ukui-keyboard-properties-layout-chooser.ui
       panels/keyboard/shortcut_dialog.ui
       panels/power/ukui-fullscreen-preview.ui
 Copyright:2016,Tianjin KYLIN Information Technology Co., Ltd
@@ -51,8 +53,8 @@ Files:panels/display/foo-marshal.c
       panels/display/foo-marshal.h
       panels/display/TODO
       panels/display/org.ukuicc.randr.policy.in
-      panels/keyboard/mate-keybinding-properties.c
-      panels/keyboard/mate-keybinding-properties.h
+      panels/keyboard/ukui-keybinding-properties.c
+      panels/keyboard/ukui-keybinding-properties.h
       panels/keyboard/wm-common.c
       panels/keyboard/wm-common.h
       panels/mouse/double-click-maybe.png
@@ -76,7 +78,7 @@ Files:panels/display/foo-marshal.c
 Copyright: *No copyright*
 License: GPL-2+
 
-Files:panels/display/mate-display-properties-install-systemwide.c
+Files:panels/display/ukui-display-properties-install-systemwide.c
 Copyright:Copyright (C) 2010 Novell, Inc.
           Copyright (C) 2016 Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
@@ -114,23 +116,23 @@ Files:panels/keyboard/eggcellrendererkeys.c
 Copyright:Copyright (C) 2002  Red Hat, Inc.;
 License: GPL-2+
 
-Files:panels/keyboard/mate-keyboard-properties-a11y.c
-      panels/keyboard/mate-keyboard-properties-a11y.h
+Files:panels/keyboard/ukui-keyboard-properties-a11y.c
+      panels/keyboard/ukui-keyboard-properties-a11y.h
 Copyright:Copyright (C) 2007 The GNOME Foundation
 License: GPL-2+
 
-Files:panels/keyboard/mate-keyboard-properties-xkb.c
-      panels/keyboard/mate-keyboard-properties-xkb.h
-      panels/keyboard/mate-keyboard-properties-xkblt.c
-      panels/keyboard/mate-keyboard-properties-xkbltadd.c
-      panels/keyboard/mate-keyboard-properties-xkbmc.c
-      panels/keyboard/mate-keyboard-properties-xkbot.c
-      panels/keyboard/mate-keyboard-properties-xkbpv.c
+Files:panels/keyboard/ukui-keyboard-properties-xkb.c
+      panels/keyboard/ukui-keyboard-properties-xkb.h
+      panels/keyboard/ukui-keyboard-properties-xkblt.c
+      panels/keyboard/ukui-keyboard-properties-xkbltadd.c
+      panels/keyboard/ukui-keyboard-properties-xkbmc.c
+      panels/keyboard/ukui-keyboard-properties-xkbot.c
+      panels/keyboard/ukui-keyboard-properties-xkbpv.c
 Copyright:Copyright (C) 2003-2007 Sergey V. Udaltsov
 License: GPL-2+
 
-Files:panels/keyboard/mate-keyboard-properties.c
-      panels/keyboard/mate-keyboard-properties.h
+Files:panels/keyboard/ukui-keyboard-properties.c
+      panels/keyboard/ukui-keyboard-properties.h
 Copyright:Copyright (C) 2000-2001 Ximian, Inc.
           Copyright (C) 2001 Jonathan Blandford
 License: GPL-2+

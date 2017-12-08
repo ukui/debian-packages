@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Build-Depends: debhelper (>= 9),
-               mate-common,
+               ukui-common,
                docbook-to-man,
                autotools-dev,
                yelp-tools,
@@ -20,13 +20,13 @@ Build-Depends: debhelper (>= 9),
                libdbus-glib-1-dev,
                libxml2-dev,
                libmarco-dev,
-               libmate-desktop-dev,
+               libukui-desktop-dev,
                libxft-dev,
                libxrender-dev,
                libxrandr-dev,
                libxcursor-dev,
                libxi-dev,
-               libmatekbd-dev,
+               libukuikbd-dev,
                libxklavier-dev,
                desktop-file-utils,
                shared-mime-info,
@@ -36,12 +36,12 @@ Build-Depends: debhelper (>= 9),
                libpango1.0-dev,
                librsvg2-dev,
                libdconf-dev,
-               mate-settings-daemon-dev,
+               ukui-settings-daemon-dev,
                libupower-glib-dev,
                liboobs-1-dev,
                libnotify-dev,
                libpulse-dev,
-               libmate-menu-dev
+               libukui-menu-dev
 Standards-Version: 4.0.0
 Homepage: https://github.com/ukui/ukui-control-center
 
@@ -51,20 +51,19 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          peony-common,
          marco-common (>= 1.8.0),
-         mate-settings-daemon,
+         ukui-settings-daemon,
          ukui-indicators,
          ukui-screensaver,
-         mate-menus,
-         mate-desktop,
+         ukui-menus,
+         ukui-desktop,
          desktop-file-utils,
          gsettings-desktop-schemas,
-         mate-control-center-common,
          libglib2.0-bin,
-         mate-power-manager,
-         mate-media,
+         ukui-power-manager,
+         ukui-media,
          xscreensaver-data
 Description: utilities to configure the UKUI desktop
  The UKUI control center contains configuration applets for the UKUI desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
  and mouse properties, sound setup, desktop theme and background, user
- interface properties, screen resolution, and other MATE parameters.
+ interface properties, screen resolution, and other UKUI parameters.
