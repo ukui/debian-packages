@@ -22,14 +22,14 @@ override_dh_auto_configure:
 	dh_auto_configure $(DHFLAGS) -- \
 		--disable-silent-rules \
 		--localstatedir=/var \
-		--libexecdir=/usr/lib/mate-panel \
+		--libexecdir=/usr/lib/ukui-panel \
 		--disable-static \
 		--enable-introspection \
 		--enable-gtk-doc
 
 override_dh_strip:
-	dh_strip -pmate-panel --dbg-package=mate-panel-dbg
-	dh_strip -plibmate-panel-applet-4-1 --dbg-package=libmate-panel-applet-dbg
+	dh_strip -pukui-panel --dbg-package=ukui-panel-dbg
+	dh_strip -plibukui-panel-applet-4-1 --dbg-package=libukui-panel-applet-dbg
 
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..

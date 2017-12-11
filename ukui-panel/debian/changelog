@@ -1,184 +1,184 @@
-mate-panel (1.18.6-1) unstable; urgency=medium
+ukui-panel (1.18.6-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Sat, 18 Nov 2017 13:56:56 +0300
 
-mate-panel (1.18.5-1) unstable; urgency=medium
+ukui-panel (1.18.5-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Wed, 08 Nov 2017 13:51:36 +0300
 
-mate-panel (1.18.4-1) unstable; urgency=medium
+ukui-panel (1.18.4-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Fri, 28 Jul 2017 12:30:13 +0300
 
-mate-panel (1.18.3-1) unstable; urgency=medium
+ukui-panel (1.18.3-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Sun, 11 Jun 2017 23:25:07 +0300
 
-mate-panel (1.18.2-1) unstable; urgency=medium
+ukui-panel (1.18.2-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Thu, 11 May 2017 21:40:26 +0300
 
-mate-panel (1.18.1-1) unstable; urgency=medium
+ukui-panel (1.18.1-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Thu, 06 Apr 2017 11:13:46 +0300
 
-mate-panel (1.18.0-1) unstable; urgency=medium
+ukui-panel (1.18.0-1) unstable; urgency=medium
 
   * New upstream release
 
  -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:04 +0300
 
-mate-panel (1.17.1-1) unstable; urgency=medium
+ukui-panel (1.17.1-1) unstable; urgency=medium
 
   * New upstream development release.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 19 Jan 2017 01:10:40 +0000
 
-mate-panel (1.17.0-1) unstable; urgency=medium
+ukui-panel (1.17.0-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Thu, 24 Nov 2016 18:47:14 +0300
 
-mate-panel (1.16.0-1) unstable; urgency=medium
+ukui-panel (1.16.0-1) unstable; urgency=medium
 
   * New upstream release
 
  -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:37 +0300
 
-mate-panel (1.15.1-1) unstable; urgency=medium
+ukui-panel (1.15.1-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Tue, 06 Sep 2016 16:51:50 +0300
 
-mate-panel (1.15.0-1) unstable; urgency=medium
+ukui-panel (1.15.0-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:56 +0300
 
-mate-panel (1.14.0-1) unstable; urgency=medium
+ukui-panel (1.14.0-1) unstable; urgency=medium
 
   * New upstream release
 
  -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:40 +0300
 
-mate-panel (1.13.2-1) unstable; urgency=medium
+ukui-panel (1.13.2-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Tue, 29 Mar 2016 11:07:39 +0300
 
-mate-panel (1.13.1-1) unstable; urgency=medium
+ukui-panel (1.13.1-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Feb 2016 14:01:40 +0300
 
-mate-panel (1.13.0-1) unstable; urgency=medium
+ukui-panel (1.13.0-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:18 +0300
 
-mate-panel (1.12.2-1) unstable; urgency=medium
+ukui-panel (1.12.2-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Mon, 25 Jan 2016 14:52:49 +0300
 
-mate-panel (1.12.1-1) unstable; urgency=medium
+ukui-panel (1.12.1-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:17:41 +0300
 
-mate-panel (1.12.0-1) unstable; urgency=medium
+ukui-panel (1.12.0-1) unstable; urgency=medium
 
   * New upstream release
 
  -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:19:56 +0000
 
-mate-panel (1.11.1-1) unstable; urgency=medium
+ukui-panel (1.11.1-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Thu, 29 Oct 2015 10:57:32 +0300
 
-mate-panel (1.11.0-1) unstable; urgency=medium
+ukui-panel (1.11.0-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 16:58:54 +0300
 
-mate-panel (1.10.1-1) unstable; urgency=medium
+ukui-panel (1.10.1-1) unstable; urgency=medium
 
   * New upstream bugfix release
 
  -- Vlad Orlov <monsta@inbox.ru>  Mon, 13 Jul 2015 12:04:10 +0300
 
-mate-panel (1.10.0-1) unstable; urgency=medium
+ukui-panel (1.10.0-1) unstable; urgency=medium
 
   * New upstream release
 
  -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:06:00 +0300
 
-mate-panel (1.9.90-1) unstable; urgency=low
+ukui-panel (1.9.90-1) unstable; urgency=low
 
   * New upstream release candidate
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 02 Mar 2015 21:05:26 +0100
 
-mate-panel (1.9.4-1) unstable; urgency=low
+ukui-panel (1.9.4-1) unstable; urgency=low
 
   * New upstream development release
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 20 Jan 2015 19:40:09 +0100
 
-mate-panel (1.9.2-1) unstable; urgency=medium
+ukui-panel (1.9.2-1) unstable; urgency=medium
 
   * New upstream development release
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 10 Nov 2014 10:49:29 +0100
 
-mate-panel (1.9.0-1) unstable; urgency=low
+ukui-panel (1.9.0-1) unstable; urgency=low
 
   * New upstream development release
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 22 Mar 2014 17:14:30 +0100
 
-mate-panel (1.8.0-0) unstable; urgency=low
+ukui-panel (1.8.0-0) unstable; urgency=low
 
   * New upstream release
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 05 Mar 2014 21:52:39 +0100
 
-mate-panel (1.7.90-1) unstable; urgency=low
+ukui-panel (1.7.90-1) unstable; urgency=low
 
   * New upstream development release
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 18 Feb 2014 20:50:58 +0100
 
-mate-panel (1.7.2-1) unstable; urgency=low
+ukui-panel (1.7.2-1) unstable; urgency=low
 
   * New upstream development release.
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 13 Feb 2014 21:20:56 +0100
 
-mate-panel (1.7.1-1) unstable; urgency=low
+ukui-panel (1.7.1-1) unstable; urgency=low
 
   * New upstream development release.
 
