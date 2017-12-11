@@ -1,0 +1,5 @@
+ukui-settings-daemon (1.0.0ubuntu1) bionic; urgency=medium
+
+  * Fork from mate-settings-daemon, rename to ukui-settings-daemon
+
+ -- zhangheng <zhangheng@kylinos.cn>  Mon, 11 Dec 2017 11:43:14 +0800
