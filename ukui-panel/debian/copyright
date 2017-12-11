@@ -59,6 +59,7 @@ Files: applets/clock/system-timezone.h
        ukui-panel/libpanel-util/panel-xdg.h
        ukui-panel/panel-layout.c
 Copyright: 2008-2011, Novell, Inc.
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: applets/clock/calendar-window.c
