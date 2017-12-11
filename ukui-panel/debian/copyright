@@ -155,6 +155,7 @@ Files: ukui-panel/main.c
        ukui-panel/panel.c
 Copyright: 1997-2000, the Free Software Foundation
            2000, Eazel, Inc.
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Assuming license as found in COPYING file.
@@ -429,6 +430,7 @@ Comment:
 Files: ukui-panel/launcher.c
 Copyright: 1997, 2000, The Free Software Foundation
            2000, Eazel, Inc.
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Assuming license as found in COPYING file.
