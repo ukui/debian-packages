@@ -6,30 +6,30 @@ XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: penghuan <penguan@kylinos.cn>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python,
-               python-setuptools,
-               python-distutils-extra,
-Standards-Version: 4.0.0
+               python3,
+               python3-setuptools,
+               python3-distutils-extra,
+Standards-Version: 4.1.1
 Homepage: http://www.ukui.org/
-X-Python-Version: >= 2.4
+X-Python-Version: >= 2.7
 
 Package: ukui-menu
 Architecture: all
-Depends: ${python:Depends},
+Depends: ${python3:Depends},
          ${misc:Depends},
-         gir1.2-mate-panel,
+         gir1.2-ukui-panel,
          gir1.2-gtk-3.0,
          gvfs-bin,
-         libmatedesktop,
-         libmatepanelapplet,
-         mate-menus,
-         python (>= 2.4), python (<< 3),
-         python-configobj,
-         python-mate-menu,
-         python-xdg,
-         python-dbus,
-         python-xlib,
-         python-pyinotify,
+         libukuidesktop,
+         libukuipanelapplet,
+         ukui-menus,
+         python3,
+         python3-configobj,
+         python3-ukui-menu,
+         python3-xdg,
+         python3-dbus,
+         python3-xlib,
+         python3-pyinotify,
          xdg-utils,
          libglib2.0-bin,
          gir1.2-bamf-3,

@@ -1,11 +1,11 @@
 #!/usr/bin/make -f
 
 %:
-	dh ${@} --with python2
+	dh ${@} --with python3 --buildsystem=pybuild
 
 override_dh_auto_build:
 	cp po/ukui-menu.pot po/ukui-menu.pot.bak
-	dh_auto_build
+	python3 setup.py build --force
 
 override_dh_auto_clean:
 	test -f po/ukui-menu.pot.bak && mv po/ukui-menu.pot.bak po/ukui-menu.pot || true
