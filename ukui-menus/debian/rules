@@ -1,0 +1,38 @@
+#!/usr/bin/make -f
+
+export CPPFLAGS:=$(shell dpkg-buildflags --get CPPFLAGS)
+export CFLAGS:=$(shell dpkg-buildflags --get CFLAGS)
+export CXXFLAGS:=$(shell dpkg-buildflags --get CXXFLAGS)
+export LDFLAGS:=$(shell dpkg-buildflags --get LDFLAGS)
+
+DHFLAGS=--parallel
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+%:
+	dh $@ $(DHFLAGS) --with python3,gir --without autoreconf
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+override_dh_auto_configure:
+	# upstream tarball is without configure. autogen.sh will create it
+	NOCONFIGURE=1 ./autogen.sh
+	dh_auto_configure $(DHFLAGS) -- \
+	        --disable-silent-rules
+
+override_dh_install:
+	rm -f debian/tmp/usr/lib/*/*.la
+	rm -f debian/tmp/usr/lib/*/*.a
+	rm -f debian/tmp/usr/lib/*/*/*.la
+	rm -f debian/tmp/usr/lib/*/*/*.a
+	dh_install
+
+override_dh_strip:
+	dh_strip -p libukui-menu2 --dbgsym-migration='libukui-menu2-dbg (<< 1.14.0-2~)'
+	dh_strip -p python3-ukui-menu --dbgsym-migration='python3-ukui-menu-dbg (<< 1.14.0-2~)'
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
