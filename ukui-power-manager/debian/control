@@ -14,7 +14,7 @@ Build-Depends: autotools-dev,
                libglib2.0-dev,
                libgnome-keyring-dev,
                libgtk-3-dev,
-               libukui-panel-applet-dev (>= 1.18),
+               libukui-panel-applet-dev (>= 1.1),
                libnotify-dev,
                libtool-bin,
                libupower-glib-dev,
@@ -55,8 +55,8 @@ Description: power management tool for the UKUI desktop
 Package: ukui-power-manager-common
 Architecture: all
 Depends: ${misc:Depends},
-Breaks: ukui-power-manager (<< 1.9.0),
-Replaces: ukui-power-manager (<< 1.9.0),
+Breaks: ukui-power-manager (<< 1.0.0),
+Replaces: ukui-power-manager (<< 1.0.0),
 Description: power management tool for the UKUI desktop (common files)
  UKUI Power Manager is a session daemon for the UKUI desktop
  that takes care of system or desktop events related to power, and
