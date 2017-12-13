@@ -50,8 +50,6 @@ Depends: libukui-panel-applet-4-1 (= ${binary:Version}),
          menu-xdg,
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: ukui-panel-common (<< 1.1.1-4),
-Replaces: ukui-panel-common (<< 1.1.1-4),
 Description: launcher and docking facility for UKUI
  The UKUI Panel is an essential part of the UKUI Desktop, providing
  toolbar-like “panels” which can be attached to the sides of your desktop.
@@ -82,8 +80,6 @@ Description: launcher and docking facility for UKUI (debugging symbols)
 Package: ukui-panel-common
 Architecture: all
 Depends: ${misc:Depends},
-Breaks: ukui-panel (<= 1.9.0),
-Replaces: ukui-panel (<= 1.9.0),
 Description: launcher and docking facility for UKUI (common files)
  The UKUI Panel is an essential part of the UKUI Desktop, providing
  toolbar-like “panels” which can be attached to the sides of your desktop.
@@ -99,11 +95,6 @@ Section: libs
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-Breaks: libukui-panel-applet4-1,
-        libukuipanelapplet,
-        ukui-panel (<= 1.0.0-3),
-Replaces: libukui-panel-applet4-1,
-          libukuipanelapplet,
 Provides: libukui-panel-applet4-1,
           libukuipanelapplet,
 Description: library for UKUI Panel applets
@@ -120,7 +111,6 @@ Package: libukui-panel-applet-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Breaks: ukui-panel-dbg (<= 1.6.1),
 Depends: libukui-panel-applet-4-1 (= ${binary:Version}),
          ${misc:Depends},
 Description: library for UKUI Panel applets (debugging symbols)
@@ -147,7 +137,6 @@ Depends: libglib2.0-dev,
          ${shlibs:Depends},
 Provides: libukuipanelapplet-dev,
 Conflicts: libukuipanelapplet-dev,
-Replaces: libukuipanelapplet-dev,
 Description: library for UKUI Panel applets (development files)
  The UKUI Panel is an essential part of the UKUI Desktop, providing
  toolbar-like “panels” which can be attached to the sides of your desktop.
@@ -165,7 +154,6 @@ Architecture: all
 Depends: ${misc:Depends},
 Provides: libukuipanelapplet-doc,
 Conflicts: libukuipanelapplet-doc,
-Replaces: libukuipanelapplet-doc,
 Description: library for UKUI Panel applets (documentation files)
  The UKUI Panel is an essential part of the UKUI Desktop, providing
  toolbar-like “panels” which can be attached to the sides of your desktop.
