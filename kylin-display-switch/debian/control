@@ -1,0 +1,26 @@
+Source: kylin-display-switch
+Section: utils
+Priority: optional
+Maintainer: Ubuntu Kylin Members <ubuntukylin-members@lists.launchpad.net>
+Uploaders: shine <shenghuang@kylinos.cn>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python (>= 2.6.6-3~),
+               python-distutils-extra,
+Standards-Version: 3.9.5
+Homepage: https://launchpad.net/kylin-display-switch
+X-Python-Version: >= 2.7
+Vcs-Browser: https://bazaar.launchpad.net/~shine/kylin-display-switch/trunk/files
+Vcs-Bzr: lp:kylin-display-switch
+
+Package: kylin-display-switch
+Architecture: any
+Depends: python-qt4,
+         gir1.2-glib-2.0,
+         python-keybinder,
+         python-xlib,
+         ${misc:Depends},
+         ${python:Depends}
+Description: Kylin Display Switch
+ Kylin Display Switch is a Gui tool for manager display output.
+ It's now use Super_L + P/F3/F7 to activate.
