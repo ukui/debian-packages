@@ -1,0 +1,5 @@
+src/res/kylin-video.png usr/share/pixmaps
+src/kylin-video usr/bin
+kylin-video.desktop usr/share/applications
+src/translations/*.qm usr/share/kylin-video/translations
+src/input.conf usr/share/kylin-video/

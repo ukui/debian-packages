@@ -1,0 +1,75 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kylin-video
+Upstream-Contact: lixiang <lixiang@kylinos.cn>
+Source: https://launchpad.dev/kylin-video
+
+Files: *
+License: GPL-2+
+Copyright:
+ 2006-2012, Ricardo Villalba <rvm@escomposlinux.org>
+ 2009-2017, National University of Defense Technology(NUDT) & Kylin Ltd.
+
+Files: debian/*
+License: GPL-3
+Copyright:
+ 2009-2017 National University of Defense Technology(NUDT) & Kylin Ltd.
+
+Files:
+ src/aboutdialog.cpp
+ src/aboutdialog.h
+ src/audiodelaydialog.cpp
+ src/audiodelaydialog.h
+ src/bottomwidget.cpp
+ src/bottomwidget.h
+ src/esctip.cpp
+ src/esctip.h
+ src/overlaywidget.cpp
+ src/overlaywidget.h
+ src/playlist.cpp
+ src/playlist.h
+ src/playlistitem.cpp
+ src/playlistitem.h
+ src/playlistview.cpp
+ src/playlistview.h
+ src/playmask.cpp
+ src/playmask.h
+ src/soundvolume.cpp
+ src/soundvolume.h
+ src/systemtray.cpp
+ src/systemtray.h
+ src/timetip.cpp
+ src/timetip.h
+ src/tipwidget.cpp
+ src/tipwidget.h
+ src/titlebutton.cpp
+ src/titlebutton.h
+ src/messagedialog.cpp
+ src/messagedialog.h
+ src/common/sysbutton.cpp
+ src/common/sysbutton.h
+ src/common/toolbutton.cpp
+ src/common/toolbutton.h
+Copyright: 2009-2017 National University of Defense Technology(NUDT) & Kylin Ltd.
+License: GPL-3
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License, or (at your option) any later version.
+ .
+ On Debian and Ubuntu systems, a copy of the GNU General Public License version
+ 2 may be found in the file /usr/share/common-licenses/GPL-2.
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian/Ubuntu systems, the full text of the GPL v3 can be found in
+ `/usr/share/common-licenses/GPL-3'

@@ -1,0 +1,3 @@
+version=3
+opts=dversionmangle=s/~ds.*// \
+https://launchpad.dev/kylin-video/+download https://launchpad.dev/kylin-video/.*/kylin-video-(.*)\.tar\.gz

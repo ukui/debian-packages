@@ -1,0 +1,27 @@
+Source: kylin-video
+Section: video
+Priority: optional
+Maintainer: Kylin Developers <lixiang@kylinos.cn>
+Uploaders:
+ lixiang <lixiang@kylinos.cn>
+Build-Depends:
+ debhelper (>= 9),
+ qtbase5-dev (>= 5.1),
+ qt5-qmake,
+ qtscript5-dev,
+ qttools5-dev-tools,
+ zlib1g-dev
+Standards-Version: 3.9.6
+Homepage: https://launchpad.dev/kylin-video
+
+Package: kylin-video
+Architecture: any
+Depends:
+ mplayer,
+ mpv (>= 0.6.2),
+ mesa-vdpau-drivers,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: The front-end for MPlayer and MPV with Qt5.
+ Qt5 Mplayer and MPV front-end, with basic features like playing
+ videos and audios to more advanced features.
