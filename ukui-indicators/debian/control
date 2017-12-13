@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
                libx11-dev,
                python3,
                libwnck-3-dev,
-               libmate-panel-applet-dev
+               libukui-panel-applet-dev
 Standards-Version: 4.0.0
 Homepage: https://github.com/ukui/ukui-indicators
 
@@ -24,7 +24,7 @@ Description: notification area use to show time, network, etc.
  A small applet to display information from various applications
  consistently in the panel.
  .
- The indicator applet exposes Ayatana Indicators in the MATE Panel.
+ The indicator applet exposes Ayatana Indicators in the UKUI Panel.
  Ayatana Indicators are an initiative by Canonical to provide crisp and
  clean system and application status indication. They take the form of an
  icon and associated menu, displayed (usually) in the desktop panel.
