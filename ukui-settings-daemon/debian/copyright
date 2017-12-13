@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-settings-daemon
 Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
-Source: https://github.com/ukui/ukui-settings-daemon
+Source: http://github.com/ukui/ukui-settings-daemon
 
 Files: ukui-settings-daemon/main.c
        ukui-settings-daemon/ukui-settings-manager.c
@@ -9,66 +9,66 @@ Files: ukui-settings-daemon/main.c
        ukui-settings-daemon/ukui-settings-plugin-info.c
        ukui-settings-daemon/ukui-settings-profile.c
        ukui-settings-daemon/ukui-settings-profile.h
-       plugins/a11y-keyboard/uksd-a11y-keyboard-manager.h
-       plugins/a11y-keyboard/uksd-a11y-keyboard-plugin.c
-       plugins/a11y-keyboard/uksd-a11y-keyboard-plugin.h
+       plugins/a11y-keyboard/usd-a11y-keyboard-manager.h
+       plugins/a11y-keyboard/usd-a11y-keyboard-plugin.c
+       plugins/a11y-keyboard/usd-a11y-keyboard-plugin.h
        plugins/a11y-keyboard/test-a11y-preferences-dialog.c
-       plugins/a11y-settings/uksd-a11y-settings-manager.c
-       plugins/a11y-settings/uksd-a11y-settings-manager.h
-       plugins/a11y-settings/uksd-a11y-settings-plugin.c
-       plugins/a11y-settings/uksd-a11y-settings-plugin.h
-       plugins/background/uksd-background-manager.h
-       plugins/background/uksd-background-plugin.c
-       plugins/background/uksd-background-plugin.h
+       plugins/a11y-settings/usd-a11y-settings-manager.c
+       plugins/a11y-settings/usd-a11y-settings-manager.h
+       plugins/a11y-settings/usd-a11y-settings-plugin.c
+       plugins/a11y-settings/usd-a11y-settings-plugin.h
+       plugins/background/usd-background-manager.h
+       plugins/background/usd-background-plugin.c
+       plugins/background/usd-background-plugin.h
        plugins/background/test-background.c
-       plugins/clipboard/uksd-clipboard-manager.h
-       plugins/clipboard/uksd-clipboard-plugin.c
-       plugins/clipboard/uksd-clipboard-plugin.h
-       plugins/dummy/uksd-dummy-manager.c
-       plugins/dummy/uksd-dummy-manager.h
-       plugins/dummy/uksd-dummy-plugin.c
-       plugins/dummy/uksd-dummy-plugin.h
-       plugins/keybindings/uksd-keybindings-manager.c
-       plugins/keybindings/uksd-keybindings-manager.h
-       plugins/keybindings/uksd-keybindings-plugin.c
-       plugins/keybindings/uksd-keybindings-plugin.h
-       plugins/keyboard/uksd-keyboard-manager.h
-       plugins/keyboard/uksd-keyboard-plugin.c
-       plugins/keyboard/uksd-keyboard-plugin.h
-       plugins/media-keys/uksd-media-keys-manager.h
-       plugins/media-keys/uksd-media-keys-plugin.c
-       plugins/media-keys/uksd-media-keys-plugin.h
+       plugins/clipboard/usd-clipboard-manager.h
+       plugins/clipboard/usd-clipboard-plugin.c
+       plugins/clipboard/usd-clipboard-plugin.h
+       plugins/dummy/usd-dummy-manager.c
+       plugins/dummy/usd-dummy-manager.h
+       plugins/dummy/usd-dummy-plugin.c
+       plugins/dummy/usd-dummy-plugin.h
+       plugins/keybindings/usd-keybindings-manager.c
+       plugins/keybindings/usd-keybindings-manager.h
+       plugins/keybindings/usd-keybindings-plugin.c
+       plugins/keybindings/usd-keybindings-plugin.h
+       plugins/keyboard/usd-keyboard-manager.h
+       plugins/keyboard/usd-keyboard-plugin.c
+       plugins/keyboard/usd-keyboard-plugin.h
+       plugins/media-keys/usd-media-keys-manager.h
+       plugins/media-keys/usd-media-keys-plugin.c
+       plugins/media-keys/usd-media-keys-plugin.h
        plugins/media-keys/test-media-keys.c
        plugins/media-keys/test-media-window.c
-       plugins/mouse/uksd-mouse-manager.c
-       plugins/mouse/uksd-mouse-manager.h
-       plugins/mouse/uksd-mouse-plugin.c
-       plugins/mouse/uksd-mouse-plugin.h
-       plugins/mpris/uksd-mpris-plugin.c
-       plugins/mpris/uksd-mpris-plugin.h
-       plugins/typing-break/uksd-typing-break-manager.c
-       plugins/typing-break/uksd-typing-break-manager.h
-       plugins/typing-break/uksd-typing-break-plugin.c
-       plugins/typing-break/uksd-typing-break-plugin.h
-       plugins/xrandr/uksd-xrandr-manager.h
-       plugins/xrandr/uksd-xrandr-plugin.c
-       plugins/xrandr/uksd-xrandr-plugin.h
-       plugins/xrdb/uksd-xrdb-manager.h
-       plugins/xrdb/uksd-xrdb-plugin.c
-       plugins/xrdb/uksd-xrdb-plugin.h
-       plugins/xsettings/uksd-xsettings-manager.h
-       plugins/xsettings/uksd-xsettings-plugin.c
-       plugins/xsettings/uksd-xsettings-plugin.h
+       plugins/mouse/usd-mouse-manager.c
+       plugins/mouse/usd-mouse-manager.h
+       plugins/mouse/usd-mouse-plugin.c
+       plugins/mouse/usd-mouse-plugin.h
+       plugins/mpris/usd-mpris-plugin.c
+       plugins/mpris/usd-mpris-plugin.h
+       plugins/typing-break/usd-typing-break-manager.c
+       plugins/typing-break/usd-typing-break-manager.h
+       plugins/typing-break/usd-typing-break-plugin.c
+       plugins/typing-break/usd-typing-break-plugin.h
+       plugins/xrandr/usd-xrandr-manager.h
+       plugins/xrandr/usd-xrandr-plugin.c
+       plugins/xrandr/usd-xrandr-plugin.h
+       plugins/xrdb/usd-xrdb-manager.h
+       plugins/xrdb/usd-xrdb-plugin.c
+       plugins/xrdb/usd-xrdb-plugin.h
+       plugins/xsettings/usd-xsettings-manager.h
+       plugins/xsettings/usd-xsettings-plugin.c
+       plugins/xsettings/usd-xsettings-plugin.h
 Copyright: 2005, 2007 William Jon McCann <mccann@jhu.edu>
            2007, William Jon McCann <mccann@jhu.edu>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: ukui-settings-daemon/ukui-settings-plugin-info.h
-       plugins/smartcard/uksd-smartcard-manager.c
-       plugins/smartcard/uksd-smartcard-manager.h
-       plugins/smartcard/uksd-smartcard-plugin.c
-       plugins/smartcard/uksd-smartcard-plugin.h
+       plugins/smartcard/usd-smartcard-manager.c
+       plugins/smartcard/usd-smartcard-manager.h
+       plugins/smartcard/usd-smartcard-plugin.c
+       plugins/smartcard/usd-smartcard-plugin.h
        plugins/xsettings/fontconfig-monitor.c
        plugins/xsettings/fontconfig-monitor.h
 Copyright: 2006-2010 Red Hat, Inc
@@ -88,46 +88,46 @@ Copyright: 2001, 2004 Red Hat, Inc
 License: MIT~OldStyleWithDisclaimer+RedHat
 
 Files: plugins/datetime/system-timezone.h
-       plugins/housekeeping/uksd-disk-space.c
-       plugins/housekeeping/uksd-disk-space.h
+       plugins/housekeeping/usd-disk-space.c
+       plugins/housekeeping/usd-disk-space.h
        plugins/keyboard/delayed-dialog.c
        plugins/keyboard/delayed-dialog.h
 Copyright: 2006, 2008 Novell, Inc
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/sound/uksd-sound-manager.c
-       plugins/sound/uksd-sound-manager.h
-       plugins/sound/uksd-sound-plugin.c
-       plugins/sound/uksd-sound-plugin.h
+Files: plugins/sound/usd-sound-manager.c
+       plugins/sound/usd-sound-manager.h
+       plugins/sound/usd-sound-plugin.c
+       plugins/sound/usd-sound-plugin.h
 Copyright: 2008, Lennart Poettering <lennart@poettering.net>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/mouse/uksd-locate-pointer.c
-       plugins/mouse/uksd-timeline.c
-       plugins/mouse/uksd-timeline.h
+Files: plugins/mouse/usd-locate-pointer.c
+       plugins/mouse/usd-timeline.c
+       plugins/mouse/usd-timeline.h
 Copyright: 2008, Carlos Garnacho <carlos@imendio.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/datetime/uksd-datetime-mechanism-main.c
-       plugins/datetime/uksd-datetime-mechanism.c
-       plugins/datetime/uksd-datetime-mechanism.h
+Files: plugins/datetime/usd-datetime-mechanism-main.c
+       plugins/datetime/usd-datetime-mechanism.c
+       plugins/datetime/usd-datetime-mechanism.h
 Copyright: 2007, David Zeuthen <david@fubar.dk>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/housekeeping/uksd-housekeeping-manager.h
-       plugins/housekeeping/uksd-housekeeping-plugin.c
-       plugins/housekeeping/uksd-housekeeping-plugin.h
+Files: plugins/housekeeping/usd-housekeeping-manager.h
+       plugins/housekeeping/usd-housekeeping-plugin.c
+       plugins/housekeeping/usd-housekeeping-plugin.h
 Copyright: 2008, Michael J. Chudobiak <mjc@avtechpulse.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/housekeeping/uksd-ldsm-dialog.c
-       plugins/housekeeping/uksd-ldsm-dialog.h
-       plugins/housekeeping/uksd-ldsm-trash-empty.h
+Files: plugins/housekeeping/usd-ldsm-dialog.c
+       plugins/housekeeping/usd-ldsm-dialog.h
+       plugins/housekeeping/usd-ldsm-trash-empty.h
 Copyright: Chris Coulson 2009, <chrisccoulson@googlemail.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-3+
@@ -151,46 +151,46 @@ Copyright: 2012, Stefano Karapetsas
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/mpris/uksd-mpris-manager.c
-       plugins/mpris/uksd-mpris-manager.h
+Files: plugins/mpris/usd-mpris-manager.c
+       plugins/mpris/usd-mpris-manager.h
 Copyright: 2013, Stefano Karapetsas <stefano@karapetsas.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/keyboard/uksd-keyboard-xkb.c
-       plugins/keyboard/uksd-keyboard-xkb.h
+Files: plugins/keyboard/usd-keyboard-xkb.c
+       plugins/keyboard/usd-keyboard-xkb.h
 Copyright: 2001, Udaltsoft
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/a11y-keyboard/uksd-a11y-preferences-dialog.c
-       plugins/a11y-keyboard/uksd-a11y-preferences-dialog.h
+Files: plugins/a11y-keyboard/usd-a11y-preferences-dialog.c
+       plugins/a11y-keyboard/usd-a11y-preferences-dialog.h
 Copyright: 2008, William Jon McCann <jmccann@redhat.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/a11y-keyboard/uksd-a11y-keyboard-manager.c
-       plugins/keyboard/uksd-keyboard-manager.c
+Files: plugins/a11y-keyboard/usd-a11y-keyboard-manager.c
+       plugins/keyboard/usd-keyboard-manager.c
 Copyright: 2001, Ximian, Inc
            2007, William Jon McCann <mccann@jhu.edu>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/common/uksd-osd-window.c
-       plugins/common/uksd-osd-window.h
+Files: plugins/common/usd-osd-window.c
+       plugins/common/usd-osd-window.h
 Copyright: 2006-2007 William Jon McCann <mccann@jhu.edu>
            2009, Novell, Inc
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
-Files: plugins/media-keys/uksd-media-keys-window.c
-       plugins/media-keys/uksd-media-keys-window.h
+Files: plugins/media-keys/usd-media-keys-window.c
+       plugins/media-keys/usd-media-keys-window.h
 Copyright: 2006, William Jon McCann <mccann@jhu.edu>
            2006-2007, William Jon McCann <mccann@jhu.edu>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
-Files: plugins/clipboard/uksd-clipboard-manager.c
+Files: plugins/clipboard/usd-clipboard-manager.c
 Copyright: 2007, Anders Carlsson
            2007, Matthias Clasen
            2007, Rodrigo Moya
@@ -203,32 +203,32 @@ Copyright: 2001, Bastien Nocera <hadess@hadess.net>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/common/uksd-input-helper.c
-       plugins/common/uksd-input-helper.h
+Files: plugins/common/usd-input-helper.c
+       plugins/common/usd-input-helper.h
 Copyright: 2010, Bastien Nocera <hadess@hadess.net>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/common/uksd-keygrab.c
+Files: plugins/common/usd-keygrab.c
 Copyright: 2001-2003, Bastien Nocera <hadess@hadess.net>
            2006-2007, William Jon McCann <mccann@jhu.edu>
            2008, Jens Granseuer <jensgr@gmx.net>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/media-keys/uksd-media-keys-manager.c
+Files: plugins/media-keys/usd-media-keys-manager.c
 Copyright: 2001-2003, Bastien Nocera <hadess@hadess.net>
            2006-2007, William Jon McCann <mccann@jhu.edu>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/housekeeping/uksd-housekeeping-manager.c
+Files: plugins/housekeeping/usd-housekeeping-manager.c
 Copyright: 2008, Michael J. Chudobiak <mjc@avtechpulse.com>
            2012, Jasmine Hassan <jasmine.aura@gmail.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/background/uksd-background-manager.c
+Files: plugins/background/usd-background-manager.c
 Copyright: 2001, Ximian, Inc
            2007, Red Hat, Inc
            2007, William Jon McCann <mccann@jhu.edu>
@@ -236,7 +236,7 @@ Copyright: 2001, Ximian, Inc
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/common/uksd-keygrab.h
+Files: plugins/common/usd-keygrab.h
 Copyright: 2008, Jens Granseuer <jensgr@gmx.net>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
@@ -248,35 +248,35 @@ Copyright: 2000-2001, Ximian, Inc
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/smartcard/uksd-smartcard.h
+Files: plugins/smartcard/usd-smartcard.h
 Copyright: 2006, Ray Strode
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/smartcard/uksd-smartcard.c
+Files: plugins/smartcard/usd-smartcard.c
 Copyright: 2006, Ray Strode <rstrode@redhat.com>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/xrandr/uksd-xrandr-manager.c
+Files: plugins/xrandr/usd-xrandr-manager.c
 Copyright: 2007, William Jon McCann <mccann@jhu.edu>
            2007-2008, Red Hat, Inc
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/xsettings/uksd-xsettings-manager.c
+Files: plugins/xsettings/usd-xsettings-manager.c
 Copyright: 2007, Rodrigo Moya
            2007, William Jon McCann <mccann@jhu.edu>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/xrdb/uksd-xrdb-manager.c
+Files: plugins/xrdb/usd-xrdb-manager.c
 Copyright: 2003, Ross Burton <ross@burtonini.com>
            2007, William Jon McCann <mccann@jhu.edu>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: plugins/housekeeping/uksd-ldsm-trash-empty.c
+Files: plugins/housekeeping/usd-ldsm-trash-empty.c
 Copyright: Chris Coulson 2009, <chrisccoulson@googlemail.com>
            Ryan Lortie 2008
            2016, Tianjin KYLIN Information Technology Co., Ltd.
@@ -293,7 +293,7 @@ Copyright: 2002, Red Hat, Inc.
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
-Files: plugins/mouse/uksd-locate-pointer.h
+Files: plugins/mouse/usd-locate-pointer.h
 Copyright: 2001, Jonathan Blandford <jrb@gnome.org>
            2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: MIT~OldStyle+RedHat
@@ -309,8 +309,8 @@ Files: .tx/config
        data/Makefile.am
        data/*.in.in
        data/*.in
-       data/uksd-datetime-mechanism.1
-       data/uksd-locate-pointer.1
+       data/usd-datetime-mechanism.1
+       data/usd-locate-pointer.1
        data/ukui-settings-daemon.1
        Makefile.am
        ukui-settings-daemon/Makefile.am
@@ -340,7 +340,7 @@ Files: .tx/config
        plugins/keyboard/*.png
        plugins/Makefile.am
        plugins/media-keys/Makefile.am
-       plugins/media-keys/uksd-marshal.*
+       plugins/media-keys/usd-marshal.*
        plugins/media-keys/*.ukui-settings-plugin.in
        plugins/media-keys/*.list
        plugins/media-keys/*.png
@@ -382,7 +382,6 @@ Files: .tx/config
        NEWS
        README
 Copyright: *No Copyright*
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+ or LGPL-2.1+
 Comment:
  License(s) assumed from COPYING and COPYING.LIB files.
@@ -405,7 +404,6 @@ Copyright:
  Croatiann team
  2001, Roy-Magne Mo <rmo@sunnmore.net>
  THE PACKAGE'S COPYRIGHT HOLDER
- 2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+ or LGPL-2.1+
 Comment:
  License(s) assumed from COPYING and COPYING.LIB files.
