@@ -1,0 +1,62 @@
+Source: ukui-media
+Section: x11
+Priority: optional
+Maintainer: UKUI Packaging Team <mate-dev@ml.mate-desktop.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 9),
+               dpkg-dev (>= 1.16.1.1),
+               intltool,
+               libcanberra-gtk3-dev,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               libmate-desktop-dev (>= 1.18),
+               libmatemixer-dev (>= 1.18),
+               libxml2-dev,
+               mate-common (>= 1.18),
+Standards-Version: 4.1.1
+Homepage: http://www.mate-desktop.org/
+Vcs-Browser: https://github.com/mate-desktop/debian-packages
+Vcs-Git: git://github.com/mate-desktop/debian-packages.git
+
+Package: ukui-media
+Architecture: any
+Depends: mate-desktop-common (>= 1.18),
+         ukui-media-common (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: alsa-utils,
+            sound-theme-freedesktop,
+Description: UKUI media utilities
+ UKUI media utilities are the audio mixer and the volume
+ control applet.
+ .
+ This package utilizes the libmatemixer library which provides
+ support for ALSA and Pulseaudio as audio backends.
+
+Package: ukui-media-common
+Architecture: all
+Depends: ${misc:Depends},
+Description: UKUI media utilities (common files)
+ UKUI media utilities are the audio mixer and the volume
+ control applet.
+ .
+ This package contains the common files.
+
+Package: ukui-media-dbg
+Section: debug
+Priority: optional
+Architecture: any
+Depends: ukui-media (= ${binary:Version}),
+         ${misc:Depends},
+Description: UKUI media utilities (debugging symbols)
+ UKUI media utilities are the audio mixer and the volume
+ control applet.
+ .
+ This package contains debugging symbols for UKUI media
+ utilities.
+ .
+ The debugging symbols are installed in /usr/lib/debug and will
+ automatically be used by gdb.
