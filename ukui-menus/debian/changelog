@@ -1,5 +1,5 @@
-ukui-menus (1.0.0) artful; urgency=medium
+ukui-menus (1.0.0-0ubuntu1) bionic; urgency=medium
 
-  * Initial release.
+  * Initial release. (LP: #xxxxxxx)
 
- -- penghuan <penghuan@kylinos.cn>  Thu, 30 Nov 2017 09:47:18 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 14 Dec 2017 14:34:03 +0800
