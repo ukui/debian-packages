@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-panel
-Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
-Source: http://git.ukui-desktop.org/ukui-panel
+Upstream-Contact: quankang <quankang@kylinos.cn>
+Source: https://github.com/ukui/ukui-panel
 
 Files: applets/wncklet/wncklet.c
        ukui-panel/panel-applet-frame.h
@@ -59,7 +59,7 @@ Files: applets/clock/system-timezone.h
        ukui-panel/libpanel-util/panel-xdg.h
        ukui-panel/panel-layout.c
 Copyright: 2008-2011, Novell, Inc.
-	   2017, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: applets/clock/calendar-window.c
@@ -81,7 +81,7 @@ Files: ukui-panel/libukui-panel-applet-private/panel-applets-manager-dbus.c
        ukui-panel/panel-applets-manager.h
 Copyright: 2010, Carlos Garcia Campos <carlosgc@gnome.org>
            2010, Vincent Untz <vuntz@gnome.org>
-	   2017, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: ukui-panel/panel-addto.c
@@ -91,7 +91,7 @@ Files: ukui-panel/panel-addto.c
        ukui-panel/panel-menu-items.c
        ukui-panel/panel-menu-items.h
 Copyright: 2004-2005, Vincent Untz
-	   2017, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: libukui-panel-applet/ukui-panel-applet-factory.c
@@ -131,7 +131,7 @@ Files: applets/notification_area/na-box.c
        applets/notification_area/na-host.c
        applets/notification_area/na-host.h
        applets/notification_area/na-item.c
-       applets/notification_area/na-item.h       
+       applets/notification_area/na-item.h
 Copyright: 2016 Alberts Muktupāvels
            2017 Colomban Wendling <cwendling@hypra.fr>
 License: GPL-2+
@@ -156,7 +156,7 @@ Files: ukui-panel/main.c
        ukui-panel/panel.c
 Copyright: 1997-2000, the Free Software Foundation
            2000, Eazel, Inc.
-	   2017, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Assuming license as found in COPYING file.

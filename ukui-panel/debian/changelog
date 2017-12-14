@@ -1,5 +1,5 @@
-ukui-panel (1.0.0) bionic; urgency=medium
+ukui-panel (1.0.0-0ubuntu1) bionic; urgency=medium
 
-  * Initial release.
+  * Initial release. (LP: #xxxxxxx)
 
- -- quankang <quankang@kylinos.cn>  Wed, 13 Dec 2017 10:21:59 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 13 Dec 2017 10:21:59 +0800

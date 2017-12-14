@@ -1,12 +1,9 @@
 Source: ukui-panel
 Section: x11
 Priority: optional
-Maintainer: UKUI Packaging Team <ukui-dev@ml.ukui-desktop.org>
-Uploaders: Mike Gabriel <sunweaver@debian.org>,
-           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
-           Stefano Karapetsas <stefano@karapetsas.com>,
-           Vangelis Mouhtsis <vangelis@gnugr.org>,
-           Petr Baudis <pasky@ucw.cz>,
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: quankang <quankang@kylinos.cn>,
+           handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1.1),
                gir1.2-freedesktop,
@@ -35,10 +32,8 @@ Build-Depends: debhelper (>= 9),
                lsb-release,
                mate-common (>= 1.18),
                yelp-tools,
-Standards-Version: 3.9.7
-Homepage: http://www.ukui-desktop.org/
-Vcs-Browser: https://github.com/ukui-desktop/debian-packages
-Vcs-Git: git://github.com/ukui-desktop/debian-packages.git
+Standards-Version: 4.1.2
+Homepage: http://www.ukui.org/
 
 Package: ukui-panel
 Architecture: any
@@ -57,25 +52,6 @@ Description: launcher and docking facility for UKUI
  functions, such as quick launch icons, the clock, the notification area,
  volume controls and the battery charge indicator, and utilities ranging
  from weather forecast to system monitoring.
-
-Package: ukui-panel-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: ukui-panel (= ${binary:Version}),
-         ${misc:Depends},
-Description: launcher and docking facility for UKUI (debugging symbols)
- The UKUI Panel is an essential part of the UKUI Desktop, providing
- toolbar-like “panels” which can be attached to the sides of your desktop.
- They are used to launch applications and embed a number of other
- functions, such as quick launch icons, the clock, the notification area,
- volume controls and the battery charge indicator, and utilities ranging
- from weather forecast to system monitoring.
- .
- This package contains the debugging symbols of the UKUI panel application.
- .
- The debugging symbols are installed in /usr/lib/debug and will
- automatically be used by gdb.
 
 Package: ukui-panel-common
 Architecture: all
@@ -106,26 +82,6 @@ Description: library for UKUI Panel applets
  from weather forecast to system monitoring.
  .
  This package contains the UKUI Panel applet library.
-
-Package: libukui-panel-applet-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libukui-panel-applet-4-1 (= ${binary:Version}),
-         ${misc:Depends},
-Description: library for UKUI Panel applets (debugging symbols)
- The UKUI Panel is an essential part of the UKUI Desktop, providing
- toolbar-like “panels” which can be attached to the sides of your desktop.
- They are used to launch applications and embed a number of other
- functions, such as quick launch icons, the clock, the notification area,
- volume controls and the battery charge indicator, and utilities ranging
- from weather forecast to system monitoring.
- .
- This package contains the debugging symbols of the UKUI panel applet
- library.
- .
- The debugging symbols are installed in /usr/lib/debug and will
- automatically be used by gdb.
 
 Package: libukui-panel-applet-dev
 Section: libdevel
