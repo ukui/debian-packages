@@ -1,8 +1,5 @@
-kylin-display-switch (1.0.0) bionic; urgency=medium
+kylin-display-switch (1.0.0-0ubuntu1) bionic; urgency=medium
 
-  * Initial release.
-  * display switch with gui, shortcut: Super_L + P / F3 / F7.
-  * show tip when switch the CapsLock and NumLock.
-  * Internationalization.
+  * Initial release (LP: #xxxxxxx)
 
- -- shine <shenghuang@ubuntukylin.com>  Tue, 12 Dec 2017 15:04:51 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 12 Dec 2017 15:04:51 +0800

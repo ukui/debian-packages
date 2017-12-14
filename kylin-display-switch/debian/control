@@ -1,17 +1,16 @@
 Source: kylin-display-switch
 Section: utils
 Priority: optional
-Maintainer: Ubuntu Kylin Members <ubuntukylin-members@lists.launchpad.net>
-Uploaders: shine <shenghuang@kylinos.cn>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: shine <shenghuang@kylinos.cn>,
+           handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python (>= 2.6.6-3~),
                python-distutils-extra,
-Standards-Version: 3.9.5
-Homepage: https://launchpad.net/kylin-display-switch
+Standards-Version: 4.1.1
+Homepage: https://github.com/ukui/kylin-display-switch
 X-Python-Version: >= 2.7
-Vcs-Browser: https://bazaar.launchpad.net/~shine/kylin-display-switch/trunk/files
-Vcs-Bzr: lp:kylin-display-switch
 
 Package: kylin-display-switch
 Architecture: any
