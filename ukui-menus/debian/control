@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: penghuan <penghuan@kylinos.cn>,
+           handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 10.3~),
                dh-python,
                python3,
@@ -15,7 +16,7 @@ Build-Depends: debhelper (>= 10.3~),
                mate-common (>= 1.18),
                python3-all-dev,
 Standards-Version: 4.1.1
-Homepage: http://www.ukui.org/
+Homepage: https://github.com/ukui/ukui-menus
 X-Python-Version: >= 3.6
 
 Package: ukui-menus
