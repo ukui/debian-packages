@@ -6,8 +6,7 @@ Uploaders: Mike Gabriel <sunweaver@debian.org>,
            John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
            Stefano Karapetsas <stefano@karapetsas.com>,
            Vangelis Mouhtsis <vangelis@gnugr.org>,
-Build-Depends: autotools-dev,
-               debhelper (>= 10.3~),
+Build-Depends: debhelper (>= 10.3~),
                dpkg-dev (>= 1.16.1.1),
                intltool,
                libcanberra-gtk3-dev,
@@ -91,7 +90,7 @@ Description: daemon handling the UKUI session settings (common files)
 
 Package: ukui-settings-daemon-dev
 Section: devel
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: ukui-settings-daemon (= ${binary:Version}),
          ${misc:Depends},
