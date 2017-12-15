@@ -2,13 +2,13 @@ Source: kylin-display-switch
 Section: utils
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Uploaders: shine <shenghuang@kylinos.cn>,
+Uploaders: shine <huangsheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python (>= 2.6.6-3~),
                python-distutils-extra,
-Standards-Version: 4.1.1
+Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/kylin-display-switch
 X-Python-Version: >= 2.7
 
