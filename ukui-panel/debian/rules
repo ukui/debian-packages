@@ -28,7 +28,6 @@ override_dh_auto_configure:
 		--enable-gtk-doc
 
 override_dh_strip:
-	dh_strip -pukui-panel --dbg-package=ukui-panel-dbg
 	dh_strip -plibukui-panel-applet-4-1 --dbgsym-migration=libukui-panel-applet-dbg
 
 get-orig-source:
