@@ -27,8 +27,5 @@ override_dh_auto_configure:
 		--enable-introspection \
 		--enable-gtk-doc
 
-override_dh_strip:
-	dh_strip -plibukui-panel-applet-4-1 --dbgsym-migration=libukui-panel-applet-dbg
-
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..
