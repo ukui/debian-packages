@@ -3,12 +3,32 @@ Upstream-Name: kylin-video
 Upstream-Contact: lixiang <lixiang@kylinos.cn>
 Source: https://github.com/ukui/kylin-video
 
+Files: AUTHORS
+       COPYING
+       ChangeLog
+       NEWS
+       README.md
+       autogen.sh
+       debian/*
+       kylin-video.desktop
+       kylin-video.pro
+       man/*
+       src/src.pro
+       src/res/*.png
+       src/input.conf
+Copyright: *No copyright*
+License: GPL-2+ or LGPL-2+
+Comment:
+  Assume license as found in COPYING file.
+
 Files: src/smplayer/*
+       src/qtsingleapplication/*
 License: GPL-2+
 Copyright:
  2006-2012, Ricardo Villalba <rvm@escomposlinux.org>
 
 Files: src/merge/*
+       src/translations/*
 License: GPL-2+
 Copyright:
  2006-2012, Ricardo Villalba <rvm@escomposlinux.org>
