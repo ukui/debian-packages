@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-settings-daemon
-Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
+Upstream-Contact: zhang heng <zhangheng@kylin.cn>
 Source: http://github.com/ukui/ukui-settings-daemon
 
 Files: ukui-settings-daemon/main.c
@@ -61,7 +61,6 @@ Files: ukui-settings-daemon/main.c
        plugins/xsettings/usd-xsettings-plugin.h
 Copyright: 2005, 2007 William Jon McCann <mccann@jhu.edu>
            2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: ukui-settings-daemon/ukui-settings-plugin-info.h
@@ -72,7 +71,6 @@ Files: ukui-settings-daemon/ukui-settings-plugin-info.h
        plugins/xsettings/fontconfig-monitor.c
        plugins/xsettings/fontconfig-monitor.h
 Copyright: 2006-2010 Red Hat, Inc
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/clipboard/list.c
@@ -84,7 +82,6 @@ Files: plugins/clipboard/list.c
        plugins/xsettings/xsettings-manager.c
        plugins/xsettings/xsettings-manager.h
 Copyright: 2001, 2004 Red Hat, Inc
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: MIT~OldStyleWithDisclaimer+RedHat
 
 Files: plugins/datetime/system-timezone.h
@@ -93,7 +90,6 @@ Files: plugins/datetime/system-timezone.h
        plugins/keyboard/delayed-dialog.c
        plugins/keyboard/delayed-dialog.h
 Copyright: 2006, 2008 Novell, Inc
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/sound/usd-sound-manager.c
@@ -101,93 +97,81 @@ Files: plugins/sound/usd-sound-manager.c
        plugins/sound/usd-sound-plugin.c
        plugins/sound/usd-sound-plugin.h
 Copyright: 2008, Lennart Poettering <lennart@poettering.net>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/mouse/usd-locate-pointer.c
        plugins/mouse/usd-timeline.c
        plugins/mouse/usd-timeline.h
 Copyright: 2008, Carlos Garnacho <carlos@imendio.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/datetime/usd-datetime-mechanism-main.c
        plugins/datetime/usd-datetime-mechanism.c
        plugins/datetime/usd-datetime-mechanism.h
 Copyright: 2007, David Zeuthen <david@fubar.dk>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/housekeeping/usd-housekeeping-manager.h
        plugins/housekeeping/usd-housekeeping-plugin.c
        plugins/housekeeping/usd-housekeeping-plugin.h
 Copyright: 2008, Michael J. Chudobiak <mjc@avtechpulse.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/housekeeping/usd-ldsm-dialog.c
        plugins/housekeeping/usd-ldsm-dialog.h
        plugins/housekeeping/usd-ldsm-trash-empty.h
 Copyright: Chris Coulson 2009, <chrisccoulson@googlemail.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-3+
 
 Files: ukui-settings-daemon/ukui-settings-module.c
        ukui-settings-daemon/ukui-settings-module.h
 Copyright: 2005, Paolo Maggi
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: ukui-settings-daemon/ukui-settings-plugin.c
        ukui-settings-daemon/ukui-settings-plugin.h
 Copyright: 2002-2005, Paolo Maggi
            2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/keybindings/dconf-util.c
        plugins/keybindings/dconf-util.h
 Copyright: 2012, Stefano Karapetsas
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/mpris/usd-mpris-manager.c
        plugins/mpris/usd-mpris-manager.h
 Copyright: 2013, Stefano Karapetsas <stefano@karapetsas.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/keyboard/usd-keyboard-xkb.c
        plugins/keyboard/usd-keyboard-xkb.h
 Copyright: 2001, Udaltsoft
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/a11y-keyboard/usd-a11y-preferences-dialog.c
        plugins/a11y-keyboard/usd-a11y-preferences-dialog.h
 Copyright: 2008, William Jon McCann <jmccann@redhat.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/a11y-keyboard/usd-a11y-keyboard-manager.c
        plugins/keyboard/usd-keyboard-manager.c
 Copyright: 2001, Ximian, Inc
            2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/common/usd-osd-window.c
        plugins/common/usd-osd-window.h
 Copyright: 2006-2007 William Jon McCann <mccann@jhu.edu>
            2009, Novell, Inc
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
 Files: plugins/media-keys/usd-media-keys-window.c
        plugins/media-keys/usd-media-keys-window.h
 Copyright: 2006, William Jon McCann <mccann@jhu.edu>
            2006-2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
 Files: plugins/clipboard/usd-clipboard-manager.c
@@ -195,37 +179,33 @@ Copyright: 2007, Anders Carlsson
            2007, Matthias Clasen
            2007, Rodrigo Moya
            2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/media-keys/acme.h
 Copyright: 2001, Bastien Nocera <hadess@hadess.net>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/common/usd-input-helper.c
        plugins/common/usd-input-helper.h
 Copyright: 2010, Bastien Nocera <hadess@hadess.net>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/common/usd-keygrab.c
 Copyright: 2001-2003, Bastien Nocera <hadess@hadess.net>
            2006-2007, William Jon McCann <mccann@jhu.edu>
            2008, Jens Granseuer <jensgr@gmx.net>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/media-keys/usd-media-keys-manager.c
 Copyright: 2001-2003, Bastien Nocera <hadess@hadess.net>
            2006-2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/housekeeping/usd-housekeeping-manager.c
 Copyright: 2008, Michael J. Chudobiak <mjc@avtechpulse.com>
            2012, Jasmine Hassan <jasmine.aura@gmail.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/background/usd-background-manager.c
@@ -233,74 +213,62 @@ Copyright: 2001, Ximian, Inc
            2007, Red Hat, Inc
            2007, William Jon McCann <mccann@jhu.edu>
            2012, Jasmine Hassan <jasmine.aura@gmail.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/common/usd-keygrab.h
 Copyright: 2008, Jens Granseuer <jensgr@gmx.net>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/datetime/system-timezone.c
 Copyright: 2000-2001, Ximian, Inc
            2004, Sun Microsystems, Inc
            2008, Novell, Inc
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/smartcard/usd-smartcard.h
 Copyright: 2006, Ray Strode
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/smartcard/usd-smartcard.c
 Copyright: 2006, Ray Strode <rstrode@redhat.com>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/xrandr/usd-xrandr-manager.c
 Copyright: 2007, William Jon McCann <mccann@jhu.edu>
            2007-2008, Red Hat, Inc
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/xsettings/usd-xsettings-manager.c
 Copyright: 2007, Rodrigo Moya
            2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/xrdb/usd-xrdb-manager.c
 Copyright: 2003, Ross Burton <ross@burtonini.com>
            2007, William Jon McCann <mccann@jhu.edu>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: plugins/housekeeping/usd-ldsm-trash-empty.c
 Copyright: Chris Coulson 2009, <chrisccoulson@googlemail.com>
            Ryan Lortie 2008
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-3+
 
 Files: plugins/common/eggaccelerators.c
 Copyright: 2002, Red Hat, Inc.
            1998, 2001, Tim Janik
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
 Files: plugins/common/eggaccelerators.h
 Copyright: 2002, Red Hat, Inc.
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
 Files: plugins/mouse/usd-locate-pointer.h
 Copyright: 2001, Jonathan Blandford <jrb@gnome.org>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: MIT~OldStyle+RedHat
 
 Files: plugins/a11y-settings/a11y-settings.ukui-settings-plugin.in
 Copyright: 2011, Red Hat, Inc.
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  License assumed from COPYING file.
@@ -411,7 +379,7 @@ Comment:
 Files: debian/*
 Copyright: 2011-2014 Stefano Karapetsas <stefano@karapetsas.com>
            2014 Mike Gabriel <sunweaver@debian.org>
-           2016, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+ or GPL-3+ or LGPL-2+ or LGPL-2.1+ or MIT~OldStyle+RedHat or MIT~OldStyleWithDisclaimer+RedHat
 
 License: GPL-2+

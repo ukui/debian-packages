@@ -1,11 +1,9 @@
 Source: ukui-settings-daemon
 Section: x11
 Priority: optional
-Maintainer: Kylin Team <ukui@kylinos.cn>
-Uploaders: Mike Gabriel <sunweaver@debian.org>,
-           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
-           Stefano Karapetsas <stefano@karapetsas.com>,
-           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: zhangheng <zhangheng@kylinos.cn>,
+           handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 10.3~),
                dpkg-dev (>= 1.16.1.1),
                intltool,
@@ -32,7 +30,7 @@ Build-Depends: debhelper (>= 10.3~),
                libxt-dev,
                mate-common (>= 1.18),
                x11proto-kb-dev,
-Standards-Version: 4.1.1
+Standards-Version: 4.1.2
 Homepage: http://www.ukui.org/
 
 Package: ukui-settings-daemon
@@ -43,10 +41,6 @@ Depends: mate-desktop-common (>= 1.18),
          x11-xserver-utils,
          ${misc:Depends},
          ${shlibs:Depends},
-Replaces: ukui-settings-daemon-gstreamer (<< 1.9.0),
-          ukui-settings-daemon-pulse (<< 1.9.0),
-Breaks: ukui-settings-daemon-gstreamer (<< 1.9.0),
-        ukui-settings-daemon-pulse (<< 1.9.0),
 Description: daemon handling the UKUI session settings
  This package contains the daemon which is responsible for setting the
  various parameters of a UKUI session and the applications that run
@@ -66,10 +60,6 @@ Description: daemon handling the UKUI session settings
 Package: ukui-settings-daemon-common
 Architecture: all
 Depends: ${misc:Depends},
-Replaces: ukui-settings-daemon-gstreamer (<< 1.9.0),
-          ukui-settings-daemon-pulse (<< 1.9.0),
-Breaks: ukui-settings-daemon-gstreamer (<< 1.9.0),
-        ukui-settings-daemon-pulse (<< 1.9.0),
 Description: daemon handling the UKUI session settings (common files)
  This package contains the daemon which is responsible for setting the
  various parameters of a UKUI session and the applications that run
@@ -94,10 +84,6 @@ Priority: optional
 Architecture: any
 Depends: ukui-settings-daemon (= ${binary:Version}),
          ${misc:Depends},
-Replaces: ukui-settings-daemon-gstreamer (<< 1.9.0),
-          ukui-settings-daemon-pulse (<< 1.9.0),
-Breaks: ukui-settings-daemon-gstreamer (<< 1.9.0),
-        ukui-settings-daemon-pulse (<< 1.9.0),
 Description: daemon handling the UKUI session settings (development files)
  This package contains the daemon which is responsible for setting the
  various parameters of a UKUI session and the applications that run
