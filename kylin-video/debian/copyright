@@ -15,9 +15,11 @@ Files: AUTHORS
        man/*
        src/src.pro
        src/res/*.png
+       src/res.qrc
+       src/res/style.qss
        src/input.conf
 Copyright: *No copyright*
-License: GPL-2+ or LGPL-2+
+License: GPL-2+
 Comment:
   Assume license as found in COPYING file.
 
