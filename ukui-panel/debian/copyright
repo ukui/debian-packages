@@ -96,6 +96,7 @@ License: GPL-2+
 
 Files: libukui-panel-applet/ukui-panel-applet-factory.c
        libukui-panel-applet/ukui-panel-applet-factory.h
+       libukui-panel-applet/panel-applet-private.h
        ukui-panel/libukui-panel-applet-private/panel-applet-container.c
        ukui-panel/libukui-panel-applet-private/panel-applet-container.h
 Copyright: 2010, Carlos Garcia Campos <carlosgc@gnome.org>
@@ -431,7 +432,7 @@ Comment:
 Files: ukui-panel/launcher.c
 Copyright: 1997, 2000, The Free Software Foundation
            2000, Eazel, Inc.
-	   2017, Tianjin KYLIN Information Technology Co., Ltd.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Assuming license as found in COPYING file.
@@ -522,6 +523,7 @@ Files: .tx/config
        data/mageia.layout
        data/opensuse.layout
        data/ubuntu.layout
+       data/ukui.layout
        doc/Makefile.am
        doc/*.txt
        doc/reference/Makefile.am

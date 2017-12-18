@@ -134,7 +134,7 @@ Files: .tx/config
        data/Makefile.am
        data/*.ui
        data/*.in
-       data/*.1       
+       data/*.1
        po/LINGUAS
        po/POTFILES.*
        po/gnome-copyrights.txt
@@ -145,7 +145,7 @@ Files: .tx/config
        src/*.xml
        AUTHORS
        COPYING
-       ChangeLog       
+       ChangeLog
        Makefile.am
        NEWS
        README
