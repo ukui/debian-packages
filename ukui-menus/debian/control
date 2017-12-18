@@ -17,7 +17,7 @@ Build-Depends: debhelper (>= 10.3~),
                python3-all-dev,
 Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/ukui-menus
-X-Python-Version: >= 3.6
+X-Python3-Version: >= 3.6
 
 Package: ukui-menus
 Architecture: any
