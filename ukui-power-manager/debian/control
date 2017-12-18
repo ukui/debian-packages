@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
-Uploaders: Kobe Lee <lixiang@kylinos.cn>,
+Uploaders: Xiang Li <lixiang@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: autotools-dev,
                debhelper (>= 9),

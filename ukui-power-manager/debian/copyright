@@ -1,7 +1,24 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-power-manager
-Upstream-Contact: Kobe Lee <lixiang@kylinos.cn>
+Upstream-Contact: Xiang Li <lixiang@kylinos.cn>
 Source: http://www.ukui.org/ukui-power-manager/
+
+Files: src/egg-discrete.c
+       src/gpm-brightness.c
+       src/gpm-common.h
+       src/gpm-engine.c
+       src/gpm-engine.h
+       src/gpm-statistics.c
+Copyright: 2005-2010, Richard Hughes <richard@hughsie.com>
+           2013-2017, Xiang Li <lixiang@kylinos.cn>
+License: GPL-2+
+
+Files: src/gpm-manager.c
+       src/gpm-tray-icon.c
+Copyright: 2004-2005, William Jon McCann <mccann@jhu.edu>
+           2005-2009, Richard Hughes <richard@hughsie.com>
+           2013-2017, Xiang Li <lixiang@kylinos.cn>
+License: GPL-2+
 
 Files: applets/brightness/egg-debug.c
        applets/brightness/egg-debug.h
@@ -19,7 +36,6 @@ Files: applets/brightness/egg-debug.c
        src/egg-console-kit.h
        src/egg-debug.c
        src/egg-debug.h
-       src/egg-discrete.c
        src/egg-discrete.h
        src/egg-idletime.c
        src/egg-idletime.h
@@ -28,15 +44,11 @@ Files: applets/brightness/egg-debug.c
        src/egg-test.c
        src/egg-test.h
        src/gpm-backlight-helper.c
-       src/gpm-brightness.c
        src/gpm-brightness.h
        src/gpm-button.c
        src/gpm-button.h
        src/gpm-common.c
-       src/gpm-common.h
        src/gpm-control.c
-       src/gpm-engine.c
-       src/gpm-engine.h
        src/gpm-graph-widget.c
        src/gpm-graph-widget.h
        src/gpm-load.c
@@ -53,7 +65,6 @@ Files: applets/brightness/egg-debug.c
        src/gpm-self-test.c
        src/gpm-session.c
        src/gpm-session.h
-       src/gpm-statistics.c
        src/gpm-upower.c
        src/gpm-upower.h
 Copyright: 2005-2010, Richard Hughes <richard@hughsie.com>
@@ -66,9 +77,7 @@ Files: src/gpm-backlight.c
        src/gpm-dpms.h
        src/gpm-idle.c
        src/gpm-idle.h
-       src/gpm-manager.c
        src/gpm-manager.h
-       src/gpm-tray-icon.c
        src/gpm-tray-icon.h
 Copyright: 2004-2005, William Jon McCann <mccann@jhu.edu>
            2005-2009, Richard Hughes <richard@hughsie.com>
@@ -172,6 +181,7 @@ Files: src/gpm-prefs-core.c
 Copyright: 2005, Jaap Haitsma <jaap@haitsma.org>
            2005, William Jon McCann <mccann@jhu.edu>
            2005-2009, Richard Hughes <richard@hughsie.com>
+           2013-2017, Xiang Li <lixiang@kylinos.cn>
 License: GPL-2+
 
 Files: src/gsd-media-keys-window.c

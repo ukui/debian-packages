@@ -1,6 +1,7 @@
 ukui-power-manager (1.1.0-0ubuntu1) bionic; urgency=medium
 
   * Initial release (LP: #xxxxxxx)
+  * Adaptation of ukui desktop environment.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 01 Dec 2017 15:23:30 +0800
 
