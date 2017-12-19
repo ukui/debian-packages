@@ -38,9 +38,7 @@ Files: applets/wncklet/wncklet.c
 Copyright: 2001-2004, Sun Microsystems, Inc.
 License: GPL-2+
 
-Files: applets/clock/system-timezone.h
-       applets/clock/test-system-timezone.c
-       ukui-panel/libpanel-util/panel-cleanup.c
+Files: ukui-panel/libpanel-util/panel-cleanup.c
        ukui-panel/libpanel-util/panel-cleanup.h
        ukui-panel/libpanel-util/panel-color.c
        ukui-panel/libpanel-util/panel-color.h
@@ -62,12 +60,7 @@ Copyright: 2008-2011, Novell, Inc.
            2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: applets/clock/calendar-window.c
-       applets/clock/calendar-window.h
-       applets/clock/clock-utils.c
-       applets/clock/clock-utils.h
-       applets/clock/clock.h
-       man/ukui-panel.1
+Files: man/ukui-panel.1
        ukui-panel/panel-modules.c
        ukui-panel/panel-modules.h
 Copyright: 2007-2010, Vincent Untz <vuntz@gnome.org>
@@ -114,8 +107,7 @@ Files: ukui-panel/libegg/eggdesktopfile.h
 Copyright: 2007, Novell, Inc.
 License: LGPL-2+
 
-Files: applets/clock/clock-sunpos.c
-       applets/wncklet/showdesktop.c
+Files: applets/wncklet/showdesktop.c
        applets/wncklet/showdesktop.h
 Copyright: 2002, 2007, Red Hat, Inc.
 License: GPL-2+
@@ -165,11 +157,6 @@ Comment:
 Files: ukui-panel/panel-separator.c
        ukui-panel/panel-separator.h
 Copyright: 2005, Carlos Garcia Campos <carlosgc@gnome.org>
-License: GPL-2+
-
-Files: applets/clock/set-timezone.c
-       applets/clock/set-timezone.h
-Copyright: 2007, David Zeuthen <david@fubar.dk>
 License: GPL-2+
 
 Files: ukui-panel/libpanel-util/panel-error.c
@@ -284,14 +271,6 @@ License: GPL-2+
 Comment:
  Assuming license as found in COPYING file.
 
-Files: applets/clock/clock-face.c
-       applets/clock/clock-face.h
-Copyright: 2005-2006, Davyd Madeley
-  2007, Peter Teichman
-License: GPL-2+
-Comment:
- Assuming license as found in COPYING file.
-
 Files: ukui-panel/drawer.c
        ukui-panel/launcher.h
 Copyright: 1997, The Free Software Foundation
@@ -331,10 +310,6 @@ Copyright: 2002, Red Hat, Inc.
            2007, Christian Persch
 License: GPL-2+
 
-Files: applets/clock/clock.c
-Copyright: 1997-2003, Free Software Foundation, Inc.
-License: GPL-2+
-
 Files: applets/fish/fish.c
 Copyright: 1998-2002, Free Software Foundation, Inc.
            2002-2005, Vincent Untz
@@ -356,12 +331,6 @@ Files: ukui-panel/panel-shell.h
 Copyright: 2001, Ximian, Inc.
            2008, Novell, Inc.
            2008, Red Hat, Inc.
-License: GPL-2+
-
-Files: applets/clock/system-timezone.c
-Copyright: 2000-2001, Ximian, Inc.
-           2004, Sun Microsystems, Inc.
-           2008, Novell, Inc.
 License: GPL-2+
 
 Files: applets/notification_area/main.c
@@ -485,21 +454,6 @@ License: GFDL-1.1+
 
 Files: .tx/config
        applets/Makefile.am
-       applets/clock/Makefile.am
-       applets/clock/clock-location-tile.c
-       applets/clock/clock-location-tile.h
-       applets/clock/clock-location.c
-       applets/clock/clock-location.h
-       applets/clock/clock-map.c
-       applets/clock/clock-map.h
-       applets/clock/clock-marshallers.*
-       applets/clock/clock-menu.xml
-       applets/clock/clock-sunpos.h
-       applets/clock/clock.ui
-       applets/clock/org.ukui.panel.*.in
-       applets/clock/pixmaps/Makefile.am
-       applets/clock/pixmaps/*.png
-       applets/clock/pixmaps/*.svg
        applets/fish/Makefile.am
        applets/fish/fish-menu.xml
        applets/fish/*.png
