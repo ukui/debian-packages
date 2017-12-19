@@ -4,7 +4,7 @@ Upstream-Contact: penghuan <penghuan@kylinos.cn>
 Source: http://github.com/ukui/ukui-menus
 
 Files: libmenu/entry-directories.c
-       libmenu/entry-direcotries.h
+       libmenu/entry-directories.h
        libmenu/menu-layout.c
        libmenu/menu-layout.h
        libmenu/menu-util.c
