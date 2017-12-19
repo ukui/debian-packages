@@ -2,6 +2,7 @@ Source: ukui-settings-daemon
 Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: zhangheng <zhangheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 10.3~),
