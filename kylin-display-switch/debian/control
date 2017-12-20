@@ -7,7 +7,7 @@ Uploaders: shine <huangsheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python (>= 2.6.6-3~),
+               python (>= 3),
                python-distutils-extra,
 Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/kylin-display-switch
@@ -15,10 +15,9 @@ X-Python-Version: >= 2.7
 
 Package: kylin-display-switch
 Architecture: any
-Depends: python-qt4,
+Depends: python3-pyqt5,
          gir1.2-glib-2.0,
-         python-keybinder,
-         python-xlib,
+         python3-xlib,
          ${misc:Depends},
          ${python:Depends}
 Description: A Gui tool for display switching
