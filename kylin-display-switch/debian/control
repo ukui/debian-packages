@@ -7,7 +7,7 @@ Uploaders: shine <huangsheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python (>= 3),
+               python3,
                python-distutils-extra,
 Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/kylin-display-switch
