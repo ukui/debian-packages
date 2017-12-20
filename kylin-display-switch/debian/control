@@ -8,7 +8,8 @@ Uploaders: shine <huangsheng@kylinos.cn>,
 Build-Depends: debhelper (>= 10),
                dh-python,
                python3,
-               python-distutils-extra,
+               python3-setuptools,
+               python3-distutils-extra,
 Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/kylin-display-switch
 X-Python3-Version: >= 3.2
@@ -20,7 +21,7 @@ Depends: python3-pyqt5,
          python3-xlib,
          ${misc:Depends},
          ${python3:Depends}
-Description: A Gui tool for display switching
+Description: Gui tool for display switching
  Kylin Display Switch is a Gui tool managing display output.
  Super_L + P/F3/F7 are utilized to activate display switching.
  .
