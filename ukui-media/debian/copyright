@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-media
-Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
+Upstream-Contact: Hao Lee <lihao@kylinos.cn>
 Source: http://github.com/ukui/ukui-media/
 
 Files: ukui-volume-control/gvc-balance-bar.h

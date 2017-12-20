@@ -1,12 +1,11 @@
 Source: ukui-media
 Section: x11
 Priority: optional
-Maintainer: UKUI Packaging Team <mate-dev@ml.mate-desktop.org>
-Uploaders: Mike Gabriel <sunweaver@debian.org>,
-           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
-           Stefano Karapetsas <stefano@karapetsas.com>,
-           Vangelis Mouhtsis <vangelis@gnugr.org>,
-Build-Depends: debhelper (>= 9),
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
+Uploaders: Hao Lee <lihao@kylinos.cn>,
+           handsome_feng <jianfengli@ubuntukylin.com>,
+Build-Depends: debhelper (>= 10),
                dpkg-dev (>= 1.16.1.1),
                intltool,
                libcanberra-gtk3-dev,
@@ -16,10 +15,8 @@ Build-Depends: debhelper (>= 9),
                libmatemixer-dev (>= 1.18),
                libxml2-dev,
                mate-common (>= 1.18),
-Standards-Version: 4.1.1
-Homepage: http://www.mate-desktop.org/
-Vcs-Browser: https://github.com/mate-desktop/debian-packages
-Vcs-Git: git://github.com/mate-desktop/debian-packages.git
+Standards-Version: 4.1.2
+Homepage: http://www.ukui.org/
 
 Package: ukui-media
 Architecture: any
@@ -44,19 +41,3 @@ Description: UKUI media utilities (common files)
  control applet.
  .
  This package contains the common files.
-
-Package: ukui-media-dbg
-Section: debug
-Priority: optional
-Architecture: any
-Depends: ukui-media (= ${binary:Version}),
-         ${misc:Depends},
-Description: UKUI media utilities (debugging symbols)
- UKUI media utilities are the audio mixer and the volume
- control applet.
- .
- This package contains debugging symbols for UKUI media
- utilities.
- .
- The debugging symbols are installed in /usr/lib/debug and will
- automatically be used by gdb.
