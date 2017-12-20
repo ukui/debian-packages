@@ -5,13 +5,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Developers <ukui@kylinos.cn>
 Uploaders: shine <huangsheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
                dh-python,
                python3,
                python-distutils-extra,
 Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/kylin-display-switch
-X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.2
 
 Package: kylin-display-switch
 Architecture: any
@@ -19,7 +19,7 @@ Depends: python3-pyqt5,
          gir1.2-glib-2.0,
          python3-xlib,
          ${misc:Depends},
-         ${python:Depends}
+         ${python3:Depends}
 Description: A Gui tool for display switching
  Kylin Display Switch is a Gui tool managing display output.
  Super_L + P/F3/F7 are utilized to activate display switching.
