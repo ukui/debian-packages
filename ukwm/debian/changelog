@@ -1,0 +1,5 @@
+ukwm (1.0.1-0ubuntu1) bionic; urgency=medium
+
+  * Initial release, fork from GNOME3 mutter
+
+ -- liuyi <liuyi@kylinos.cn>  Tue, 21 Dec 2017 10:00:08 +0800
