@@ -39,47 +39,47 @@ Index: b/configure.ac
  "
  echo
  echo
-Index: b/libbrasero-burn/Makefile.am
+Index: b/libburner-burn/Makefile.am
 ===================================================================
---- a/libbrasero-burn/Makefile.am
-+++ b/libbrasero-burn/Makefile.am
+--- a/libburner-burn/Makefile.am
++++ b/libburner-burn/Makefile.am
 @@ -198,6 +198,12 @@
- libbrasero_burn3_la_SOURCES += brasero-file-monitor.c brasero-file-monitor.h
+ libburner_burn3_la_SOURCES += burner-file-monitor.c burner-file-monitor.h
  endif
  
 +if HAVE_APP_INDICATOR
-+libbrasero_burn3_la_SOURCES += brasero-app-indicator.h brasero-app-indicator.c
-+libbrasero_burn3_la_LIBADD += @APP_INDICATOR_LIBS@
++libburner_burn3_la_SOURCES += burner-app-indicator.h burner-app-indicator.c
++libburner_burn3_la_LIBADD += @APP_INDICATOR_LIBS@
 +AM_CPPFLAGS += -DHAVE_APP_INDICATOR @APP_INDICATOR_CFLAGS@
 +endif
 +
  EXTRA_DIST =			\
- 	libbrasero-marshal.list
- #	libbrasero-burn.symbols
-Index: b/libbrasero-burn/brasero-app-indicator.c
+ 	libburner-marshal.list
+ #	libburner-burn.symbols
+Index: b/libburner-burn/burner-app-indicator.c
 ===================================================================
 --- /dev/null
-+++ b/libbrasero-burn/brasero-app-indicator.c
++++ b/libburner-burn/burner-app-indicator.c
 @@ -0,0 +1,367 @@
 +/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 8; tab-width: 8 -*- */
 +/*
-+ * Libbrasero-burn
++ * Libburner-burn
 + * Copyright (C) Canonical 2010
 + *
-+ * Libbrasero-burn is free software; you can redistribute it and/or modify
++ * Libburner-burn is free software; you can redistribute it and/or modify
 + * it under the terms of the GNU General Public License as published by
 + * the Free Software Foundation; either version 2 of the License, or
 + * (at your option) any later version.
 + *
-+ * The Libbrasero-burn authors hereby grant permission for non-GPL compatible
++ * The Libburner-burn authors hereby grant permission for non-GPL compatible
 + * GStreamer plugins to be used and distributed together with GStreamer
-+ * and Libbrasero-burn. This permission is above and beyond the permissions granted
-+ * by the GPL license by which Libbrasero-burn is covered. If you modify this code
++ * and Libburner-burn. This permission is above and beyond the permissions granted
++ * by the GPL license by which Libburner-burn is covered. If you modify this code
 + * you may extend this exception to your version of the code, but you are not
 + * obligated to do so. If you do not wish to do so, delete this exception
 + * statement from your version.
 + *
-+ * Libbrasero-burn is distributed in the hope that it will be useful,
++ * Libburner-burn is distributed in the hope that it will be useful,
 + * but WITHOUT ANY WARRANTY; without even the implied warranty of
 + * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 + * GNU Library General Public License for more details.
@@ -103,21 +103,21 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +#include <libappindicator/app-indicator.h>
 +
 +#include "burn-basics.h"
-+#include "brasero-app-indicator.h"
++#include "burner-app-indicator.h"
 +
-+static void brasero_app_indicator_class_init (BraseroAppIndicatorClass *klass);
-+static void brasero_app_indicator_init (BraseroAppIndicator *sp);
-+static void brasero_app_indicator_finalize (GObject *object);
-+
-+static void
-+brasero_app_indicator_cancel_cb (GtkAction *action, BraseroAppIndicator *indicator);
++static void burner_app_indicator_class_init (BurnerAppIndicatorClass *klass);
++static void burner_app_indicator_init (BurnerAppIndicator *sp);
++static void burner_app_indicator_finalize (GObject *object);
 +
 +static void
-+brasero_app_indicator_show_cb (GtkAction *action, BraseroAppIndicator *indicator);
++burner_app_indicator_cancel_cb (GtkAction *action, BurnerAppIndicator *indicator);
 +
-+struct BraseroAppIndicatorPrivate {
++static void
++burner_app_indicator_show_cb (GtkAction *action, BurnerAppIndicator *indicator);
++
++struct BurnerAppIndicatorPrivate {
 +	AppIndicator *indicator;
-+	BraseroBurnAction action;
++	BurnerBurnAction action;
 +	gchar *action_string;
 +
 +	GtkUIManager *manager;
@@ -131,21 +131,21 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	CLOSE_AFTER_SIGNAL,
 +	SHOW_DIALOG_SIGNAL,
 +	LAST_SIGNAL
-+} BraseroAppIndicatorSignalType;
++} BurnerAppIndicatorSignalType;
 +
-+static guint brasero_app_indicator_signals[LAST_SIGNAL] = { 0 };
++static guint burner_app_indicator_signals[LAST_SIGNAL] = { 0 };
 +static GObjectClass *parent_class = NULL;
 +
 +static GtkActionEntry entries[] = {
 +	{"ContextualMenu", NULL, N_("Menu")},
 +	{"Progress", NULL, "Progress"},
 +	{"Cancel", GTK_STOCK_CANCEL, NULL, NULL, N_("Cancel ongoing burning"),
-+	 G_CALLBACK (brasero_app_indicator_cancel_cb)},
++	 G_CALLBACK (burner_app_indicator_cancel_cb)},
 +};
 +
 +static GtkToggleActionEntry toggle_entries[] = {
 +	{"Show", NULL, N_("Show _Dialog"), NULL, N_("Show dialog"),
-+	 G_CALLBACK (brasero_app_indicator_show_cb), TRUE,},
++	 G_CALLBACK (burner_app_indicator_show_cb), TRUE,},
 +};
 +
 +static const char *description = {
@@ -162,40 +162,40 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +
 +static const gchar *accessible_desc = NULL;
 +
-+G_DEFINE_TYPE (BraseroAppIndicator, brasero_app_indicator, G_TYPE_OBJECT);
++G_DEFINE_TYPE (BurnerAppIndicator, burner_app_indicator, G_TYPE_OBJECT);
 +
 +static void
-+brasero_app_indicator_class_init (BraseroAppIndicatorClass *klass)
++burner_app_indicator_class_init (BurnerAppIndicatorClass *klass)
 +{
 +	GObjectClass *object_class = G_OBJECT_CLASS(klass);
 +
 +	parent_class = g_type_class_peek_parent(klass);
-+	object_class->finalize = brasero_app_indicator_finalize;
++	object_class->finalize = burner_app_indicator_finalize;
 +
-+	brasero_app_indicator_signals[SHOW_DIALOG_SIGNAL] =
++	burner_app_indicator_signals[SHOW_DIALOG_SIGNAL] =
 +	    g_signal_new ("show_dialog",
 +			  G_OBJECT_CLASS_TYPE (object_class),
 +			  G_SIGNAL_RUN_FIRST | G_SIGNAL_ACTION,
-+			  G_STRUCT_OFFSET (BraseroAppIndicatorClass,
++			  G_STRUCT_OFFSET (BurnerAppIndicatorClass,
 +					   show_dialog), NULL, NULL,
 +			  g_cclosure_marshal_VOID__BOOLEAN,
 +			  G_TYPE_NONE,
 +			  1,
 +			  G_TYPE_BOOLEAN);
-+	brasero_app_indicator_signals[CANCEL_SIGNAL] =
++	burner_app_indicator_signals[CANCEL_SIGNAL] =
 +	    g_signal_new ("cancel",
 +			  G_OBJECT_CLASS_TYPE (object_class),
 +			  G_SIGNAL_RUN_FIRST | G_SIGNAL_ACTION,
-+			  G_STRUCT_OFFSET (BraseroAppIndicatorClass,
++			  G_STRUCT_OFFSET (BurnerAppIndicatorClass,
 +					   cancel), NULL, NULL,
 +			  g_cclosure_marshal_VOID__VOID,
 +			  G_TYPE_NONE,
 +			  0);
-+	brasero_app_indicator_signals[CLOSE_AFTER_SIGNAL] =
++	burner_app_indicator_signals[CLOSE_AFTER_SIGNAL] =
 +	    g_signal_new ("close_after",
 +			  G_OBJECT_CLASS_TYPE (object_class),
 +			  G_SIGNAL_RUN_FIRST | G_SIGNAL_ACTION,
-+			  G_STRUCT_OFFSET (BraseroAppIndicatorClass,
++			  G_STRUCT_OFFSET (BurnerAppIndicatorClass,
 +					   close_after), NULL, NULL,
 +			  g_cclosure_marshal_VOID__BOOLEAN,
 +			  G_TYPE_NONE,
@@ -204,7 +204,7 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +}
 +
 +static GtkWidget *
-+brasero_app_indicator_build_menu (BraseroAppIndicator *indicator)
++burner_app_indicator_build_menu (BurnerAppIndicator *indicator)
 +{
 +	GtkActionGroup *action_group;
 +	GtkWidget *menu = NULL,
@@ -246,24 +246,24 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +}
 +
 +void
-+brasero_app_indicator_hide (BraseroAppIndicator *indicator)
++burner_app_indicator_hide (BurnerAppIndicator *indicator)
 +{
 +	app_indicator_set_status (indicator->priv->indicator, APP_INDICATOR_STATUS_PASSIVE);
 +}
 +
 +static void
-+brasero_app_indicator_init (BraseroAppIndicator *obj)
++burner_app_indicator_init (BurnerAppIndicator *obj)
 +{
 +	GtkWidget *indicator_menu;
 +
-+	obj->priv = g_new0 (BraseroAppIndicatorPrivate, 1);
-+	indicator_menu =  brasero_app_indicator_build_menu (obj);
++	obj->priv = g_new0 (BurnerAppIndicatorPrivate, 1);
++	indicator_menu =  burner_app_indicator_build_menu (obj);
 +
 +	if (indicator_menu != NULL) {
-+		obj->priv->indicator = app_indicator_new_with_path ("brasero",
-+								    "brasero-disc-00",
++		obj->priv->indicator = app_indicator_new_with_path ("burner",
++								    "burner-disc-00",
 +								    APP_INDICATOR_CATEGORY_APPLICATION_STATUS,
-+								    BRASERO_DATADIR "/icons");
++								    BURNER_DATADIR "/icons");
 +
 +		app_indicator_set_status (obj->priv->indicator,
 +					  APP_INDICATOR_STATUS_ACTIVE);
@@ -273,11 +273,11 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +}
 +
 +static void
-+brasero_app_indicator_finalize (GObject *object)
++burner_app_indicator_finalize (GObject *object)
 +{
-+	BraseroAppIndicator *cobj;
++	BurnerAppIndicator *cobj;
 +
-+	cobj = BRASERO_APPINDICATOR (object);
++	cobj = BURNER_APPINDICATOR (object);
 +
 +	if (cobj->priv->action_string) {
 +		g_free (cobj->priv->action_string);
@@ -289,18 +289,18 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	G_OBJECT_CLASS (parent_class)->finalize (object);
 +}
 +
-+BraseroAppIndicator *
-+brasero_app_indicator_new ()
++BurnerAppIndicator *
++burner_app_indicator_new ()
 +{
-+	BraseroAppIndicator *obj;
++	BurnerAppIndicator *obj;
 +
-+	obj = BRASERO_APPINDICATOR (g_object_new (BRASERO_TYPE_APPINDICATOR, NULL));
++	obj = BURNER_APPINDICATOR (g_object_new (BURNER_TYPE_APPINDICATOR, NULL));
 +
 +	return obj;
 +}
 +
 +static void
-+brasero_app_indicator_set_progress_menu_text (BraseroAppIndicator *indicator,
++burner_app_indicator_set_progress_menu_text (BurnerAppIndicator *indicator,
 +					      glong remaining)
 +{
 +	gchar *text;
@@ -308,14 +308,14 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	const gchar *action_string;
 +
 +	if (!indicator->priv->action_string)
-+		action_string = brasero_burn_action_to_string (indicator->priv->action);
++		action_string = burner_burn_action_to_string (indicator->priv->action);
 +	else
 +		action_string = indicator->priv->action_string;
 +
 +	if (remaining > 0) {
 +		gchar *remaining_string;
 +
-+		remaining_string = brasero_units_get_time_string ((double) remaining * 1000000000, TRUE, FALSE);
++		remaining_string = burner_units_get_time_string ((double) remaining * 1000000000, TRUE, FALSE);
 +		text = g_strdup_printf (_("%s, %d%% done, %s remaining"),
 +					action_string,
 +					indicator->priv->percent,
@@ -333,13 +333,13 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	progress = gtk_ui_manager_get_widget (indicator->priv->manager,
 +					      "/ContextMenu/Progress");
 +	gtk_menu_item_set_label (GTK_MENU_ITEM (progress), text);
-+	accessible_desc = g_strdup_printf(_("Brasero Disc Burner: %s"), text);
++	accessible_desc = g_strdup_printf(_("Burner Disc Burner: %s"), text);
 +	g_free (text);
 +}
 +
 +void
-+brasero_app_indicator_set_action (BraseroAppIndicator *indicator,
-+				  BraseroBurnAction action,
++burner_app_indicator_set_action (BurnerAppIndicator *indicator,
++				  BurnerBurnAction action,
 +				  const gchar *string)
 +{
 +	indicator->priv->action = action;
@@ -351,11 +351,11 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	else
 +		indicator->priv->action_string = NULL;
 +
-+	brasero_app_indicator_set_progress_menu_text (indicator, -1);
++	burner_app_indicator_set_progress_menu_text (indicator, -1);
 +}
 +
 +void
-+brasero_app_indicator_set_progress (BraseroAppIndicator *indicator,
++burner_app_indicator_set_progress (BurnerAppIndicator *indicator,
 +				    gdouble fraction,
 +				    glong remaining)
 +{
@@ -367,7 +367,7 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	indicator->priv->percent = percent;
 +
 +	/* set the tooltip */
-+	brasero_app_indicator_set_progress_menu_text (indicator, remaining);
++	burner_app_indicator_set_progress_menu_text (indicator, remaining);
 +
 +	/* change image if need be */
 +	remains = percent % 5;
@@ -382,14 +382,14 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +
 +	indicator->priv->rounded_percent = percent;
 +
-+	icon_name = g_strdup_printf ("brasero-disc-%02i", percent);
++	icon_name = g_strdup_printf ("burner-disc-%02i", percent);
 +	app_indicator_set_icon_full(indicator->priv->indicator,
 +			       icon_name, accessible_desc);
 +	g_free (icon_name);
 +}
 +
 +static void
-+brasero_app_indicator_change_show_dialog_state (BraseroAppIndicator *indicator)
++burner_app_indicator_change_show_dialog_state (BurnerAppIndicator *indicator)
 +{
 +	GtkAction *action;
 +	gboolean active;
@@ -400,27 +400,27 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +
 +	/* signal show dialog was requested the dialog again */
 +	g_signal_emit (indicator,
-+		       brasero_app_indicator_signals [SHOW_DIALOG_SIGNAL],
++		       burner_app_indicator_signals [SHOW_DIALOG_SIGNAL],
 +		       0,
 +		       active);
 +}
 +
 +static void
-+brasero_app_indicator_cancel_cb (GtkAction *action, BraseroAppIndicator *indicator)
++burner_app_indicator_cancel_cb (GtkAction *action, BurnerAppIndicator *indicator)
 +{
 +	g_signal_emit (indicator,
-+		       brasero_app_indicator_signals [CANCEL_SIGNAL],
++		       burner_app_indicator_signals [CANCEL_SIGNAL],
 +		       0);
 +}
 +
 +static void
-+brasero_app_indicator_show_cb (GtkAction *action, BraseroAppIndicator *indicator)
++burner_app_indicator_show_cb (GtkAction *action, BurnerAppIndicator *indicator)
 +{
-+	brasero_app_indicator_change_show_dialog_state (indicator);
++	burner_app_indicator_change_show_dialog_state (indicator);
 +}
 +
 +void
-+brasero_app_indicator_set_show_dialog (BraseroAppIndicator *indicator, gboolean show)
++burner_app_indicator_set_show_dialog (BurnerAppIndicator *indicator, gboolean show)
 +{
 +	GtkAction *action;
 +
@@ -428,30 +428,30 @@ Index: b/libbrasero-burn/brasero-app-indicator.c
 +	action = gtk_ui_manager_get_action (indicator->priv->manager, "/ContextMenu/Show");
 +	gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (action), show);
 +}
-Index: b/libbrasero-burn/brasero-app-indicator.h
+Index: b/libburner-burn/burner-app-indicator.h
 ===================================================================
 --- /dev/null
-+++ b/libbrasero-burn/brasero-app-indicator.h
++++ b/libburner-burn/burner-app-indicator.h
 @@ -0,0 +1,88 @@
 +/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 8; tab-width: 8 -*- */
 +/*
-+ * Libbrasero-burn
++ * Libburner-burn
 + * Copyright (C) Canonical 2010
 + *
-+ * Libbrasero-burn is free software; you can redistribute it and/or modify
++ * Libburner-burn is free software; you can redistribute it and/or modify
 + * it under the terms of the GNU General Public License as published by
 + * the Free Software Foundation; either version 2 of the License, or
 + * (at your option) any later version.
 + *
-+ * The Libbrasero-burn authors hereby grant permission for non-GPL compatible
++ * The Libburner-burn authors hereby grant permission for non-GPL compatible
 + * GStreamer plugins to be used and distributed together with GStreamer
-+ * and Libbrasero-burn. This permission is above and beyond the permissions granted
-+ * by the GPL license by which Libbrasero-burn is covered. If you modify this code
++ * and Libburner-burn. This permission is above and beyond the permissions granted
++ * by the GPL license by which Libburner-burn is covered. If you modify this code
 + * you may extend this exception to your version of the code, but you are not
 + * obligated to do so. If you do not wish to do so, delete this exception
 + * statement from your version.
 + *
-+ * Libbrasero-burn is distributed in the hope that it will be useful,
++ * Libburner-burn is distributed in the hope that it will be useful,
 + * but WITHOUT ANY WARRANTY; without even the implied warranty of
 + * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 + * GNU Library General Public License for more details.
@@ -475,97 +475,97 @@ Index: b/libbrasero-burn/brasero-app-indicator.h
 +
 +G_BEGIN_DECLS
 +
-+#define BRASERO_TYPE_APPINDICATOR         (brasero_app_indicator_get_type ())
-+#define BRASERO_APPINDICATOR(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), BRASERO_TYPE_APPINDICATOR, BraseroAppIndicator))
-+#define BRASERO_APPINDICATOR_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), BRASERO_TYPE_APPINDICATOR, BraseroAppIndicatorClass))
-+#define BRASERO_IS_APPINDICATOR(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), BRASERO_TYPE_APPINDICATOR))
-+#define BRASERO_IS_APPINDICATOR_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k), BRASERO_TYPE_APPINDICATOR))
-+#define BRASERO_APPINDICATOR_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o), BRASERO_TYPE_APPINDICATOR, BraseroAppIndicatorClass))
++#define BURNER_TYPE_APPINDICATOR         (burner_app_indicator_get_type ())
++#define BURNER_APPINDICATOR(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), BURNER_TYPE_APPINDICATOR, BurnerAppIndicator))
++#define BURNER_APPINDICATOR_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), BURNER_TYPE_APPINDICATOR, BurnerAppIndicatorClass))
++#define BURNER_IS_APPINDICATOR(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), BURNER_TYPE_APPINDICATOR))
++#define BURNER_IS_APPINDICATOR_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k), BURNER_TYPE_APPINDICATOR))
++#define BURNER_APPINDICATOR_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o), BURNER_TYPE_APPINDICATOR, BurnerAppIndicatorClass))
 +
-+typedef struct BraseroAppIndicatorPrivate BraseroAppIndicatorPrivate;
++typedef struct BurnerAppIndicatorPrivate BurnerAppIndicatorPrivate;
 +
 +typedef struct {
 +	GObject parent;
-+	BraseroAppIndicatorPrivate *priv;
-+} BraseroAppIndicator;
++	BurnerAppIndicatorPrivate *priv;
++} BurnerAppIndicator;
 +
 +typedef struct {
 +	GObjectClass parent_class;
 +
-+	void		(*show_dialog)		(BraseroAppIndicator *indicator, gboolean show);
-+	void		(*close_after)		(BraseroAppIndicator *indicator, gboolean close);
-+	void		(*cancel)		(BraseroAppIndicator *indicator);
++	void		(*show_dialog)		(BurnerAppIndicator *indicator, gboolean show);
++	void		(*close_after)		(BurnerAppIndicator *indicator, gboolean close);
++	void		(*cancel)		(BurnerAppIndicator *indicator);
 +
-+} BraseroAppIndicatorClass;
++} BurnerAppIndicatorClass;
 +
-+GType brasero_app_indicator_get_type (void);
-+BraseroAppIndicator *brasero_app_indicator_new (void);
++GType burner_app_indicator_get_type (void);
++BurnerAppIndicator *burner_app_indicator_new (void);
 +
 +void
-+brasero_app_indicator_set_progress (BraseroAppIndicator *indicator,
++burner_app_indicator_set_progress (BurnerAppIndicator *indicator,
 +				    gdouble fraction,
 +				    long remaining);
 +
 +void
-+brasero_app_indicator_set_action (BraseroAppIndicator *indicator,
-+				  BraseroBurnAction action,
++burner_app_indicator_set_action (BurnerAppIndicator *indicator,
++				  BurnerBurnAction action,
 +				  const gchar *string);
 +
 +void
-+brasero_app_indicator_set_show_dialog (BraseroAppIndicator *indicator,
++burner_app_indicator_set_show_dialog (BurnerAppIndicator *indicator,
 +				       gboolean show);
 +
 +void
-+brasero_app_indicator_hide (BraseroAppIndicator *indicator);
++burner_app_indicator_hide (BurnerAppIndicator *indicator);
 +
 +G_END_DECLS
 +
 +#endif /* APP_INDICATOR_H */
-Index: b/libbrasero-burn/brasero-burn-dialog.c
+Index: b/libburner-burn/burner-burn-dialog.c
 ===================================================================
---- a/libbrasero-burn/brasero-burn-dialog.c
-+++ b/libbrasero-burn/brasero-burn-dialog.c
+--- a/libburner-burn/burner-burn-dialog.c
++++ b/libburner-burn/burner-burn-dialog.c
 @@ -2,6 +2,7 @@
  /*
-  * Libbrasero-burn
+  * Libburner-burn
   * Copyright (C) Philippe Rouquier 2005-2009 <bonfire-app@wanadoo.fr>
 + * Copyright (C) Canonical 2010
   *
-  * Libbrasero-burn is free software; you can redistribute it and/or modify
+  * Libburner-burn is free software; you can redistribute it and/or modify
   * it under the terms of the GNU General Public License as published by
 @@ -50,6 +51,9 @@
  
- #include "brasero-burn-dialog.h"
+ #include "burner-burn-dialog.h"
  
 +#ifdef HAVE_APP_INDICATOR
-+#include "brasero-app-indicator.h"
++#include "burner-app-indicator.h"
 +#endif
- #include "brasero-session-cfg.h"
- #include "brasero-session-helper.h"
+ #include "burner-session-cfg.h"
+ #include "burner-session-helper.h"
  
 @@ -71,6 +75,16 @@
  
- G_DEFINE_TYPE (BraseroBurnDialog, brasero_burn_dialog, GTK_TYPE_DIALOG);
+ G_DEFINE_TYPE (BurnerBurnDialog, burner_burn_dialog, GTK_TYPE_DIALOG);
  
 +#ifdef HAVE_APP_INDICATOR
 +static void
-+brasero_burn_dialog_indicator_cancel_cb (BraseroAppIndicator *indicator,
-+					 BraseroBurnDialog *dialog);
++burner_burn_dialog_indicator_cancel_cb (BurnerAppIndicator *indicator,
++					 BurnerBurnDialog *dialog);
 +
 +static void
-+brasero_burn_dialog_indicator_show_dialog_cb (BraseroAppIndicator *indicator,
++burner_burn_dialog_indicator_show_dialog_cb (BurnerAppIndicator *indicator,
 +					      gboolean show,
 +					      GtkWidget *dialog);
 +#endif
  static void
- brasero_burn_dialog_cancel_clicked_cb (GtkWidget *button,
- 				       BraseroBurnDialog *dialog);
+ burner_burn_dialog_cancel_clicked_cb (GtkWidget *button,
+ 				       BurnerBurnDialog *dialog);
 @@ -89,6 +103,10 @@
  	GtkWidget *cancel;
  	GtkWidget *image;
  
 +#ifdef HAVE_APP_INDICATOR
-+	BraseroAppIndicator *indicator;
++	BurnerAppIndicator *indicator;
 +#endif
 +
  	/* for our final statistics */
@@ -576,21 +576,21 @@ Index: b/libbrasero-burn/brasero-burn-dialog.c
  			     &rate);
  
 +#ifdef HAVE_APP_INDICATOR
-+	brasero_app_indicator_set_progress (BRASERO_APPINDICATOR (priv->indicator),
++	burner_app_indicator_set_progress (BURNER_APPINDICATOR (priv->indicator),
 +					    task_progress,
 +					    remaining);
 +#endif
 +
- 	brasero_burn_dialog_progress_changed_real (dialog,
+ 	burner_burn_dialog_progress_changed_real (dialog,
  						   written,
  						   isosize,
 @@ -1295,6 +1319,12 @@
- 	brasero_burn_progress_set_action (BRASERO_BURN_PROGRESS (priv->progress),
+ 	burner_burn_progress_set_action (BURNER_BURN_PROGRESS (priv->progress),
  					  action,
  					  string);
 +
 +#ifdef HAVE_APP_INDICATOR
-+	brasero_app_indicator_set_action (BRASERO_APPINDICATOR (priv->indicator),
++	burner_app_indicator_set_action (BURNER_APPINDICATOR (priv->indicator),
 +					  action,
 +					  string);
 +#endif
@@ -603,7 +603,7 @@ Index: b/libbrasero-burn/brasero-burn-dialog.c
  					  -1);
 +
 +#ifdef HAVE_APP_INDICATOR
-+	brasero_app_indicator_set_progress (BRASERO_APPINDICATOR (priv->indicator),
++	burner_app_indicator_set_progress (BURNER_APPINDICATOR (priv->indicator),
 +					    0.0,
 +					    -1);
 +#endif
@@ -616,31 +616,31 @@ Index: b/libbrasero-burn/brasero-burn-dialog.c
  					  -1);
 +
 +#ifdef HAVE_APP_INDICATOR
-+	brasero_app_indicator_hide (priv->indicator);
++	burner_app_indicator_hide (priv->indicator);
 +#endif
 +
  	/* Restore title */
  	if (priv->initial_title)
  		gtk_window_set_title (GTK_WINDOW (dialog), priv->initial_title);
 @@ -1640,6 +1681,12 @@
- 					  BRASERO_BURN_ACTION_NONE,
+ 					  BURNER_BURN_ACTION_NONE,
  					  NULL);
  
 +#ifdef HAVE_APP_INDICATOR
-+	brasero_app_indicator_set_action (BRASERO_APPINDICATOR (priv->indicator),
-+					  BRASERO_BURN_ACTION_NONE,
++	burner_app_indicator_set_action (BURNER_APPINDICATOR (priv->indicator),
++					  BURNER_BURN_ACTION_NONE,
 +					  NULL);
 +#endif
 +
  	g_timer_continue (priv->total_time);
  
- 	return BRASERO_BURN_OK;
+ 	return BURNER_BURN_OK;
 @@ -1657,6 +1704,11 @@
  
- 	priv = BRASERO_BURN_DIALOG_PRIVATE (dialog);
+ 	priv = BURNER_BURN_DIALOG_PRIVATE (dialog);
  
 +#ifdef HAVE_APP_INDICATOR
-+	brasero_app_indicator_set_show_dialog (BRASERO_APPINDICATOR (priv->indicator),
++	burner_app_indicator_set_show_dialog (BURNER_APPINDICATOR (priv->indicator),
 +					       FALSE);
 +#endif
 +
@@ -648,25 +648,25 @@ Index: b/libbrasero-burn/brasero-burn-dialog.c
  					       GTK_WINDOW (dialog),
  					       GTK_FILE_CHOOSER_ACTION_SAVE,
 @@ -2518,6 +2570,41 @@
- 	brasero_burn_dialog_cancel (dialog, FALSE);
+ 	burner_burn_dialog_cancel (dialog, FALSE);
  }
  
 +#ifdef HAVE_APP_INDICATOR
 +static void
-+brasero_burn_dialog_indicator_cancel_cb (BraseroAppIndicator *indicator,
-+					 BraseroBurnDialog *dialog)
++burner_burn_dialog_indicator_cancel_cb (BurnerAppIndicator *indicator,
++					 BurnerBurnDialog *dialog)
 +{
-+	brasero_burn_dialog_cancel (dialog, FALSE);
++	burner_burn_dialog_cancel (dialog, FALSE);
 +}
 +
 +static void
-+brasero_burn_dialog_indicator_show_dialog_cb (BraseroAppIndicator *indicator,
++burner_burn_dialog_indicator_show_dialog_cb (BurnerAppIndicator *indicator,
 +					      gboolean show,
 +					      GtkWidget *dialog)
 +{
-+	BraseroBurnDialogPrivate *priv;
++	BurnerBurnDialogPrivate *priv;
 +
-+	priv = BRASERO_BURN_DIALOG_PRIVATE (dialog);
++	priv = BURNER_BURN_DIALOG_PRIVATE (dialog);
 +
 +	/* we prevent to show the burn dialog once the success dialog has been
 +	 * shown to avoid the following strange behavior:
@@ -687,21 +687,21 @@ Index: b/libbrasero-burn/brasero-burn-dialog.c
 +#endif
 +
  static void
- brasero_burn_dialog_init (BraseroBurnDialog * obj)
+ burner_burn_dialog_init (BurnerBurnDialog * obj)
  {
 @@ -2530,6 +2617,18 @@
  
  	gtk_window_set_default_size (GTK_WINDOW (obj), 500, 0);
  
 +#ifdef HAVE_APP_INDICATOR
-+	priv->indicator = brasero_app_indicator_new ();
++	priv->indicator = burner_app_indicator_new ();
 +	g_signal_connect (priv->indicator,
 +			  "cancel",
-+			  G_CALLBACK (brasero_burn_dialog_indicator_cancel_cb),
++			  G_CALLBACK (burner_burn_dialog_indicator_cancel_cb),
 +			  obj);
 +	g_signal_connect (priv->indicator,
 +			  "show-dialog",
-+			  G_CALLBACK (brasero_burn_dialog_indicator_show_dialog_cb),
++			  G_CALLBACK (burner_burn_dialog_indicator_show_dialog_cb),
 +			  obj);
 +#endif
 +
@@ -727,10 +727,10 @@ Index: b/po/POTFILES.in
 --- a/po/POTFILES.in
 +++ b/po/POTFILES.in
 @@ -4,6 +4,7 @@
- data/brasero.desktop.in.in
- data/mime/brasero.xml.in
- data/org.gnome.brasero.gschema.xml
-+libbrasero-burn/brasero-app-indicator.c
- libbrasero-burn/brasero-blank-dialog.c
- libbrasero-burn/brasero-burn.c
- libbrasero-burn/brasero-burn-dialog.c
+ data/burner.desktop.in.in
+ data/mime/burner.xml.in
+ data/org.gnome.burner.gschema.xml
++libburner-burn/burner-app-indicator.c
+ libburner-burn/burner-blank-dialog.c
+ libburner-burn/burner-burn.c
+ libburner-burn/burner-burn-dialog.c

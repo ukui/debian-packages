@@ -1,3 +1,11 @@
+kylin-brasero (3.12.1-4ubuntu2k1) artful; urgency=medium
+
+  * Initial release.
+  * Interface and function customization.
+  * Rename and add copyright.
+
+ -- wenbo <wenbo@ubuntukylin.com>  Tue, 15 Aug 2017 10:49:59 -0400
+
 brasero (3.12.1-4ubuntu2) artful; urgency=medium
 
   * Build-depend on libtracker-sparql-2.0-dev instead of 1.0
@@ -19,12 +27,12 @@ brasero (3.12.1-4ubuntu1) zesty; urgency=medium
       debian/libbrasero-media3-1.symbols:
       + Use appindicators
     - debian/patches/013_unity_launcher_progress:
-      + Display burn progress in Brasero's Unity launcher icon.
+      + Display burn progress in Burner's Unity launcher icon.
   * Now that brasero is in universe, follow Debian and…
     - Enable tracker
     - Recommend cdrao & dvdauthor
   * Split nautilus-plugin-brasero to a separate package. Closes #842830
-  * Drop conflicts on nautilus-cd-burner, not needed since Squeeze
+  * Drop conflicts on nautilus-cd-brasero, not needed since Squeeze
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 19 Dec 2016 07:48:07 -0500
 
@@ -526,7 +534,7 @@ brasero (2.26.2-1) unstable; urgency=low
   * Let’s not forget dvd+rw-tools so that we can write DVDs too.
   * Rework dependencies accordingly.
   * Put the nautilus extension in brasero.
-  * Conflict against nautilus-cd-burner to avoid having two burning 
+  * Conflict against nautilus-cd-brasero to avoid having two burning 
     extensions.
   * Include clean-la.mk and gnome-version.mk; build-depend on 
     gnome-pkg-tools 0.7.
