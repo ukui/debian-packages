@@ -1,0 +1,93 @@
+ukui-window-switch (1.6kord) bionic; urgency=medium
+
+  * Optimization logic: when switching window, directly activate the
+    specified window, instead of the activation window from the
+    original window to the specified window
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Mon, 06 Nov 2017 16:02:22 +0800
+
+ukui-window-switch (1.5kord) bionic; urgency=medium
+
+  * move window thumbnail file for privacy protection
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Mon, 06 Nov 2017 15:03:25 +0800
+
+ukui-window-switch (1.4kord1) bionic; urgency=medium
+
+  * For singleton, replace ps command with flock
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Wed, 01 Nov 2017 11:39:11 +0800
+
+ukui-window-switch (1.3kord) bionic; urgency=medium
+
+  * Add multi-screen support and fixed the following bugs:
+    * The position of switch indicator is incorrect
+    * User can select the window on the extended screen
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Wed, 01 Nov 2017 09:18:31 +0800
+
+ukui-window-switch (1.2kord7) bionic; urgency=medium
+
+  * Optimize the transparency of the window selection panel
+  * Added global shortcut registration retry
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Wed, 09 Aug 2017 11:01:10 +0800
+
+ukui-window-switch (1.2kord6) bionic; urgency=medium
+
+  * Increase the translucent effect;
+  * Modify Processing flow: Reconnect dbus with each wake-up;
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Sun, 06 Aug 2017 15:51:26 +0800
+
+ukui-window-switch (1.2kord5) bionic; urgency=medium
+
+  * Modify the interval time of Tab Key Pass logic;
+  * Remove 6s delay;
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Thu, 03 Aug 2017 11:37:11 +0800
+
+ukui-window-switch (1.2kord4) bionic; urgency=medium
+
+  * Format mainwindow.cpp and mylabel.h code
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Fri, 28 Jul 2017 10:38:26 +0800
+
+ukui-window-switch (1.2kord) bionic; urgency=medium
+
+  * Fix the memory leak for window label;
+
+ -- liubuquan <liubuquan@kylinos.cn>  Fri, 28 Jul 2017 10:32:07 +0800
+
+ukui-window-switch (1.1kord2) bionic; urgency=medium
+
+  * Fix the build dependency: qtbase5-private-dev
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Fri, 28 Jul 2017 08:59:21 +0800
+
+ukui-window-switch (1.1kord1) bionic; urgency=medium
+
+  * Fix the build dependency
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Fri, 28 Jul 2017 08:42:00 +0800
+
+ukui-window-switch (1.1kord) bionic; urgency=medium
+
+  * Automatically poll the tab list when holding the TAB key;
+  * Fix Window does not show in center;
+  * Add a 6s delay for shortcut register;
+  * Fix crash when tab list is empty (no window open);
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Thu, 27 Jul 2017 16:31:21 +0800
+
+ukui-window-switch (1.0-2) unstable; urgency=medium
+
+  * Available window switch program
+
+ -- liubuquan <liubuquan@kylinos.cn>  Wed, 26 Jul 2017 11:40:54 +0800
+
+ukui-window-switch (1.0-1) unstable; urgency=medium
+
+  * A basic framework to get icons from dbus.
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Tue, 25 Jul 2017 8:40:00 +0800
