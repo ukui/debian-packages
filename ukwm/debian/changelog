@@ -1,3 +1,10 @@
+ukwm (1.0.1-0ubuntu2) bionic; urgency=medium
+
+  * Modify default plugin to implement alt+tab switch window function
+  * Some small changes for UKUI
+
+ -- liuyi <liuyi@kylinos.cn>  Tue, 26 Dec 2017 17:06:08 +0800
+
 ukwm (1.0.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release, fork from GNOME3 mutter
