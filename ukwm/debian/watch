@@ -1,2 +1,3 @@
 version=4
-https://github.com/ukui/ukwm/releases .*/v?(\d\S+)\.tar\.gz
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/ukwm-$1\.tar\.gz/ \
+  https://github.com/ukui/ukwm/releases .*/v?(\d\S+)\.tar\.gz

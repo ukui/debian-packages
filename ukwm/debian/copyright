@@ -4,7 +4,6 @@ Upstream-Contact: liuyi <liuyi@kylinos.cn>
 Source: http://github.com/ukui/ukwm
 
 Copyright:
-   Copyright © 2017, Tianjin KYLIN Information Technology Co., Ltd.
    Copyright © 2001-2008  Havoc Pennington, Red Hat, Inc., and others
    Copyright © 2002       The Gnome Foundation
    Copyright © 2007       The GNOME Project
@@ -47,6 +46,7 @@ Copyright:
    Copyright © 2007-2008  OpenedHand
    Copyright © 2008-2009  Intel Corporation
    Copyright © 2008       Matthew Allum
+   Copyright © 2017       Tianjin KYLIN Information Technology Co., Ltd.
 
 License:
 
