@@ -3,64 +3,7 @@ Upstream-Name: kylin-burner
 Upstream-Contact: wenbo <wenbo@kylinos.cn>
 Source: http://github.com/ukui/kylin-burner
 
-Files:  data/burner.desktop.in.in
-        data/icons/Makefile.am
-        libburner-burn/Makefile.am
-        libburner-burn/burner-blank-dialog.c
-        libburner-burn/burner-burn-dialog.c
-        libburner-burn/burner-burn-dialog.h
-        libburner-burn/burner-burn-options.c
-        libburner-burn/burner-caps-session.c
-        libburner-burn/burner-customize-title.c
-        libburner-burn/burner-customize-title.h
-        libburner-burn/burner-drive-properties.c
-        libburner-burn/burner-medium-properties.c
-        libburner-burn/burner-session.c
-        libburner-burn/burner-src-image.c
-        libburner-burn/burner-status-dialog.c
-        libburner-burn/burner-sum-dialog.c
-        libburner-burn/burner-tool-dialog.c
-        libburner-utils/burner-jacket-edit.c
-        libburner-utils/burner-misc.c
-        nautilus/burner-nautilus.desktop.in.in
-        po/POTFILES.in
-        po/zh_CN.po
-        src/burner-app.c
-        src/burner-app.h
-        src/burner-audio-disc.c
-        src/burner-cli.c
-        src/burner-data-disc.c
-        src/burner-file-filtered.c
-        src/burner-filter-option.c
-        src/burner-layout.c
-        src/burner-multi-song-props.c
-        src/burner-playlist.c
-        src/burner-plugin-manager-ui.c
-        src/burner-project-manager.c
-        src/burner-project-manager.h
-        src/burner-project-name.c
-        src/burner-project-parse.h
-        src/burner-project-type-chooser.c
-        src/burner-project-type-chooser.h
-        src/burner-project.c
-        src/burner-project.h
-        src/burner-song-properties.c
-        src/burner-split-dialog.c
-        src/burner-video-disc.c
-        src/main.c
-        src/style.css
-Copyright: 2017, Tianjin KYLIN Information Technology Co., Ltd.
-License: GPL-2+
-
-This package was debianized by Ondřej Surý <ondrej@debian.org> on
-Fri, 12 May 2006 15:46:36 +0200.
-
-It was downloaded from:
-    https://download.gnome.org/sources/brasero/
-
-Upstream Author:
-    Philippe Rouquier <bonfire-app@wanadoo.fr>
-
+Fiels: *
 Copyright:
 
     Copyright © 2005-2009  Philippe Rouquier
@@ -73,6 +16,7 @@ Copyright:
     Copyright © 2008       Luis Medinas
     Copyright © 2006       Paolo Borelli
     Copyright © 2001       George Lebl
+    Copyright © 2017       Tianjin KYLIN Information Technology Co., Ltd.
 
 
 License for Burner:

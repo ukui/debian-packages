@@ -15,7 +15,7 @@ CONFFLAGS += --disable-inotify
 endif
 
 %:
-	dh $@ --with gir,gnome
+	dh $@ --with gir,gnome --no-control
 
 override_dh_autoreconf:
 	dh_autoreconf --as-needed
