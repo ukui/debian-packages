@@ -1,7 +1,9 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ukwm
-Upstream-Contact: liuyi <liuyi@kylinos.cn>
-Source: http://github.com/ukui/ukwm
+This package was debianized by Thom May <thom@debian.org> on
+Sun, 10 Feb 2002 12:03:22 +0000.
+
+It was downloaded from https://github.com/ukui/ukwm/releases/
+
+Upstream Author: Liu Yi <liuyi@kylinos.cn>
 
 Copyright:
    Copyright © 2001-2008  Havoc Pennington, Red Hat, Inc., and others
