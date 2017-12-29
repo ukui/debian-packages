@@ -22,8 +22,7 @@ Copyright: 2005, Adam Israel
 		   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: .tx/config
-       gksu/Makefile.am
+Files: gksu/Makefile.am
        gksu/libpeony-gksu.c
        gksu/libpeony-gksu.peony-extension.in.in
        image-converter/Makefile.am
@@ -285,8 +284,7 @@ Copyright: 2007, Novell, Inc.
 License: LGPL-2+
 
 
-Files: parchives/.tx/config
-       parchives/peony/libpeony-parchives.peony-extension.in.in
+Files: parchives/peony/libpeony-parchives.peony-extension.in.in
        parchives/peony/Makefile.am
        parchives/copy-n-paste/Makefile.am
        parchives/data/icons/22x22/Makefile.am
