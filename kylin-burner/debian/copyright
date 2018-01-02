@@ -3,7 +3,7 @@ Upstream-Name: kylin-burner
 Upstream-Contact: wenbo <wenbo@kylinos.cn>
 Source: http://github.com/ukui/kylin-burner
 
-Fiels: *
+Files: *
 Copyright:
 
     Copyright © 2005-2009  Philippe Rouquier
