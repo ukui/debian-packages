@@ -1,14 +1,28 @@
 Source: ukui-window-switch
 Section: universe/x11
 Priority: optional
-Maintainer: Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-           XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
-Build-Depends: debhelper (>=9), build-essential, libukwm-1-dev (>=1.0.1-0ubuntu1), qt5-default, qtbase5-dev, libblkid-dev, libxcb-util-dev, libglib2.0-dev, qtbase5-private-dev
-Standards-Version: 3.9.6
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
+Build-Depends: debhelper (>=10),
+               build-essential,
+               libukwm-1-dev (>=1.1.0),
+               qt5-default,
+               qtbase5-dev,
+               libblkid-dev,
+               libxcb-util-dev,
+               libglib2.0-dev,
+               qtbase5-private-dev
+Standards-Version: 4.1.2
 Homepage: http://www.ukui.org
 
 Package: ukui-window-switch
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ukwm (>=1.0.1-0ubuntu1), libqt5widgets5, libqt5gui5, libqt5core5a, libglib2.0-0
-Description: UKUI window switch
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ukwm (>=1.1.0),
+         libqt5widgets5,
+         libqt5gui5,
+         libqt5core5a,
+         libglib2.0-0
+Description: Front of the window switch
  Front of the window switcher in UKUI desktop environment.
