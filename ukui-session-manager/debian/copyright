@@ -187,6 +187,17 @@ Files: ukui-session/gsm-logout-dialog.h
 Copyright: 2006, Vincent Untz
 License: GPL-2+
 
+Files: ukui-session/gsm-blur.c
+       ukui-session/gsm-blur.h
+Copyright: 2015, Canonical Ltd
+           2015, National University of Defense Technology(NUDT) & Kylin Ltd
+License: GPL-3+
+
+Files: ukui-session/gsm-logout-button.c
+       ukui-session/gsm-logout-button.h
+Copyright: 2016 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
 Files: egg/eggsmclient-xsmp.c
 Copyright: 1998, Carsten Schaar
            1998, The Open Group
@@ -237,6 +248,8 @@ Files: .tx/config
        po/LINGUAS
        po/POTFILES.*
        capplet/Makefile.am
+       data/images/Makefile.am
+       data/images/*.png
        data/icons/22x22/*.png
        data/icons/22x22/*.svg
        data/icons/16x16/*.png
@@ -315,3 +328,20 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version LGPL-2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
