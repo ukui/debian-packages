@@ -26,3 +26,5 @@ Depends: ${shlibs:Depends},
          libglib2.0-0
 Description: Front of the window switch
  Front of the window switcher in UKUI desktop environment.
+ Provides the display function(Display window thumbnails and application
+ icons) when the window is switching (press Alt+Tab key).
