@@ -1,3 +1,11 @@
+ukui-window-switch (1.1.0-0ubuntu2) bionic; urgency=medium
+
+  * Add manpages
+  * Modify debian/control:
+    - Modify Build-Depends, qt5-default -> qt5-qmake
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Thu, 04 Jan 2018 15:15:25 +0800
+
 ukui-window-switch (1.1.0-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #xxx)
