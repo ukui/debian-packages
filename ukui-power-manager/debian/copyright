@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-power-manager
 Upstream-Contact: Xiang Li <lixiang@kylinos.cn>
-Source: http://www.ukui.org/ukui-power-manager/
+Source: https://github.com/ukui/ukui-power-manager/
 
 Files: src/egg-discrete.c
        src/gpm-brightness.c
