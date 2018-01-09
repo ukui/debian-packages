@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: penghuan <penguan@kylinos.cn>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                dh-python,
                python3,
                python3-setuptools,
                python3-distutils-extra,
-Standards-Version: 4.1.1
+Standards-Version: 4.1.2
 Homepage: http://www.ukui.org/
 X-Python-Version: >= 2.7
 

@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                mate-common,
                docbook-to-man,
                yelp-tools,
@@ -41,7 +41,7 @@ Build-Depends: debhelper (>= 9),
                libnotify-dev,
                libpulse-dev,
                libukui-menu-dev
-Standards-Version: 4.0.0
+Standards-Version: 4.1.2
 Homepage: https://github.com/ukui/ukui-control-center
 
 Package: ukui-control-center

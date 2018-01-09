@@ -5,7 +5,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Developers <ukui@kylinos.cn>
 Uploaders: shine <huangsheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 11),
                dh-python,
                python3,
                python3-setuptools,

@@ -5,7 +5,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: wenbo <wenbo@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 11),
                gnome-common,
                gnome-pkg-tools (>= 0.7),
                yelp-tools,

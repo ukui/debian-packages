@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
-Build-Depends: debhelper (>=10),
+Build-Depends: debhelper (>=11),
                libukwm-1-dev (>=1.1.0),
                qt5-qmake,
                qtbase5-dev,

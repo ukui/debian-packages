@@ -5,7 +5,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: zhangheng <zhangheng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 10.3~),
+Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.16.1.1),
                intltool,
                libcanberra-gtk3-dev,

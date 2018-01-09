@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: Hao Li <lihao@kylinos.cn>,
-Build-Depends: debhelper (>= 9),
+           handsome_feng <jianfengli@ubuntukylin.com>
+Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.16.1.1),
                intltool,
                libdbus-glib-1-dev,
@@ -29,7 +30,7 @@ Build-Depends: debhelper (>= 9),
                x11proto-xext-dev,
                x11proto-xf86vidmode-dev,
                xmlto,
-Standards-Version: 4.1.1
+Standards-Version: 4.1.2
 Homepage: http://www.ukui.org/
 
 Package: ukui-screensaver
