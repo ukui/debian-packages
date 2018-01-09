@@ -1,5 +1,5 @@
-peony-extensions (1.1.0-0ubuntu1) bionic; urgency=medium
+peony-extensions (1.1.0-0ubuntu2) bionic; urgency=medium
 
   * Initial release. (LP: #1740465)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 29 Dec 2017 14:41:46 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 09 Jan 2018 11:55:31 +0800

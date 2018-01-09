@@ -1,5 +1,5 @@
-ukwm (1.1.0-0ubuntu1) bionic; urgency=medium
+ukwm (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release (LP: #1740252)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 27 Dec 2017 16:20:44 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 09 Jan 2018 12:51:28 +0800

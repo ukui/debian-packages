@@ -1,6 +1,5 @@
-kylin-video (1.1.2-0ubuntu1) bionic; urgency=low
+kylin-video (1.1.2-0ubuntu2) bionic; urgency=low
 
   * Initial release (LP: #1738680)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 18 Dec 2017 10:05:29 +0800
-
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 09 Jan 2018 11:54:55 +0800
