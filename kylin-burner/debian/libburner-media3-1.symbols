@@ -592,10 +592,10 @@ libburner-burn3.so.1 libburner-media3-1 #MINVER#
  burner_xfer_new@Base 3.0.0
  burner_xfer_start@Base 3.0.0
  burner_xfer_wait@Base 3.0.0
- dlabel@Base 3.12.1-4kord2k1
- burner_message_title@Base 3.12.1-4kord2k1
- burner_dialog_title@Base 3.12.1-4kord2k1
- burner_dialog_button_image@Base 3.12.1-4kord2k1
+ dlabel@Base 3.0.0
+ burner_message_title@Base 3.0.0
+ burner_dialog_title@Base 3.0.0
+ burner_dialog_button_image@Base 3.0.0
 libburner-media3.so.1 libburner-media3-1 #MINVER#
  burner_device_get_bus_target_lun@Base 3.0.0
  burner_device_handle_close@Base 3.0.0
@@ -856,7 +856,7 @@ libburner-utils3.so.1 libburner-media3-1 #MINVER#
  burner_utils_create_message_dialog@Base 3.0.0
  burner_utils_debug_message@Base 3.0.0
  burner_utils_error_quark@Base 3.0.0
- burner_utils_get_option_group@Base 3.10.0
+ burner_utils_get_option_group@Base 3.0.0
  burner_utils_get_uri_name@Base 3.0.0
  burner_utils_init@Base 3.0.0
  burner_utils_make_button@Base 3.0.0

@@ -1,9 +1,13 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kylin-burner
-Upstream-Contact: wenbo <wenbo@kylinos.cn>
-Source: http://github.com/ukui/kylin-burner
+This package was debianized by Ondřej Surý <ondrej@debian.org> on
+Fri, 12 May 2006 15:46:36 +0200.
 
-Files: *
+It was downloaded from:
+    https://github.com/ukui/kylin-burner/releases
+
+Upstream Author:
+    Philippe Rouquier <bonfire-app@wanadoo.fr>
+    wenbo <wenbo@kylinos.cn>
+
 Copyright:
 
     Copyright © 2005-2009  Philippe Rouquier
@@ -19,14 +23,14 @@ Copyright:
     Copyright © 2017       Tianjin KYLIN Information Technology Co., Ltd.
 
 
-License for Burner:
+License for Kylin Burner:
 
-   Burner is free software: you can redistribute it and/or modify it
+   Kylin Burner is free software: you can redistribute it and/or modify it
    under the terms of the GNU General Public License as published by the
    Free Software Foundation, either version 3 of the License, or
    (at your option) any later version.
 
-   Burner is distributed in the hope that it will be useful, but
+   Kylin Burner is distributed in the hope that it will be useful, but
    WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the GNU General Public License for more details.
