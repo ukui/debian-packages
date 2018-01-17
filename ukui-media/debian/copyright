@@ -92,7 +92,6 @@ Files: data/Makefile.am
        data/sounds/Makefile.am
        data/sounds/*.ogg
        data/sounds/*.in
-       .tx/config
        AUTHORS
        Makefile.am
        autogen.sh
