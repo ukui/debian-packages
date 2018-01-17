@@ -320,15 +320,7 @@ Files: parchives/peony/libpeony-parchives.peony-extension.in.in
        parchives/src/fr-command-lrzip.h
        parchives/src/fr-marshal.list
        parchives/src/commands/Makefile.am
-       parchives/AUTHORS
-       parchives/COPYING
-       parchives/HACKING
        parchives/Makefile.am
-       parchives/NEWS
-       parchives/README
-       parchives/README-DISTRIBUTIONS
-       parchives/autogen.sh
-       parchives/configure.ac
 Copyright: *No copyright*
 License: GPL-2+
 Comment:
