@@ -89,8 +89,7 @@ Copyright:  2006, William Jon McCann <mccann@jhu.edu>
             2009, Novell, Inc
 License: LGPL-2+
 
-Files: .tx/config
-       applets/Makefile.am
+Files: applets/Makefile.am
        applets/brightness/Makefile.am
        applets/brightness/*.xml
        applets/brightness/*.in

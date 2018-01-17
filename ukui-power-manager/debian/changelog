@@ -1,5 +1,5 @@
-ukui-power-manager (1.1.0-0ubuntu2) bionic; urgency=medium
+ukui-power-manager (1.1.0-0ubuntu3) bionic; urgency=medium
 
   * Initial release (LP: #1741177)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 09 Jan 2018 12:27:08 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 17 Jan 2018 18:00:07 +0800
