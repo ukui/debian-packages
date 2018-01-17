@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 11),
                qtscript5-dev,
                qttools5-dev-tools,
                zlib1g-dev
-Standards-Version: 4.1.2
+Standards-Version: 4.1.3
 Homepage: https://github.com/ukui/kylin-video
 
 Package: kylin-video
@@ -21,6 +21,8 @@ Depends: mplayer,
          mesa-vdpau-drivers,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Front-end for MPlayer and MPV with Qt5.
+Description: Front-end for MPlayer and MPV
  Qt5 Mplayer and MPV front-end, with basic features like playing
  videos and audios to more advanced features.
+ It supports both x86 and ARM platform, and supports most of the
+ audio and video formats.
