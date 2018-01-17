@@ -273,8 +273,7 @@ License: GPL-2+
 Comment:
  License assumed from COPYING file.
 
-Files: .tx/config
-       data/Makefile.am
+Files: data/Makefile.am
        data/*.in.in
        data/*.in
        data/usd-datetime-mechanism.1

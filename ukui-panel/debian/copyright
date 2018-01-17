@@ -448,8 +448,7 @@ Copyright: Amanpreet Singh Brar Alamwalia <apbrar@gmail.com>
            Максим Дзюманенко <dziumanenko@gmail.com>
 License: GFDL-1.1+
 
-Files: .tx/config
-       applets/Makefile.am
+Files: applets/Makefile.am
        applets/fish/Makefile.am
        applets/fish/fish-menu.xml
        applets/fish/*.png

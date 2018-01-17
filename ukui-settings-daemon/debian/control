@@ -31,7 +31,7 @@ Build-Depends: debhelper (>= 11),
                libxt-dev,
                mate-common (>= 1.18),
                x11proto-kb-dev,
-Standards-Version: 4.1.2
+Standards-Version: 4.1.3
 Homepage: http://www.ukui.org/
 
 Package: ukui-settings-daemon
