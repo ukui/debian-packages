@@ -259,7 +259,6 @@ Comment:
  Same license(s) as the ukui-menus package.
 
 Files: autogen.sh
-       .tx/config
        AUTHORS
        COPYING
        COPYING.LIB
