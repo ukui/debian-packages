@@ -1,5 +1,5 @@
-kylin-burner (3.0.0-0ubuntu1) bionic; urgency=medium
+kylin-burner (3.0.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #1743554)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 16 Jan 2018 20:27:55 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 17 Jan 2018 20:45:26 +0800

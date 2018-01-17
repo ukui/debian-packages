@@ -124,7 +124,7 @@ Architecture: any
 Multi-Arch: same
 Section: libdevel
 Depends: libburner-media3-1 (= ${binary:Version}),
-         gir1.2-burner-3.0 (= ${binary:Version}),
+         gir1.2-burner-3.1 (= ${binary:Version}),
          libglib2.0-dev,
          libgtk-3-dev,
          ${misc:Depends},
@@ -135,7 +135,7 @@ Description: CD/DVD burning library for GNOME - development
  .
  This package contains the development headers and API documentation.
 
-Package: gir1.2-burner-3.0
+Package: gir1.2-burner-3.1
 Architecture: any
 Multi-Arch: same
 Section: introspection
