@@ -46,6 +46,9 @@ Files:data/*
       panels/keyboard/ukui-keyboard-properties-layout-chooser.ui
       panels/keyboard/shortcut_dialog.ui
       panels/power/ukui-fullscreen-preview.ui
+      org.ukui.control-center.gschema.xml.in
+      org.ukui.control-center.keybinding.gschema.xml.in
+      ukui-control-center.convert
 Copyright:2016,Tianjin KYLIN Information Technology Co., Ltd
 License: GPL-2+
 
