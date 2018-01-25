@@ -81,7 +81,6 @@ Description: daemon handling the UKUI session settings (common files)
 
 Package: ukui-settings-daemon-dev
 Section: devel
-Priority: optional
 Architecture: any
 Depends: ukui-settings-daemon (= ${binary:Version}),
          ${misc:Depends},
