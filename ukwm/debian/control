@@ -143,8 +143,7 @@ Depends: ${misc:Depends},
          libxi-dev,
          libgdk-pixbuf2.0-dev,
          libxfixes-dev,
-         libxrandr-dev,
-         libx11-dev
+         libxrandr-dev
 Conflicts: libukwm-0-dev
 Description: Development files for the Ukwm window manager
  Ukwm is a small window manager, using GTK+ and Clutter to do

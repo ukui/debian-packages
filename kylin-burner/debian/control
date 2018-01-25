@@ -74,8 +74,7 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: Common files for the Burner CD burning application and library
- Burner is a simple application to burn, copy and erase CD and DVD 
- media.
+ Burner is a simple application to burn, copy and erase CD and DVD media.
  .
  This package contains the common files and translations.
 
@@ -95,7 +94,7 @@ Description: cdrkit extensions for the Burner burning application
  media.
  .
  This package contains extensions for Burner, based on the genisoimage,
- growisofs, wodim, readom and dvdauthor programs. They are only needed 
+ growisofs, wodim, readom and dvdauthor programs. They are only needed
  for the following operations in Burner:
   * Audio CD burning with CD-Text information
   * Video DVD creation
