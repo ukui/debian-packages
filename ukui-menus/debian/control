@@ -70,7 +70,7 @@ Depends: ${gir:Depends},
          ${misc:Depends},
          ${shlibs:Depends}
 Description: GObject introspection data for the UKUI menu specification
- This package contains introspection data for UKUI menu specification, 
+ This package contains introspection data for UKUI menu specification,
  an implementation of the draft "Desktop Menu Specification" from
  freedesktop.org
  .

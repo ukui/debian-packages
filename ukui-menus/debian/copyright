@@ -275,7 +275,7 @@ Files: autogen.sh
        libmenu/libukui-menu-uninstalled.pc.in
        python/Makefile.am
        util/Makefile.am
-Copyright: *No copyright*
+Copyright: 2017 penghuan <penghuan@kylinos.cn>
 License: GPL-2+ or LGPL-2+
 Comment:
  File(s) have no license header. Using license from
@@ -296,7 +296,7 @@ License: GPL-2+
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU Genaral Public License for more details.
+ GNU General Public License for more details.
  .
  You should have received a copy og the GNU General Public License
  along with this program. If not, see <http://www.gnu.org/licenses/>
