@@ -159,7 +159,7 @@ Files: applets/Makefile.am
        README
        autogen.sh
        configure.ac
-Copyright: *No copyright*
+Copyright: 2018, Xiang Li <lixiang@kylinos.cn>
 License: GPL-2+
 Comment:
  Using license from COPYING file.

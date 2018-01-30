@@ -43,7 +43,10 @@ else
 endif
 
 override_dh_install:
-	dh_install --list-missing
+	dh_install
+
+override_dh_missing:
+	dh_missing --list-missing
 
 override_dh_girepository:
 	dh_girepository /usr/lib/$(DEB_HOST_MULTIARCH)/ukwm

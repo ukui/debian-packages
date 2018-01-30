@@ -539,7 +539,7 @@ Files: applets/Makefile.am
        NEWS
        README
        Makefile.am
-Copyright: *No copyright*
+Copyright: 2018, quankang <quankang@kylinos.cn>
 License: GPL-2+ or LGPL-2+
 Comment:
  Assume license as found either in COPYING or in COPYING.LIB file.

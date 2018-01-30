@@ -16,14 +16,17 @@ endif
 	dh $@ $(DHFLAGS)
 
 override_dh_install:
-	rm -fv debian/tmp/usr/lib/*/*.la 
+	rm -fv debian/tmp/usr/lib/*/*.la
 	rm -rfv debian/tmp/usr/share/omf/
 	rm -rfv debian/tmp/usr/share/help/*/fdl/
 	rm -rfv debian/tmp/usr/share/help/*/gpl/
 	rm -rfv debian/tmp/usr/share/help/*/lgpl/
 	# For Debian we ship our own ukui-screensaver PAM configuration...
 	rm -rfv debian/tmp/etc/pam.d/ukui-screensaver
-	dh_install --fail-missing
+	dh_install
+
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_auto_configure:
 	# upstream tarball is without configure. autogen.sh will create it

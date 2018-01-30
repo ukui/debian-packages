@@ -11,7 +11,10 @@ include /usr/share/dpkg/buildflags.mk
 
 override_dh_install:
 	rm -f debian/tmp/usr/lib/*/*.la
-	dh_install --fail-missing
+	dh_install
+
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_installchangelogs:
 	dh_installchangelogs NEWS

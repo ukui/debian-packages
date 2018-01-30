@@ -18,7 +18,7 @@ Files: AUTHORS
        src/res.qrc
        src/res/style.qss
        src/input.conf
-Copyright: *No copyright*
+Copyright: lixiang <lixiang@kylinos.cn>
 License: GPL-2+
 Comment:
   Assume license as found in COPYING file.

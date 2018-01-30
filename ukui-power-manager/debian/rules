@@ -10,7 +10,10 @@ include /usr/share/dpkg/buildflags.mk
 	dh $@ $(DHFLAGS)
 
 override_dh_install:
-	dh_install --fail-missing
+	dh_install
+
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_installchangelogs:
 	dh_installchangelogs NEWS

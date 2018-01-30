@@ -53,6 +53,43 @@ Files: gksu/Makefile.am
        wallpaper/libpeony-wallpaper.peony-extension.in.in
        xattr-tags/Makefile.am
        xattr-tags/libpeony-xattr-tags.peony-extension.in.in
+       parchives/peony/libpeony-parchives.peony-extension.in.in
+       parchives/peony/Makefile.am
+       parchives/copy-n-paste/Makefile.am
+       parchives/data/icons/22x22/Makefile.am
+       parchives/data/icons/22x22/apps/Makefile.am
+       parchives/data/icons/22x22/apps/*.png
+       parchives/data/icons/16x16/actions/Makefile.am
+       parchives/data/icons/16x16/actions/*.png
+       parchives/data/icons/16x16/Makefile.am
+       parchives/data/icons/16x16/apps/Makefile.am
+       parchives/data/icons/16x16/apps/*.png
+       parchives/data/icons/scalable/Makefile.am
+       parchives/data/icons/scalable/apps/Makefile.am
+       parchives/data/icons/scalable/apps/*.svg
+       parchives/data/icons/Makefile.am
+       parchives/data/icons/32x32/Makefile.am
+       parchives/data/icons/32x32/apps/Makefile.am
+       parchives/data/icons/32x32/apps/*.png
+       parchives/data/icons/24x24/actions/Makefile.am
+       parchives/data/icons/24x24/actions/*.png
+       parchives/data/icons/24x24/Makefile.am
+       parchives/data/icons/24x24/apps/Makefile.am
+       parchives/data/icons/24x24/apps/*.png
+       parchives/data/Makefile.am
+       parchives/data/*.in
+       parchives/data/packages.match
+       parchives/src/parchives.gresource.xml
+       parchives/src/ui/Makefile.am
+       parchives/src/ui/*.ui
+       parchives/src/sh/Makefile.am
+       parchives/src/sh/isoinfo.sh
+       parchives/src/Makefile.am
+       parchives/src/fr-command-lrzip.c
+       parchives/src/fr-command-lrzip.h
+       parchives/src/fr-marshal.list
+       parchives/src/commands/Makefile.am
+       parchives/Makefile.am
        AUTHORS
        COPYING
        ChangeLog
@@ -61,7 +98,7 @@ Files: gksu/Makefile.am
        README
        autogen.sh
        configure.ac
-Copyright: *No copyright*
+Copyright: 2018, Liu Peng <liupeng@kylinos.cn>
 License: GPL-2+
 Comment:
  Using license from COPYING file.
@@ -81,8 +118,12 @@ License: GPL-2+
 
 Files: sendto/plugins/nst-common.c
        sendto/plugins/nst-common.h
-       sendto/plugins/removable-devices/removable-devices.c
-Copyright: *No copyright*
+Copyright: 2017, Maxim Ermilov <ermilov.maxim@gmail.com>
+License: GPL-2+
+
+Files: sendto/plugins/removable-devices/removable-devices.c
+Copyright: 2017, Maxim Ermilov <ermilov.maxim@gmail.com>
+           2017, Bastien Nocera <hadess@hadess.net>
 License: GPL-2+
 
 Files: sendto/peony-nste.h
@@ -282,49 +323,6 @@ Files: parchives/copy-n-paste/eggdesktopfile.h
        parchives/copy-n-paste/eggsmclient.h
 Copyright: 2007, Novell, Inc.
 License: LGPL-2+
-
-
-Files: parchives/peony/libpeony-parchives.peony-extension.in.in
-       parchives/peony/Makefile.am
-       parchives/copy-n-paste/Makefile.am
-       parchives/data/icons/22x22/Makefile.am
-       parchives/data/icons/22x22/apps/Makefile.am
-       parchives/data/icons/22x22/apps/*.png
-       parchives/data/icons/16x16/actions/Makefile.am
-       parchives/data/icons/16x16/actions/*.png
-       parchives/data/icons/16x16/Makefile.am
-       parchives/data/icons/16x16/apps/Makefile.am
-       parchives/data/icons/16x16/apps/*.png
-       parchives/data/icons/scalable/Makefile.am
-       parchives/data/icons/scalable/apps/Makefile.am
-       parchives/data/icons/scalable/apps/*.svg
-       parchives/data/icons/Makefile.am
-       parchives/data/icons/32x32/Makefile.am
-       parchives/data/icons/32x32/apps/Makefile.am
-       parchives/data/icons/32x32/apps/*.png
-       parchives/data/icons/24x24/actions/Makefile.am
-       parchives/data/icons/24x24/actions/*.png
-       parchives/data/icons/24x24/Makefile.am
-       parchives/data/icons/24x24/apps/Makefile.am
-       parchives/data/icons/24x24/apps/*.png
-       parchives/data/Makefile.am
-       parchives/data/*.in
-       parchives/data/packages.match
-       parchives/src/parchives.gresource.xml
-       parchives/src/ui/Makefile.am
-       parchives/src/ui/*.ui
-       parchives/src/sh/Makefile.am
-       parchives/src/sh/isoinfo.sh
-       parchives/src/Makefile.am
-       parchives/src/fr-command-lrzip.c
-       parchives/src/fr-command-lrzip.h
-       parchives/src/fr-marshal.list
-       parchives/src/commands/Makefile.am
-       parchives/Makefile.am
-Copyright: *No copyright*
-License: GPL-2+
-Comment:
- Using license from COPYING file.
 
 Files: parchives/data/parchives.1
 Copyright: 2007, Sven Arvidsson <sa@whiz.se>

@@ -1,5 +1,5 @@
-ukui-media (1.1.1-0ubuntu2) bionic; urgency=medium
+ukui-media (1.1.1-0ubuntu3) bionic; urgency=medium
 
   * Initial release. (LP: #1740203)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 17 Jan 2018 17:47:19 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 29 Jan 2018 17:29:14 +0800

@@ -348,7 +348,7 @@ Files: data/Makefile.am
        ChangeLog
        NEWS
        README
-Copyright: *No Copyright*
+Copyright: 2018, zhang heng <zhangheng@kylinos.cn>
 License: GPL-2+ or LGPL-2.1+
 Comment:
  License(s) assumed from COPYING and COPYING.LIB files.

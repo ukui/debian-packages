@@ -106,7 +106,7 @@ Files: data/Makefile.am
        po/POTFILES.in
        po/POTFILES.skip
        po/gnome-copyrights.txt
-Copyright: *No copyright*
+Copyright: 2018, Hao Lee <lihao@kylinos.cn>
 License: GPL-2+
 Comment:
  Using license from COPYING file.
