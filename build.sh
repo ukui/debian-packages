@@ -86,7 +86,7 @@ install_depends() {
     else
         packages=$@
     fi
-    for file in packages
+    for file in $packages
     do
         file=${file%%/}
         if [ -e $file/debian/control ]

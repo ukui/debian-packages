@@ -1,0 +1,97 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kylin-burner
+Upstream-Contact: wenbo <wenbo@kylinos.cn>
+Source: https://github.com/ukui/kylin-burner
+
+Files: *
+Copyright:
+    Copyright © 2005-2009  Philippe Rouquier
+    Copyright © 2008       Lin Ma
+    Copyright © 2008       Joe Marcus Clarke
+    Copyright © 2009       Joan Duran
+    Copyright © 2005       William Jon McCann
+    Copyright © 2003, 2007 Novell, Inc.
+    Copyright © 1999-2004  Red Hat, Inc.
+    Copyright © 2008       Luis Medinas
+    Copyright © 2006       Paolo Borelli
+    Copyright © 2001       George Lebl
+    Copyright © 2017       Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-3+
+
+Files: libburner-media/*
+Copyright: 2005-2009, <Philippe Rouquier bonfire-app@wanadoo.fr>
+License: GPL-2+
+
+Files: src/egg*
+       src/baobab*
+Copyright: 2001, Red Hat, Inc.
+           2006, Paolo Borelli
+License: LGPL-2+
+
+Files: help/*
+Copyright: 2008-2012, Free Software Foundation Inc.
+           2012, Matīss Jānis Āboltiņš, Rūdolfs Mazurs
+           2011, Swecha Telugu Localisation Team <localization@swecha.net>
+           2009,  Krasimir Chonov <mk2616@abv.bg>
+License: GFDL-1.1+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: GFDL-1.1+
+ Permission is granted to copy, distribute and/or modify this
+ document under the terms of the GNU Free Documentation
+ License (GFDL), Version 1.1 or any later version published
+ by the Free Software Foundation with no Invariant Sections,
+ no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
