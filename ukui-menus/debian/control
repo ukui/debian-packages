@@ -1,0 +1,89 @@
+Source: ukui-menus
+Section: libs
+Priority: optional
+Maintainer: Kylin Team <pkg-kylin-devel@lists.alioth.debian.org>
+Uploaders: penghuan <penghuan@kylinos.cn>,
+           handsome_feng <jianfengli@ubuntukylin.com>
+Build-Depends: debhelper (>= 11),
+               dh-python,
+               python3,
+               dpkg-dev (>= 1.16.1.1),
+               gobject-introspection,
+               intltool,
+               libgirepository1.0-dev,
+               libglib2.0-dev,
+               mate-common (>= 1.18),
+               python3-all-dev,
+Standards-Version: 4.1.3
+Homepage: https://github.com/ukui/ukui-menus
+X-Python3-Version: >= 3.6
+
+Package: ukui-menus
+Architecture: any
+Depends: python3-ukui-menu (= ${binary:Version}),
+         ${misc:Depends},
+         ${python3:Depends},
+Description: implementation of the freedesktop menu specification for UKUI
+ The package contains an implementation of the draft
+ "Desktop Menu Specification" from freedesktop.org:
+ .
+ http://www.freedesktop.org/Standards/menu-spec
+ .
+ Also contained here are the UKUI menu layout configuration files, .directory
+ files and assorted menu related utility programs.
+
+Package: libukui-menu2
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: implementation of the freedesktop menu specification for UKUI (library)
+ The package contains an implementation of the draft
+ "Desktop Menu Specification" from freedesktop.org:
+ .
+ http://www.freedesktop.org/Standards/menu-spec
+ .
+ This package contains the actual library files.
+
+Package: libukui-menu-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libglib2.0-dev,
+         libukui-menu2 (= ${binary:Version}),
+         gir1.2-ukuimenu-2.0 (= ${binary:Version}),
+         ${misc:Depends},
+Description: implementation of the freedesktop menu specification for UKUI
+ The package contains an implementation of the draft
+ "Desktop Menu Specification" from freedesktop.org:
+ .
+ http://www.freedesktop.org/Standards/menu-spec
+ .
+ This package contains the development files.
+
+Package: gir1.2-ukuimenu-2.0
+Section: introspection
+Architecture: any
+Multi-Arch: same
+Depends: ${gir:Depends},
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: GObject introspection data for the UKUI menu specification
+ This package contains introspection data for UKUI menu specification,
+ an implementation of the draft "Desktop Menu Specification" from
+ freedesktop.org
+ .
+ It can be used by packages using the GIRepository format to generate dynamic
+ bindings.
+
+Package: python3-ukui-menu
+Section: python
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         ${python3:Depends},
+Description: implementation of the freedesktop menu specification for UKUI (Python bindings)
+ The package contains an implementation of the draft
+ "Desktop Menu Specification" from freedesktop.org.
+ .
+ This package contains the Python bindings.
