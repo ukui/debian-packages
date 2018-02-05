@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-power-manager
 Upstream-Contact: Xiang Li <lixiang@kylinos.cn>
 Source: https://github.com/ukui/ukui-power-manager/
