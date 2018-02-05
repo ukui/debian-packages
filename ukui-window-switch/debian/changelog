@@ -1,5 +1,5 @@
-ukui-window-switch (1.1.0-0ubuntu2) bionic; urgency=medium
+ukui-window-switch (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #1741209)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 09 Jan 2018 12:42:28 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 05 Feb 2018 11:25:27 +0800
