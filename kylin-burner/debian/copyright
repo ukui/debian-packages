@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kylin-burner
 Upstream-Contact: wenbo <wenbo@kylinos.cn>
 Source: https://github.com/ukui/kylin-burner

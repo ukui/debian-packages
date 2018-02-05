@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kylin-display-switch
 Upstream-Contact: Ubuntu Kylin Members <ubuntukylin-members@lists.launchpad.net>
 Source: https://github.com/ukui/kylin-display-switch

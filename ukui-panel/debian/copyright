@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-panel
 Upstream-Contact: quankang <quankang@kylinos.cn>
 Source: https://github.com/ukui/ukui-panel
