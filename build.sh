@@ -1,6 +1,6 @@
 #!/bin/dash
 debian_src="debian-packages"
-package_list="ukui-menus ukui-panel ukwm ukui-settings-daemon ukui-power-manager ukui-media"
+package_list="ukui-menus ukui-panel ukwm ukui-settings-daemon ukui-power-manager ukui-media ukui-window-switch kylin-burner kylin-video peony-extensions"
 old_user=`whoami`
 password="123123"
 
@@ -55,11 +55,7 @@ clone() {
 }
 
 tar_orig() {
-    if [ $@ = "all" ]; then
-        packages=`ls -d */`
-    else
-        packages=$@
-    fi
+    packages=$@
     for file in $packages
     do
         file=${file%%/}
@@ -81,11 +77,7 @@ tar_orig() {
 }
 
 install_depends() {
-    if [ $@ = "all" ]; then
-        packages=`ls -d */`
-    else
-        packages=$@
-    fi
+    packages=$@
     for file in $packages
     do
         file=${file%%/}
