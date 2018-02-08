@@ -1,8 +1,10 @@
 #!/bin/dash
 debian_src="debian-packages"
-package_list="ukui-menus ukui-panel ukwm ukui-settings-daemon ukui-power-manager ukui-media ukui-window-switch kylin-burner kylin-video peony-extensions"
+def_list="ukui-menus ukui-panel ukui-menu ukui-session-manager peony ukui-screensaver ukui-indicators ukui-control-center kylin-burner kylin-video peony-extensions"
+all_list=`ls -d */`
+all_list=`echo $all_list | sed 's/\///g'`
 old_user=`whoami`
-password="123123"
+password="123"
 
 mk_build_deps() {
 sudo -S su << EOF 
@@ -17,40 +19,12 @@ su $old_user
 EOF
 }
 
-#option "$@"
-option() {
-    for tm in $@
-    do
-        arg=$1
-        case $arg in
-        -c|--clone)
-            clone
-            shift
-            [ -z $@ ] && exit 0
-            ;;
-        -b|--build)
-            build
-            shift 1
-            [ -z $@ ] && exit 0
-            ;;
-        -h|--help)
-            echo "The build tools for UKUI"
-            exit 1
-            ;;
-        *)
-            echo "Unknow args!"
-            exit 2
-            ;;
-        esac
-    done
-}
-
 clone() {
-    if [ $@ != "all" ]; then
-        package_list=$@ 
+    if [ $@ != "def" ]; then
+        def_list=$@
     fi
-    for package in $package_list; do
-        git clone git@github.com:ukui/$package 
+    for package in $def_list; do
+        git clone git@github.com:ukui/$package
     done
 }
 
@@ -58,7 +32,6 @@ tar_orig() {
     packages=$@
     for file in $packages
     do
-        file=${file%%/}
         if [ -e $debian_src/$file/debian/changelog ]
         then
             changelog=`head -1 $debian_src/$file/debian/changelog`
@@ -80,7 +53,6 @@ install_depends() {
     packages=$@
     for file in $packages
     do
-        file=${file%%/}
         if [ -e $file/debian/control ]
         then
             mk_build_deps $file/debian/control
@@ -92,7 +64,9 @@ install_depends() {
 
 build() {
     if [ $@ = "all" ]; then
-        packages=`ls -d */`
+        packages=$all_list
+    elif [ $@ = "def" ]; then
+        packages=$def_list
     else
         packages=$@
     fi
@@ -100,7 +74,6 @@ build() {
     install_depends $packages
     for file in $packages
     do
-        file=${file%%/}
         if [ $file != ${debian_src} ]
         then
             cd $file
@@ -119,7 +92,9 @@ build() {
 
 clean () {
     if [ $@ = "all" ]; then
-        packages=`ls -d */`
+        packages=$all_list
+    elif [ $@ = "def" ]; then
+        packages=$def_list
     else
         packages=$@
     fi
@@ -137,6 +112,28 @@ clean () {
     done
 }
 
+pull () {
+    if [ $@ = "all" ]; then
+        packages=$all_list
+    elif [ $@ = "def"]; then
+        packages=$def_list
+    else
+        packages=$@
+    fi
+    for file in $packages
+    do
+        cd $file
+        git pull
+        if [ $? = 0 ]; then
+            echo "Pull $file successd!"
+        else
+            echo "Error when pull $file"
+            exit 1;
+        fi
+        cd ..
+    done
+}
+
 install() {
 sudo -S su << EOF 
 $password
@@ -148,17 +145,20 @@ EOF
 usage() {
     echo "****************************************************************"
     echo "This is the build tool for UKUI!"
-    echo "Usage: ./build.sh [-h] [-b <packages>] [-c <packages>]"
-    echo "                  [-g <pakcages>] [-i <packages>]"
-    echo "  -b all | <packages> :build packages"
-    echo "  -c all | <packages> :removing files that are not under version control"
-    echo "  -g all | <packages> :git clone packages: $package_list"
-    echo "  -h all | <packages> :show this help info"
-    echo "  -i all | <packages> :install all the deb packages in current dir"
+    echo "Usage: ./build.sh [-h] [-b <package>] [-c <package>]"
+    echo "                  [-g <pakcage>] [-i <package>] [-p <package>]"
+    echo "       all:" $all_list
+    echo "       def:" $def_list
+    echo "       -b all | def | <package> : build package"
+    echo "       -c def |       <package> : git clean"
+    echo "       -g all | def | <package> : git clone"
+    echo "       -h all | def | <package> : show this help info"
+    echo "       -i all | def | <package> : dpkg -i *.deb"
+    echo "       -p all | def | <package> : git pull"
     echo "****************************************************************"
 }
 
-while getopts :b:c:g:hi: opt
+while getopts :b:c:g:hi:p: opt
 do
     case "$opt" in
     b) build $OPTARG ;;
@@ -166,6 +166,7 @@ do
     g) clone $OPTARG ;;
     h) usage $OPTARG ;;
     i) install $OPTARG ;;
+    p) pull  $OPTARG;;
     :) echo "Error: the option -$OPTARG requres an argument." 
        usage ;;
     ?) echo "Error: invalid option: -$OPTARG"
