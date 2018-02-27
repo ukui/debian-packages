@@ -137,7 +137,7 @@ Files: .tx/config
        data/org.ukui.*
        data/images/Makefile.am
        data/images/*.svg
-       data/images/cosmos/*
+       data/images/ukui-cosmos/*
        data/go-to.png
        doc/*
        po/LINGUAS
@@ -172,6 +172,10 @@ License: GPL-2+ or LGPL-2+ or Expat or MIT~OldStyle
 
 Files: src/gs-auth-bsdauth.c
 Copyright: 2017, Robert Nagy <robert@openbsd.org>
+License: GPL-2+ or LGPL-2+
+
+Files: data/lock-dialog-default.css
+Copyright: 2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+ or LGPL-2+
 
 License: GPL-2+
