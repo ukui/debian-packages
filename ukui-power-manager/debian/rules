@@ -1,13 +1,11 @@
 #!/usr/bin/make -f
 
-DHFLAGS=--parallel
-
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
 %:
-	dh $@ $(DHFLAGS)
+	dh $@
 
 override_dh_install:
 	dh_install
@@ -21,11 +19,8 @@ override_dh_installchangelogs:
 override_dh_auto_configure:
 	# upstream is without configure. autogen.sh will create it
 	NOCONFIGURE=1 ./autogen.sh
-	dh_auto_configure $(DHFLAGS) -- \
+	dh_auto_configure -- \
 		--disable-silent-rules \
 		--libexecdir=/usr/lib/ukui-power-manager \
 		--enable-applets \
 		--enable-deprecated
-
-get-orig-source:
-	uscan --noconf --force-download --rename --download-current-version --destdir=..

@@ -31,13 +31,13 @@ Package: ukui-session-manager
 Architecture: any
 Depends: dbus-x11,
          mate-desktop-common,
-         ubuntukylin-default-settings (>= 1.3.17),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: marco,
-            mate-panel,
+            ukui-panel,
             mate-polkit,
             mate-settings-daemon,
+            ubuntukylin-default-settings (>= 1.3.17),
 Provides: x-session-manager,
 Description: Session manager of the UKUI desktop environment
  This package contains a session that can be started from a display
@@ -48,4 +48,4 @@ Description: Session manager of the UKUI desktop environment
  and restore it later.
  .
  This version is configured to start the UKUI desktop, based on the
- MATE panel.
+ UKUI panel.

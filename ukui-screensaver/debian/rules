@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 
-DHFLAGS=--parallel
-
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUIULDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
@@ -13,7 +11,7 @@ else
 endif
 
 %:
-	dh $@ $(DHFLAGS)
+	dh $@
 
 override_dh_install:
 	rm -fv debian/tmp/usr/lib/*/*.la
@@ -31,7 +29,7 @@ override_dh_missing:
 override_dh_auto_configure:
 	# upstream tarball is without configure. autogen.sh will create it
 	NOCONFIGURE=1 ./autogen.sh
-	dh_auto_configure $(DHFLAGS) -- \
+	dh_auto_configure -- \
 	        --disable-silent-rules \
 	        --disable-static \
 	        --with-xscreensaverdir=/usr/share/xscreensaver/config \
@@ -43,9 +41,3 @@ override_dh_auto_configure:
 	        --enable-locking \
 	        --with-gtk=3.0 \
 	        $(SYSTEMD_SUPPORT)
-
-override_dh_strip:
-	dh_strip --dbgsym-migration='ukui-screensaver-dbg (<< 1.14.1-2~)'
-
-get-orig-source:
-	uscan --noconf --force-download --rename --download-current-version --destdir=..

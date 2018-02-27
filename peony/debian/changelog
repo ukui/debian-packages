@@ -1,3 +1,15 @@
+peony (1.1.0-0ubuntu1) bionic; urgency=medium
+
+  * Add tristate effect for the mouse.
+  * Enhandced the ability to find duplicate files.
+  * Add rename function when double-click.
+  * Add the function of adjust the desktop icon size.
+  * Add support for change the screen resolution.
+  * Add support for send shortcuts to the desktop or start menu.
+  * Adjust the location bar.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 27 Feb 2018 15:37:38 +0800
+
 peony (1.0.4-0ubuntu1) artful; urgency=medium
 
   * Modify the BUG of multiple icon views in the upper right corner of

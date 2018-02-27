@@ -1,3 +1,13 @@
+ukui-screensaver (1.1.0-0ubuntu1) bionic; urgency=medium
+
+  * Optimize the lock-dialog rendering process.
+  * Remove frame shadow from the lock-dialog.
+  * Add CSS stylesheets to the unlock button.
+  * Migrate gtk-2.0 to gtk-3.0.
+  * Update translation files.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 27 Feb 2018 15:41:35 +0800
+
 ukui-screensaver (1.0.3-0ubuntu1) artful; urgency=medium
 
   * [Fixed] screensaver-preferences can't preview "Blank Screen" correctly. (LP: #1683601)

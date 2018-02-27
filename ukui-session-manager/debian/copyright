@@ -230,8 +230,7 @@ License: GPL-2+
 Comment:
  Using license from COPYING file.
 
-Files: .tx/config
-       data/*.ui
+Files: data/*.ui
        data/*.desktop.in*
        data/*.xml.in*
        data/ukui-wm

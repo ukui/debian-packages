@@ -5,8 +5,9 @@ ukui-session-manager (1.1.0-0ubuntu1) bionic; urgency=medium
     when the session starts.
   * Avoid deprecated gdk_screen_get_number, gdk_screen_make_display_name
     gtk_show_uri.
+  * Use ukui-panel to replace mate-panel.
 
- -- handsome_feng <jianfengli@ubunukylin.com>  Wed, 03 Jan 2018 14:28:49 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 27 Feb 2018 09:14:37 +0800
 
 ukui-session-manager (1.0.2-0ubuntu1) artful; urgency=medium
 

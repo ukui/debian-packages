@@ -1,3 +1,13 @@
+ukui-menu (1.1.0-0ubuntu1) bionic; urgency=medium
+
+  * Port to python3.
+  * Update for ukui-panel.
+  * Add support for category menu.
+  * Add tooltip.
+  * Add recent file clicked event.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 27 Feb 2018 09:52:40 +0800
+
 ukui-menu (1.0.3-0ubuntu1) artful; urgency=medium
 
   * Optimize startup speed.

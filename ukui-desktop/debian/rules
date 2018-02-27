@@ -1,13 +1,11 @@
 #!/usr/bin/make -f
 
-DHFLAGS=--parallel
-
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
 %:
-	dh $@ $(DHFLAGS) --with gir
+	dh $@ --with gir
 
 override_dh_install:
 	rm -f debian/tmp/usr/lib/*/*.la
@@ -22,15 +20,8 @@ override_dh_installchangelogs:
 override_dh_auto_configure:
 	# upstream tarball is without configure. autogen.sh will create it
 	NOCONFIGURE=1 ./autogen.sh
-	dh_auto_configure $(DHFLAGS) -- \
+	dh_auto_configure -- \
 		--disable-silent-rules \
 		--disable-static \
 		--disable-schemas-compile \
 		--enable-gtk-doc
-
-override_dh_strip:
-	dh_strip -pukui-desktop --dbg-package=ukui-desktop-dbg
-	dh_strip -plibukui-desktop-2-17 --dbg-package=libukui-desktop-2-17-dbg
-
-get-orig-source:
-	uscan --noconf --force-download --rename --download-current-version --destdir=..
