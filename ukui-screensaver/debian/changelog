@@ -20,7 +20,7 @@ ukui-screensaver (1.0.3-0ubuntu1) artful; urgency=medium
 ukui-screensaver (1.0.2-0ubuntu1) artful; urgency=medium
 
   * New upstream release.
-  * Replace the ukui log. (LP: #1686647) 
+  * Replace the ukui log. (LP: #1686647)
   * Move to GTK+3(>=3.14).
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2017 15:26:45 +0800
