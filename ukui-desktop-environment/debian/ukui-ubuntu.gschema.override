@@ -5,6 +5,3 @@ monospace-font-name='Ubuntu Mono 12'
 
 [org.mate.Marco.general]
 titlebar-font='Ubuntu Bold 10'
-
-[org.mate.panel]
-default-layout='ukui'

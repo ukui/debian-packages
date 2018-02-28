@@ -3,9 +3,9 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders: lijianfeng <lijianfeng@kylinos.cn>,
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                lsb-release,
-Standards-Version: 4.0.0
+Standards-Version: 4.1.2
 Homepage: http://www.ukui.org/
 
 Package: ukui-desktop-environment-core
@@ -18,9 +18,9 @@ Depends: peony,
          gvfs-backends,
          gvfs-bin,
          marco,
-         mate-panel,
+         ukui-panel,
          mate-desktop,
-         mate-menus,
+         ukui-menus,
          mate-notification-daemon | notification-daemon,
          mate-polkit,
          mate-settings-daemon,
