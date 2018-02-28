@@ -60,25 +60,14 @@ Files: indicator-application/ia-marshal.h
 Copyright: Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: indicator-application/na-tray-child.h
-       indicator-application/na-tray-child.c
-Copyright: Copyright (C) 2002 Anders Carlsson <andersca@gnu.org>
-           Copyright (C) 2003-2006 Vincent Untz
-           Copyright (C) 2008 Red Hat, Inc.
-           Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
-License: GPL-2+
-
-Files: indicator-application/na-tray.h
-       indicator-application/na-tray.c
+Files: indicator-application/na-tray.c
 Copyright: Copyright (C) 2002 Red Hat, Inc.
            Copyright (C) 2003-2006 Vincent Untz
            Copyright (C) 2007 Christian Persch
            Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: indicator-application/na-tray-manager.h
-       indicator-application/na-tray-manager.c
-       indicator-application/indicator-application.h
+Files: indicator-application/indicator-application.h
        indicator-application/indicator-application.cpp
 Copyright: Copyright (C) 2002 Anders Carlsson <andersca@gnu.org>
            Copyright (C) 2003-2006 Vincent Untz
