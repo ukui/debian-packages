@@ -4,7 +4,7 @@ Upstream-Contact: xiaoyiwu <xiaoyiwu@ubuntukylin.com>
 Source: https://github.com/ukui/ukui-control-center
 
 Files:data/*
-      */.ui
+      */*.ui
       man/*.1
       panels/appearance/*
       panels/default-app/default-app.c
@@ -46,9 +46,6 @@ Files:data/*
       panels/keyboard/ukui-keyboard-properties-layout-chooser.ui
       panels/keyboard/shortcut_dialog.ui
       panels/power/ukui-fullscreen-preview.ui
-      org.ukui.control-center.gschema.xml.in
-      org.ukui.control-center.keybinding.gschema.xml.in
-      ukui-control-center.convert
 Copyright:2016,Tianjin KYLIN Information Technology Co., Ltd
 License: GPL-2+
 
@@ -91,11 +88,6 @@ Files:panels/display/scrollarea.c
 Copyright:Copyright 2006, 2007, 2008, Soren Sandmann <sandmann@daimi.au.dk>
          Copyright (C) 2016,Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
-
-Files:panels/display/xrandr-capplet.c
-Copyright:Copyright (C) 2007, 2008  Red Hat, Inc.
-          Copyright (C) 2016,Tianjin KYLIN Information Technology Co., Ltd.
-License: GPL-2+
 
 Files:panels/display/xrandr-capplet.c
 Copyright:Copyright (C) 2007, 2008  Red Hat, Inc.
@@ -397,13 +389,3 @@ License: MIT~OldStyle+LegalDisclaimer
  DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
  WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
  OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-License: GFDL-1.1+
- Permission is granted to copy, distribute and/or modify this
- document under the terms of the GNU Free Documentation
- License (GFDL), Version 1.1 or any later version published
- by the Free Software Foundation with no Invariant Sections,
- no Front-Cover Texts, and no Back-Cover Texts.
- .
- On Debian systems, the complete text of the GNU Free Documentation License
- version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
