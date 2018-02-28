@@ -2,12 +2,12 @@
 export NO_PKG_MANGLE=1
 
 %:
-	dh $@ $(DHFLAGS)
+	dh $@
 
 override_dh_auto_configure:
 	# upstream tarball is without configure. autogen.sh will create it
 	NOCONFIGURE=1 ./autogen.sh
-	dh_auto_configure $(DHFLAGS) -- \
+	dh_auto_configure -- \
 		--disable-silent-rules \
 		--disable-scrollkeeper \
 		--localstatedir=/var \

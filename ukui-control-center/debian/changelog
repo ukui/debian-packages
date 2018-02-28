@@ -1,3 +1,11 @@
+ukui-control-center (1.1.0-0ubuntu1) bionic; urgency=medium
+
+  * Update API of ukui-menus.
+  * Use GApplication to rewrite the command-line parameter.
+  * Update the shell/ukcc.css.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 28 Feb 2018 14:10:06 +0800
+
 ukui-control-center (1.0.4-0ubuntu1) artful; urgency=medium
 
   * Adjust the whole layout.
