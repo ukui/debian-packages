@@ -30,10 +30,8 @@ Depends: ${python3:Depends},
          python3-xlib,
          python3-pyinotify,
          xdg-utils,
-         libglib2.0-bin,
          gir1.2-bamf-3,
          bamfdaemon,
-         xdg-utils,
          libglib2.0-bin,
          gir1.2-wnck-3.0
 Description: Advanced UKUI menu
