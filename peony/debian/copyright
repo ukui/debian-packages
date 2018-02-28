@@ -136,6 +136,8 @@ Files: libpeony-private/peony-bookmark.c
        libpeony-private/peony-vfs-directory.h
        libpeony-private/peony-vfs-file.c
        libpeony-private/peony-vfs-file.h
+       libpeony-private/peony-search-engine-duplicate.c
+       libpeony-private/peony-search-engine-duplicate.h
        src/peony-bookmark-list.c
        src/peony-bookmark-list.h
        src/peony-bookmarks-window.c
