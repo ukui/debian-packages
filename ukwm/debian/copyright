@@ -2012,27 +2012,27 @@ Copyright:
    Copyright © 2010-2011 Intel Corporation
    Copyright © 2008-2011 Kristian Høgsberg
    Copyright © 2012 Collabora, Ltd.
-License: Expat
+License: GPL-2+ and Expat
 
 Files: src/wayland/meta-wayland-keyboard.h
 Copyright:
    Copyright (C) 2013 Intel Corporation
    Copyright © 2008-2011 Kristian Høgsberg
    Copyright © 2012 Collabora, Ltd.
-License: Expat
+License: GPL-2+ and Expat
 
 Files: src/wayland/meta-wayland-pointer.c
 Copyright:
    Copyright (C) 2013 Intel Corporation
    Copyright © 2008 Kristian Høgsberg
-License: Expat
+License: LGPL-2+ and Expat
 
 Files: src/wayland/meta-wayland-popup.c
 Copyright:
    Copyright (C) 2013 Intel Corporation
    Copyright (C) 2015 Red Hat, Inc.
    Copyright © 2008 Kristian Høgsberg
-License: Expat
+License: LGPL-2+ and Expat
 
 Files: src/wayland/meta-xwayland-selection.c
 Copyright:
