@@ -3,14 +3,16 @@ Upstream-Name: ukui-greeter
 Upstream-Contact: yanghao <yanghaohao@kylinos.cn>
 Source: http://github.com/ukui/ukui-greeter/
 
-Files: greeter/*.cpp
+Files: AUTHORS
+       COPYING
+       image.qrc
+       ukui-greeter.pro
+       greeter/*.cpp
 	   greeter/*.h
        resource/*.png
        resource/*.jpg
        resource/badges/*.svg
-       translations/*.ts
-       image.qrc
-       ukui-greeter.pro
+       translations/*
 	   debian/*
 Copyright: 2018, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+

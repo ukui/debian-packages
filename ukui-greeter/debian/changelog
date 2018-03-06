@@ -1,5 +1,5 @@
-ukui-greeter (1.1.0-1) bionic; urgency=medium
+ukui-greeter (1.1.0-0ubuntu1) bionic; urgency=medium
 
-  * Initial release 
+  * Initial release. (LP: #xxxxxx)
 
- -- yanghao <yanghao@kylinos.cn>  Mon, 05 Mar 2018 10:37:46 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 06 Mar 2018 10:47:07 +0800
