@@ -1,10 +1,4 @@
-ukui-greeter (1.0-6) ginkgo; urgency=medium
-
-  * 修改pro文件指定Qt版本 
-
- -- yanghao <yanghao@kylinos.cn>  Mon, 05 Mar 2018 15:44:07 +0800
-
-ukui-greeter (1.0-2) ginkgo; urgency=medium
+ukui-greeter (1.1.0-1) bionic; urgency=medium
 
   * Initial release 
 
