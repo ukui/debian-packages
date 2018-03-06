@@ -36,7 +36,7 @@ Depends: dbus-x11,
 Recommends: marco,
             ukui-panel,
             mate-polkit,
-            mate-settings-daemon,
+            ukui-settings-daemon,
 Suggests: ubuntukylin-default-settings (>= 1.3.17),
 Provides: x-session-manager,
 Description: Session manager of the UKUI desktop environment

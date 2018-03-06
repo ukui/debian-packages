@@ -1,3 +1,10 @@
+ukui-desktop-environment (1.1.1) bionic; urgency=medium
+
+  * Drop mate-settings-daemon, mate-media, mate-power-manager.
+  * Add ukui-settings-daemon, ukui-media, ukui-power-manager. 
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 06 Mar 2018 09:58:48 +0800
+
 ukui-desktop-environment (1.1.0) bionic; urgency=medium
 
   * Drop mate-panel, mate-menus, mate-utils.
