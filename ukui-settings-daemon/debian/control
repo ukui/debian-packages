@@ -33,6 +33,8 @@ Build-Depends: debhelper (>= 11),
                x11proto-kb-dev,
 Standards-Version: 4.1.3
 Homepage: http://www.ukui.org/
+Vcs-Git: https://github.com/ukui/ukui-settings-daemon.git
+Vcs-Browser: https://github.com/ukui/ukui-settings-daemon
 
 Package: ukui-settings-daemon
 Architecture: any
