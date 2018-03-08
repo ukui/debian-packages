@@ -20,11 +20,14 @@ Files: AUTHORS
        libburner-burn/Makefile.am
        libburner-burn/burner-burn-lib.h.in
        libburner-burn/libburner-marshal.list
+       libburner-utils/Makefile.am
        libburner-burn3.pc.in
        libburner-media3.pc.in
        nautilus/Makefile.am
        nautilus/burner-nautilus.desktop.in.in
        src/Makefile.am
+       src/burner-marshal.list
+       src/style.css
        po/*
 Copyright: 2018, wenbo <wenbo@kylnos.cn>
 License: GPL-2+
@@ -72,10 +75,14 @@ Copyright: 2017,Tianjin KYLIN Information Technology Co., Ltd.
            2005-2009 Philippe Rouquier <bonfire-app@wanadoo.fr>
 License: GPL-2+
 
-Files: libburner-utils/burner-pk.c
+Files: libburner-burn/burn-dbus.h
+       libburner-burn/burn-dbus.c
+       libburner-utils/burner-pk.c
        libburner-utils/burner-pk.h
-Copyright: 2008 Philippe Rouquier <bonfire-app@wanadoo.fr>
-           2008 Luis Medinas 2008 <lmedinas@gmail.com>
+       src/burner-eject-dialog.c
+       src/burner-eject-dialog.h
+Copyright: 2008 Luis Medinas <lmedinas@gmail.com>
+           2008 Philippe Rouquier <bonfire-app@wanadoo.fr>
 License: GPL-2+
 
 Files: src/burner-cli.c
@@ -110,17 +117,10 @@ Copyright: 2010 Canonical
            2017,Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-
-Files: libburner-burn/burn-dbus.h
-       libburner-burn/burn-dbus.c
-Copyright: 2008 Luis Medinas <lmedinas@gmail.com>
-           2008 Philippe Rouquier <bonfire-app@wanadoo.fr>
-License: GPL-2+
-
 Files: src/eggtreemultidnd.c
        src/eggtreemultidnd.h
 Copyright: 2001  Red Hat, Inc.
-License: GPL-2+
+License: LGPL-2+
 
 Files: src/burner-split-dialog.h
        src/burner-plugin-option.h
@@ -137,28 +137,25 @@ License: GPL-2+
 
 Files: src/burner-setting.c
        src/burner-setting.h
-       src/burner-search-tracker.c
+Copyright: 2009 Philippe Rouquier <bonfire-app@wanadoo.fr>
+License: LGPL-3+
+
+Files: src/burner-search-tracker.c
        src/burner-search-tracker.h
        src/burner-song-control.h
        src/burner-song-control.c
 Copyright: 2009-2010 Philippe Rouquier <bonfire-app@wanadoo.fr>
-License: LGPL-3+
+License: GPL-3+
 
 Files: src/burner-drive-settings.c
-       burner-drive-settings.h
+       src/burner-drive-settings.h
 Copyright: 2005-2010 Philippe Rouquier <bonfire-app@wanadoo.fr>
 License: GPL-2+
 
 Files: src/baobab-cell-renderer-progress.h
        src/baobab-cell-renderer-progress.c
-Copyright: 2005-2010 Philippe Rouquier <bonfire-app@wanadoo.fr>
-License: GPL-2+
-
-Files: src/burner-eject-dialog.c
-       src/burner-eject-dialog.h
-Copyright: 2008  Philippe Rouquier <burner-app@wanadoo.fr>
-           2008  Luis Medinas <lmedinas@gmail.com>
-License: GPL-2+
+Copyright: 2006 Philippe Rouquier <bonfire-app@wanadoo.fr>
+License: LGPL-2+
 
 Files: plugins/*
        libburner-media/*
@@ -322,12 +319,6 @@ Files: plugins/*
 Copyright: 2005-2009 Philippe Rouquier <bonfire-app@wanadoo.fr>
 License: GPL-2+
 
-Files: src/egg*
-       src/baobab*
-Copyright: 2001, Red Hat, Inc.
-           2006, Paolo Borelli
-License: LGPL-2+
-
 Files: help/*
 Copyright: 2008-2012, Free Software Foundation Inc.
            2012, Matīss Jānis Āboltiņš, Rūdolfs Mazurs
@@ -385,6 +376,24 @@ License: GPL-3+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: LGPL-3+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in `/usr/share/common-licenses/LGPL-3'.
 
 License: GFDL-1.1+
  Permission is granted to copy, distribute and/or modify this
