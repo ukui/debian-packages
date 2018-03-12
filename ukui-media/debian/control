@@ -17,6 +17,8 @@ Build-Depends: debhelper (>= 11),
                mate-common (>= 1.18),
 Standards-Version: 4.1.3
 Homepage: http://www.ukui.org/
+Vcs-Git: https://github.com/ukui/ukui-media.git
+Vcs-Browser: https://github.com/ukui/ukui-media
 
 Package: ukui-media
 Architecture: any
