@@ -60,7 +60,8 @@ Depends: ${shlibs:Depends},
          libglib2.0-bin,
          ukui-power-manager,
          ukui-media,
-         xscreensaver-data
+         xscreensaver-data,
+         libcanberra-pulse
 Description: utilities to configure the UKUI desktop
  The UKUI control center contains configuration applets for the UKUI desktop,
  allowing to set accessibility configuration, desktop fonts, keyboard
