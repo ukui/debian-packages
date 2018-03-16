@@ -1,12 +1,13 @@
 peony (1.1.1-0ubuntu1) bionic; urgency=medium
 
-  * delete compact view
-  * Block the address bar changes
-  * Add command to display file attributes
-  * Modify the sidebar and the computer interface
-  * Modify delete menu translation(LP:#1755379)
+  * Delete compact view.
+  * Block the address bar changes.
+  * Add command to display file attributes.
+  * Modify the sidebar and the computer interface.
+  * Improve the translation of 'delete' in right-click
+    menu. (LP: #1755379)
 
- -- liupeng <liupeng@kylinos.cn>  Thu, 15 Mar 2018 15:26:42 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Mar 2018 14:49:19 +0800
 
 peony (1.1.0-0ubuntu1) bionic; urgency=medium
 
