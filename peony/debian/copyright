@@ -769,8 +769,8 @@ Files:  .tx/config
        README
        autogen.sh
        configure.ac
-	   lsdev.c
-	   lsdev.h
+	   libpeony-private/lsdev.c
+	   libpeony-private/lsdev.h
 Copyright: *No copyright*
 License: GPL-2+ or LGPL-2+
 Comment:
