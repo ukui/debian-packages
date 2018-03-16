@@ -1,3 +1,14 @@
+peony (1.1.1-0ubuntu1) bionic; urgency=medium
+
+  * Delete compact view.
+  * Block the address bar changes.
+  * Add command to display file attributes.
+  * Modify the sidebar and the computer interface.
+  * Improve the translation of 'delete' in right-click
+    menu. (LP: #1755379)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Mar 2018 14:49:19 +0800
+
 peony (1.1.0-0ubuntu1) bionic; urgency=medium
 
   * Add tristate effect for the mouse.
