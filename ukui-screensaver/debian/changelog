@@ -1,9 +1,9 @@
 ukui-screensaver (1.1.1-0ubuntu1) bionic; urgency=medium
 
-  * translation file typo
+  * Fix a translation file typo
   * Add "Modified by:" to three files
 
- -- lihao <jianfengli@ubuntukylin.com>  Sat, 17 Mar 2018 13:58:56 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 17 Mar 2018 14:01:48 +0800
 
 ukui-screensaver (1.1.0-0ubuntu1) bionic; urgency=medium
 
