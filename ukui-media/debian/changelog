@@ -1,3 +1,9 @@
+ukui-media (1.1.2-0ubuntu1) bionic; urgency=medium
+
+  * Decrease the panel icon size
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 17 Mar 2018 13:54:09 +0800
+
 ukui-media (1.1.1-0ubuntu3) bionic; urgency=medium
 
   * Initial release. (LP: #1740203)
