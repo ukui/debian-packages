@@ -8,7 +8,8 @@ icon-theme='ukui-icon-theme'
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
 theme='ukui-theme'
-titlebar-font="Ubuntu Medium 11'
+titlebar-font='Ubuntu Medium 11'
+button-layout=':minimize,maximize,close'
 
 [org.gnome.desktop.wm.keybindings]
 show-desktop=['<Control><Alt>d','<Super>d']
