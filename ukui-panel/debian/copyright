@@ -262,7 +262,8 @@ Comment:
 Files: applets/wncklet/window-list.c
        applets/wncklet/workspace-switcher.c
 Copyright: 2001, Alexander Larsson
-  2001, Red Hat, Inc.
+      	   2001, Red Hat, Inc.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Assuming license as found in COPYING file.
