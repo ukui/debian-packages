@@ -1,6 +1,12 @@
 ukui-control-center (1.1.1-0ubuntu1) bionic; urgency=medium
 
-  * Fix some bugs in beta2.
+  * Adapt the ukwm windowmanager.
+  * Add brightness adjustment options.
+  * Only open one window at the same time. (LP: #1682134)
+  * Adjust the user-account's layout. (LP: #1755423)
+  * Fix error when adding launguage layout. (LP: #1755636)
+  * Remove some low resolution. (LP: #1755650)
+  * Fix the problem that can't preview screensavers. (LP: #1724156)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 17 Mar 2018 16:17:33 +0800
 
