@@ -1,3 +1,9 @@
+ukui-control-center (1.1.1-0ubuntu1) bionic; urgency=medium
+
+  * Fix some bugs in beta2.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 17 Mar 2018 16:17:33 +0800
+
 ukui-control-center (1.1.0-0ubuntu1) bionic; urgency=medium
 
   * Update API of ukui-menus.
