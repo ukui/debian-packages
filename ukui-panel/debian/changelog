@@ -1,3 +1,12 @@
+ukui-panel (1.1.3-0ubuntu1) bionic; urgency=medium
+
+  * Fix click “Customize icons appear on the taskbar”, the panel restart.(LP: #1755663)
+  * Fix The size of a new panel is not suitable for UKUI menu. And other added
+    icons are varied in style and size. (LP: #1755690)
+  * Fix check the "Lock the launcher". Reopen the settings, it seems unchecked.(LP: #1755684)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 19 Mar 2018 11:16:27 +0800
+
 ukui-panel (1.1.2-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #1738976)
