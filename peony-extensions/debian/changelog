@@ -1,3 +1,9 @@
+peony-extensions (1.1.1-0ubuntu2) bionic; urgency=medium
+
+  * Remove the tabs in debian/copyright.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 20 Mar 2018 14:48:19 +0800
+
 peony-extensions (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #1740465)

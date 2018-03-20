@@ -1,15 +1,11 @@
-ukui-panel (1.1.4-0ubuntu1) bionic; urgency=medium
-
-  * Add ukui-panel gets ukui-blue theme color and changes the taskbar background transparent settings
-
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 20 Mar 2018 14:56:58 +0800
-
 ukui-panel (1.1.3-0ubuntu1) bionic; urgency=medium
 
   * Fix the errors when click "Customize icons appear on the taskbar".
     (LP: #1755663)
   * Adjust the size of a new panel and other added icons. (LP: #1755690)
   * Fix the errors when check the "Lock the launcher". (LP: #1755684)
+  * Get color value from ukui-blue theme and change the taskbar
+    background settings
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 19 Mar 2018 11:16:27 +0800
 
