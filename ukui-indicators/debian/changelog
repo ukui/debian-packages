@@ -1,6 +1,7 @@
 ukui-indicators (1.1.1-0ubuntu1) bionic; urgency=medium
 
-  * Fix in Live session,"time & date" in indicator cannot be opened. (LP: #1753947)
+  * Fix in Live session,"time & date" in indicator cannot be opened.
+   (LP: #1753947)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 19 Mar 2018 11:25:33 +0800
 
