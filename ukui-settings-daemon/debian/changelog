@@ -1,3 +1,10 @@
+ukui-settings-daemon (1.1.6-0ubuntu1) bionic; urgency=medium
+
+  * Change mate-screenshot to gnome-screenshot.
+  * xsettings: drop CanChangeAccels which wont't work with gtk3.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 20 Mar 2018 19:23:31 +0800
+
 ukui-settings-daemon (1.1.5-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #1738947)
