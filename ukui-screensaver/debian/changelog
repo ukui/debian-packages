@@ -1,3 +1,9 @@
+ukui-screensaver (1.1.2-0ubuntu1) bionic; urgency=medium
+
+  * Set object name of auth_prompt_entry.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 22 Mar 2018 14:54:23 +0800
+
 ukui-screensaver (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Fix a translation file typo
