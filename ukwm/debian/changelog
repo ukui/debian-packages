@@ -1,3 +1,10 @@
+ukwm (1.1.8-0ubuntu1) bionic; urgency=medium
+
+  * Recycle the exit subprocesses when ukui-window-switch
+    does not exist.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 22 Mar 2018 14:36:40 +0800
+
 ukwm (1.1.7-0ubuntu1) bionic; urgency=medium
 
   * Initial release (LP: #1740252)

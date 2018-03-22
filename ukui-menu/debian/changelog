@@ -1,3 +1,10 @@
+ukui-menu (1.1.1-0ubuntu1) bionic; urgency=medium
+
+  * Add support for resize the menu icon.
+  * Add right-click menu for recent files.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 22 Mar 2018 14:12:47 +0800
+
 ukui-menu (1.1.0-0ubuntu1) bionic; urgency=medium
 
   * Port to python3.
