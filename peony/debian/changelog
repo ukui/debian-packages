@@ -6,6 +6,7 @@ peony (1.1.1-0ubuntu1) bionic; urgency=medium
   * Modify the sidebar and the computer interface.
   * Improve the translation of 'delete' in right-click
     menu. (LP: #1755379)
+  * Modify the two deleted issues in the recycle bin(LP: #1758836)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Mar 2018 14:49:19 +0800
 
