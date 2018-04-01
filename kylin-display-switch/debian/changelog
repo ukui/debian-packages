@@ -1,3 +1,9 @@
+kylin-display-switch (1.0.2-0ubuntu1) bionic; urgency=medium
+
+  * Set StartupNotify to false.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 28 Mar 2018 17:01:53 +0800
+
 kylin-display-switch (1.0.1-0ubuntu2) bionic; urgency=medium
 
   * Initial release (LP: #1738366)
