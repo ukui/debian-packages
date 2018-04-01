@@ -2,8 +2,10 @@ ukui-session-manager (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Use ukui-settings-daemon to replace mate-settings-daemon.
   * Use ukwm to replace marco.
+  * Don't launch 'OnlyShowIn=MATE' apps, since we have forked most of
+    them.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 15 Mar 2018 13:58:58 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 01 Apr 2018 15:38:01 +0800
 
 ukui-session-manager (1.1.0-0ubuntu1) bionic; urgency=medium
 

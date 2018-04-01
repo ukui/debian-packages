@@ -2,8 +2,9 @@ ukui-menu (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Add support for resize the menu icon.
   * Add right-click menu for recent files.
+  * Fix the error when panel restart.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 22 Mar 2018 14:12:47 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 01 Apr 2018 10:28:20 +0800
 
 ukui-menu (1.1.0-0ubuntu1) bionic; urgency=medium
 

@@ -2,8 +2,11 @@ ukui-indicators (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Fix in Live session,"time & date" in indicator cannot be opened.
    (LP: #1753947)
+  * Fix the wrong position problem after resize panel.
+  * Remove the useless print message.
+  * Adjust the style of calendar.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 19 Mar 2018 11:25:33 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 01 Apr 2018 15:23:50 +0800
 
 ukui-indicators (1.1.0-0ubuntu1) bionic; urgency=medium
 

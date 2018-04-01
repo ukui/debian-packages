@@ -5,9 +5,14 @@ ukui-panel (1.1.3-0ubuntu1) bionic; urgency=medium
   * Adjust the size of a new panel and other added icons. (LP: #1755690)
   * Fix the errors when check the "Lock the launcher". (LP: #1755684)
   * Get color value from ukui-blue theme and change the taskbar
-    background settings
+    background settings.
+  * Fix the error 'missing action Remove'
+  * Fix the error 'g_signal_handlers_block_matched'
+  * Fix the wrong icon size of window-list after resize panel.
+  * Fix the segment error when set the hide/show in settings.
+  * Remove some useless settings.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 19 Mar 2018 11:16:27 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 01 Apr 2018 15:54:53 +0800
 
 ukui-panel (1.1.2-0ubuntu1) bionic; urgency=medium
 

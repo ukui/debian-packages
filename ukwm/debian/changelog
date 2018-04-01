@@ -2,8 +2,9 @@ ukwm (1.1.8-0ubuntu1) bionic; urgency=medium
 
   * Recycle the exit subprocesses when ukui-window-switch
     does not exist.
+  * Update the desktop file and some gsettings value.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 22 Mar 2018 14:36:40 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 01 Apr 2018 12:52:45 +0800
 
 ukwm (1.1.7-0ubuntu1) bionic; urgency=medium
 
