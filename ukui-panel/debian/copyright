@@ -516,6 +516,7 @@ Files: applets/Makefile.am
        ukui-panel/button-widget.h
        ukui-panel/drawer.h
        ukui-panel/ukui-desktop-item-edit.c
+       ukui-panel/ukui-panel.css
        ukui-panel/panel-marshal.list
        ukui-panel/panel-icon-names.h
        ukui-panel/panel-schemas.h

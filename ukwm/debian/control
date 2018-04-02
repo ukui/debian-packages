@@ -68,8 +68,9 @@ Depends: ${shlibs:Depends},
          gsettings-desktop-schemas (>= 3.21.4),
          zenity
 Provides: x-window-manager
+Recommends: ukui-window-switch
 Suggests: ukui-control-center,
-          xdg-user-dirs
+          xdg-user-dirs,
 Description: lightweight GTK+ window manager
  Ukwm is a small window manager, using GTK+ and Clutter to do
  everything.
