@@ -1,9 +1,9 @@
 peony (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Delete compact view.
-  * Block the address bar changes.
   * Add command to display file attributes.
   * Modify the sidebar and the computer interface.
+  * Use PKG_PROG_PKG_CONFIG instead of AC_PATH_PROG.
   * Improve the translation of 'delete' in right-click
     menu. (LP: #1755379)
   * Fix the two deleted issues in the recycle bin.
