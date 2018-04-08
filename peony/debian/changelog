@@ -8,6 +8,8 @@ peony (1.1.1-0ubuntu1) bionic; urgency=medium
     menu. (LP: #1755379)
   * Fix the two deleted issues in the recycle bin.
     (LP: #1758836)
+  * Fix the bugs that Users cannot create launcher on
+    the desktop(LP: #1762104)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 02 Apr 2018 09:38:22 +0800
 
