@@ -15,8 +15,8 @@ endif
 	dh $@
 
 override_dh_install:
-	mkdir -p /usr/share/ukui/autostart
-	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/polkit-mate-authentication-agent-1.desktop.in > /usr/share/ukui/autostart/polkit-mate-authentication-agent-1.desktop
+	mkdir -p debian/ukui-session-manager/usr/share/ukui/autostart
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/polkit-mate-authentication-agent-1.desktop.in > debian/ukui-session-manager/usr/share/ukui/autostart/polkit-mate-authentication-agent-1.desktop
 	dh_install
 
 override_dh_missing:
