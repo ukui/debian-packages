@@ -26,7 +26,7 @@ Build-Depends: debhelper (>= 11),
                libxml2-dev,
                mate-common (>= 1.17),
                shared-mime-info,
-Standards-Version: 4.1.3
+Standards-Version: 4.1.4
 Homepage: http://www.ukui.org/
 Vcs-Git: https://github.com/ukui/peony.git
 Vcs-Browser: https://github.com/ukui/peony
@@ -44,6 +44,14 @@ Depends: peony-common (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: gvfs-backends,
+            peony-gksu,
+            peony-image-converter,
+            peony-open-terminal,
+            peony-sendto,
+            peony-share,
+            peony-wallpaper,
+            peony-xattr-tags,
+            parchives,
 Suggests: engrampa,
           gstreamer1.0-tools,
           meld,

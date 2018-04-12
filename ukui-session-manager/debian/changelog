@@ -1,9 +1,10 @@
-ukui-session-manager (1.1.1-0ubuntu2) bionic; urgency=medium
+ukui-session-manager (1.1.2-0ubuntu1) bionic; urgency=medium
 
   * Use $(DEB_HOST_MULTIARCH) to replace the hard code in desktop
-    file.
+    file. (LP: #1762124)
+  * Fix the wrong logout button type. (LP: #1762117)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 04 Apr 2018 20:32:12 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 10 Apr 2018 15:58:33 +0800
 
 ukui-session-manager (1.1.1-0ubuntu1) bionic; urgency=medium
 

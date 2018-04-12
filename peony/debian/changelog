@@ -1,17 +1,21 @@
 peony (1.1.1-0ubuntu1) bionic; urgency=medium
 
+  * debian/control:
+    - Add peony-gksu, peony-image-converter, peony-open-terminal,
+      peony-sendto, peony-share, peony-wallpaper, peony-xattr-tags,
+      parchives to Recommends.
   * Delete compact view.
   * Add command to display file attributes.
   * Modify the sidebar and the computer interface.
   * Use PKG_PROG_PKG_CONFIG instead of AC_PATH_PROG.
-  * Improve the translation of 'delete' in right-click
-    menu. (LP: #1755379)
-  * Fix the two deleted issues in the recycle bin.
-    (LP: #1758836)
-  * Fix the bugs that Users cannot create launcher on
-    the desktop(LP: #1762104)
+  * Change the desktop icon size according to different resolution.
+  * Improve the translation of 'delete' in right-click menu.
+    (LP: #1755379)
+  * Fix the two deleted issues in the recycle bin. (LP: #1758836)
+  * Fix the bug that user cannot create launcher on the desktop.
+    (LP: #1762104)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 02 Apr 2018 09:38:22 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 11 Apr 2018 09:24:38 +0800
 
 peony (1.1.0-0ubuntu1) bionic; urgency=medium
 
