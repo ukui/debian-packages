@@ -1,3 +1,11 @@
+ukui-menu (1.1.2-0ubuntu1) bionic; urgency=medium
+
+  * Fix the wrong state of switch button. (LP: #1764664)
+  * Fix the bug that unable to check some items when edit category
+    menu. (LP: #1764613)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 17 Apr 2018 15:49:33 +0800
+
 ukui-menu (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Add support for resize the menu icon.

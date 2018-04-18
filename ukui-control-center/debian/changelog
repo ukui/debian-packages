@@ -1,3 +1,10 @@
+ukui-control-center (1.1.2-0ubuntu1) bionic; urgency=medium
+
+  * Fix the issue that user icon can't be selected. (LP: #1755408)
+  * Highlight current selected font.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 12 Apr 2018 19:35:12 +0800
+
 ukui-control-center (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Adapt the ukwm windowmanager.
