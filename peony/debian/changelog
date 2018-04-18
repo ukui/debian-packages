@@ -1,3 +1,9 @@
+peony (1.1.1-0ubuntu2) bionic; urgency=medium
+
+  * Don't recommend peony-gksu which is being removed (LP: #1764201)
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 18 Apr 2018 08:34:17 -0400
+
 peony (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * debian/control:

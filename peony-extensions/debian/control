@@ -25,22 +25,6 @@ Build-Depends: debhelper (>= 11),
                yelp-tools,
 Standards-Version: 4.1.3
 Homepage: http://www.ukui.org/
-Vcs-Git: https://github.com/ukui/peony-extensions.git
-Vcs-Browser: https://github.com/ukui/peony-extensions
-
-Package: peony-gksu
-Architecture: any
-Depends: peony-extensions-common (= ${source:Version}),
-         gksu,
-         ${misc:Depends},
-         ${shlibs:Depends},
-Description: privilege granting extension for Peony using gksu
- Peony is the official file manager for the UKUI desktop. This
- package adds extended functionality to the Peony file manager.
- .
- The gksu extension for Peony allows you to open files with
- administration privileges using the context menu when browsing
- your files with Peony.
 
 Package: peony-image-converter
 Architecture: any

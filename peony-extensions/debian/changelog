@@ -1,8 +1,18 @@
-peony-extensions (1.1.1-0ubuntu2) bionic; urgency=medium
+peony-extensions (1.1.1-0ubuntu3) UNRELEASED; urgency=medium
 
   * Remove the tabs in debian/copyright.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 20 Mar 2018 14:48:19 +0800
+
+peony-extensions (1.1.1-0ubuntu2) bionic; urgency=medium
+
+  * Drop peony-gksu (with handsome_feng's approval). gksu is being removed
+    from Ubuntu (LP: #1764201)
+  * Use dh_installdocs instead of dh_installchangelogs since
+    dh_installchangelogs doesn't operate in Ubuntu
+  * Drop explicit --parallel since it's the default in newer dh compat levels
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 18 Apr 2018 08:29:16 -0400
 
 peony-extensions (1.1.1-0ubuntu1) bionic; urgency=medium
 
