@@ -26,6 +26,30 @@ Build-Depends: debhelper (>= 11),
 Standards-Version: 4.1.3
 Homepage: http://www.ukui.org/
 
+Package: peony-admin
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python:Depends},
+ python-gi,
+ gir1.2-gtk-3.0,
+ peony,
+ policykit-1,
+ python-caja,
+Recommends:
+ pluma,
+ mate-terminal,
+Description: Add administrative actions to Peony's right-click menu
+ Peony Admin is a simple Python extension for the Peony file manager that
+ adds some administrative actions to the right-click menu:
+ .
+   - Open as Administrator: opens a folder in a new Peony window running
+     with administrator (root) privileges.
+   - Edit as Administrator: opens a file in a Pluma window running with
+     administrator (root) privileges.
+   - Run as Administrator: runs an executable file with administrator
+     (root) privileges inside a MATE Terminal.
+
 Package: peony-image-converter
 Architecture: any
 Depends: peony-extensions-common (= ${source:Version}),
