@@ -6,12 +6,13 @@ XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: yanghao <yanghao@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>=11),
+						   pkg-config,
                qtbase5-dev,
                libqt5x11extras5-dev,
 							 libqt5svg5-dev,
                liblightdm-qt5-3-dev,
                libx11-dev,
-			   libxrandr-dev
+						   libxrandr-dev
 Standards-Version: 4.1.3
 Homepage: https://github.com/ukui/ukui-greeter
 
