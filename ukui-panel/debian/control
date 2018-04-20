@@ -48,6 +48,7 @@ Depends: libukui-panel-applet-4-1 (= ${binary:Version}),
          menu-xdg,
          ${misc:Depends},
          ${shlibs:Depends},
+	 gnome-system-monitor,
 Description: launcher and docking facility for UKUI
  The UKUI Panel is an essential part of the UKUI Desktop, providing
  toolbar-like “panels” which can be attached to the sides of your desktop.
