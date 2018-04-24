@@ -1,3 +1,9 @@
+kylin-burner (3.0.5-0ubuntu1) bionic; urgency=medium
+
+  * Fix the wrong pic name. (LP: #1766487)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 24 Apr 2018 16:52:48 +0800
+
 kylin-burner (3.0.4-0ubuntu1) bionic; urgency=medium
 
   * Initial release. (LP: #1743554)
