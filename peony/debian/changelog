@@ -1,3 +1,9 @@
+peony (1.1.1-0ubuntu3) bionic; urgency=medium
+
+  * Resolve the size of the blank cd icon is too small in Desktop (LP: #176463)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 25 Apr 2018 09:18:08 +0800
+
 peony (1.1.1-0ubuntu2) bionic; urgency=medium
 
   * Don't recommend peony-gksu which is being removed (LP: #1764201)
