@@ -1,8 +1,9 @@
-peony (1.1.1-0ubuntu3) bionic; urgency=medium
+peony (1.1.2-0ubuntu1) bionic; urgency=medium
 
-  * Resolve the size of the blank cd icon is too small in Desktop (LP: #176463)
+  * Adjust the size of the blank cd icon in Desktop. (LP: #176463)
+  * Change the default font of desktop font.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 25 Apr 2018 09:18:08 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 26 Apr 2018 09:36:07 +0800
 
 peony (1.1.1-0ubuntu2) bionic; urgency=medium
 

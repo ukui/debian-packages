@@ -2,8 +2,9 @@ kylin-display-switch (1.0.2-0ubuntu1) bionic; urgency=medium
 
   * Set StartupNotify to false.
   * Fix the wrong permission of file 'instance.lock'. (LP: #1766491)
+  * Add the missing parentheses.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 24 Apr 2018 14:42:22 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 26 Apr 2018 10:36:10 +0800
 
 kylin-display-switch (1.0.1-0ubuntu2) bionic; urgency=medium
 
