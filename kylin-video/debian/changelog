@@ -2,4 +2,7 @@ kylin-video (1.1.6-0ubuntu2) bionic; urgency=low
 
   * Initial release (LP: #1738680)
 
+  [ lixiang ]
+  * Remove the kylin-video.install file.
+
  -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 11 Apr 2018 15:05:02 +0800
