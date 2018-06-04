@@ -1,3 +1,9 @@
+kylin-burner (3.0.6-0ubuntu1) bionic; urgency=medium
+
+  * Fix the speed setting in burn_drive_set_speed().
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 05 May 2018 11:12:58 +0800
+
 kylin-burner (3.0.5-0ubuntu1) bionic; urgency=medium
 
   * Fix the wrong pic name. (LP: #1766487)
