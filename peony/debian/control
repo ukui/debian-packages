@@ -3,7 +3,8 @@ Section: utils
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
-Uploaders: Xiaodong Liu <liuxiaodong@kylinos.cn>,
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
+           Xiaodong Liu <liuxiaodong@kylinos.cn>,
            Zuxun Yang <yangzuxun@kylinos.cn>,
 Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.16.1.1),
@@ -26,7 +27,7 @@ Build-Depends: debhelper (>= 11),
                libxml2-dev,
                mate-common (>= 1.17),
                shared-mime-info,
-Standards-Version: 4.1.4
+Standards-Version: 4.1.5
 Homepage: http://www.ukui.org/
 Vcs-Git: https://github.com/ukui/peony.git
 Vcs-Browser: https://github.com/ukui/peony

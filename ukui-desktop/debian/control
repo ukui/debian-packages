@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9),
                libxml2-dev,
                libxrandr-dev,
                mate-common (>= 1.18),
-Standards-Version: 3.9.7
+Standards-Version: 4.1.5
 Homepage: http://www.ukui.org/
 Vcs-Browser: https://github.com/ukui/debian-packages
 Vcs-Git: git://github.com/ukui/debian-packages.git

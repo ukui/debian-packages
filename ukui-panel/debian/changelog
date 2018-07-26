@@ -1,8 +1,10 @@
-ukui-panel (1.1.4-0ubuntu1) bionic; urgency=medium
+ukui-panel (1.1.4-0ubuntu1) cosmic; urgency=medium
 
   * Fix that the panel appears at the top occasionally.
+  * Fix the crash when customizing icons. (LP: #1766408)
+  * Make tabs failed to fulfill the taskbar.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 26 Apr 2018 19:36:40 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 10 Jul 2018 17:18:49 +0800
 
 ukui-panel (1.1.3-0ubuntu1) bionic; urgency=medium
 

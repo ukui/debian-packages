@@ -1,9 +1,9 @@
-ukui-menu (1.1.4-0ubuntu1) bionic; urgency=medium
+ukui-menu (1.1.4-0ubuntu1) cosmic; urgency=medium
 
   * Fix the problem when 'revert'.
   * Fix the problem when right-click and open history file.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 05 May 2018 11:07:21 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 10 Jul 2018 16:50:53 +0800
 
 ukui-menu (1.1.3-0ubuntu1) bionic; urgency=medium
 

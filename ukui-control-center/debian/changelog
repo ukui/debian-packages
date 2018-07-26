@@ -1,8 +1,9 @@
-ukui-control-center (1.1.4-0ubuntu1) bionic; urgency=medium
+ukui-control-center (1.1.4-0ubuntu1) cosmic; urgency=medium
 
   * Adjust the width of the wallpaper layout. (LP: #1766506)
+  * Drop liboobs.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 26 Apr 2018 09:45:51 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 10 Jul 2018 09:48:14 +0800
 
 ukui-control-center (1.1.3-0ubuntu1) bionic; urgency=medium
 
