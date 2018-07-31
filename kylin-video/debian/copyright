@@ -10,9 +10,12 @@ Files: AUTHORS
        README.md
        autogen.sh
        debian/*
+       gui/kylin-video.desktop
+       gui/kylin-video.png
        kylin-video.desktop
        kylin-video.pro
        man/*
+       snapcraft.yaml
        src/src.pro
        src/res/*.png
        src/res.qrc
@@ -20,6 +23,7 @@ Files: AUTHORS
        src/input.conf
        src/translations/*
 Copyright: lixiang <lixiang@kylinos.cn>
+           handsome_feng <jianfengli@ubuntukylin.com>
 License: GPL-2+
 Comment:
   Assume license as found in COPYING file.

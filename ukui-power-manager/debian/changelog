@@ -1,3 +1,9 @@
+ukui-power-manager (1.1.2-1ubuntu1) cosmic; urgency=medium
+
+  * Fix the error that can't open preferences dialog. (LP: #1764669) 
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 31 Jul 2018 15:37:13 +0800
+
 ukui-power-manager (1.1.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release (LP: #1741177)
