@@ -1,7 +1,5 @@
-ukui-biometric-auth (0.6.11~rc1) juniper; urgency=medium
+ukui-biometric-auth (1.0.0-0ubuntu1) bionic; urgency=medium
 
   * Initial release
-    rename from biometric-verification
-    split one package to libpam-biometric and ukui-polkit
 
  -- yanghao <yanghao@kylinos.cn>  Tue, 04 Sep 2018 15:37:52 +0800
