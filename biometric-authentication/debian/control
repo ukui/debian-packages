@@ -2,7 +2,7 @@ Source: biometric-authentication
 Section: admin
 Priority: optional
 Maintainer: jianglinxuan (droiing) <jianglinxuan@kylinos.cn>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                automake,
                intltool,
                autopoint,
@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
                libpolkit-gobject-1-dev,
                uuid-dev,
                libssl-dev
-Standards-Version: 3.9.7
+Standards-Version: 4.2.1
 Homepage: https://github.com/ukui/biometric-authentication.git
 
 Package: biometric-auth
@@ -35,15 +35,6 @@ Description: Biometric Authentication Service
  .
  This package contains a library for biometric authentication.
 
-Package: biometric-auth-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: ${misc:Depends}, biometric-auth (= ${binary:Version}),
-Description: Biometric Authentication Service (debug symbols)
- The service layer of the biometric identification authentication framework.
- This package contains the debugging symbols for the biometric-auth.
-
 Package: libbiometric0
 Architecture: any
 Section: libs
@@ -61,16 +52,6 @@ Description: Biometric Identification library
  and provides the general function and unified data storage method.
  .
  This package contains a library for biometric identification.
-
-Package: libbiometric-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: ${misc:Depends}, libbiometric0 (= ${binary:Version}),
-Description: Biometric Identification library (debug symbols)
- The core layer of biometric identification authentication framework.
- .
- This package contains the debugging symbols for the libbiometric library.
 
 Package: libbiometric-dev
 Architecture: any
@@ -96,31 +77,19 @@ Description: Biometric authentication utils
   - biometric-device-discover: discover the devices supported by the biometric
     framework;
 
-Package: biometric-utils-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: ${misc:Depends}, biometric-auth, systemd, libglib2.0-0
-Description: Biometric authentication utils (debug symbols)
- This package contains the debugging symbols for biometric-config-tool.
-
 Package: biometric-driver-community-multidevice
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          ${bio-drv-api:Depends},
-         ${misc:Depends},
          libbiometric0,
          biometric-utils,
          libfprint0
 Description: Biometric Authentication Driver (community multidevice)
- Community multi-device drivers for biometric authentication
-
-Package: biometric-driver-community-multidevice-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: ${misc:Depends},
-         biometric-driver-community-multidevice (= ${binary:Version})
-Description: Biometric Authentication Driver (debug symbols)
- Community multi-device drivers for biometric authentication
+ Community multi-device drivers for biometric authentication.
+ Community multi-device drivers use libfprint for biometric identification.
+ .
+ This package supports following devices:
+   upekts, uru4000, aes4000, aes2501, upektc, aes1610, fdu2000, vcom5s,
+   upeksonly, vfs101, vfs301, aes2550, upeke2, aes1660, aes2660, aes3500,
+   upektc_img, etes603, vfs5011, vfs0050, elan.

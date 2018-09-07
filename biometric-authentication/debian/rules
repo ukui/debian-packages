@@ -53,10 +53,3 @@ override_dh_gencontrol:
 	echo "bio-app-api:Provides=$(APP_API_DEPEND)" >> debian/biometric-auth.substvars;
 	echo "bio-drv-api:Provides=$(DRV_API_DEPEND)" >> debian/libbiometric0.substvars;
 	dh_gencontrol -- -V"bio-drv-api:Depends=$(DRV_API_DEPEND)"
-
-override_dh_strip:
-	dh_strip -plibbiometric0 --dbg-package=libbiometric-dbg
-	dh_strip -pbiometric-auth --dbg-package=biometric-auth-dbg
-	dh_strip -pbiometric-utils --dbg-package=biometric-utils-dbg
-	dh_strip -pbiometric-driver-community-multidevice --dbg-package=biometric-driver-community-multidevice-dbg
-
