@@ -1,3 +1,9 @@
+ukui-screensaver (2.0.0-0ubuntu1) bionic; urgency=medium
+
+  * New design implemented with Qt5.
+
+ -- yanghao <yanghao@kylinos.cn>  Fri, 07 Sep 2018 15:38:02 +0800
+
 ukui-screensaver (1.1.2-0ubuntu1) bionic; urgency=medium
 
   * Set object name of auth_prompt_entry.
