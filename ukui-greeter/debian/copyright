@@ -1,16 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ukui-greeter
-Upstream-Contact: yanghao <yanghaohao@kylinos.cn>
+Upstream-Contact: yanghaohao@kylinos.cn
 Source: http://github.com/ukui/ukui-greeter/
 
-Files: * 
-Copyright: 2018, Tianjin KYLIN Information Technology Co., Ltd.
-License: GPL-2+
-
-License: GPL-2+
+Files: *
+Copyright: 2018, yanghao <yanghao@kylinos.cn>
+License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
+ the Free Software Foundation; either version 3 of the License, or
  (at your option) any later version.
  .
  This package is distributed in the hope that it will be useful,
@@ -22,4 +20,4 @@ License: GPL-2+
  along with this program. If not, see <http://www.gnu.org/licenses/>
  .
  On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
