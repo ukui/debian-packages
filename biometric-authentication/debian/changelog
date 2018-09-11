@@ -1,3 +1,14 @@
+biometric-authentication (0.9.55-0ubuntu2) cosmic; urgency=medium
+
+  * Increase key security
+    - Due to the biometric- driving.conf file permissions of 0644, the key
+      is not secure.
+    - Now change the meaning of the AESKey field to specify the key file path
+      and key security is guaranteed by the key file's permissions (0600)
+    - Key File: /etc/biometric-auth/key/community-multidevice-aes.key
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Tue, 11 Sep 2018 16:39:27 +0800
+
 biometric-authentication (0.9.55-0ubuntu1) cosmic; urgency=medium
 
   * Initial release.
