@@ -1,7 +1,16 @@
+biometric-authentication (0.9.55-0ubuntu3) cosmic; urgency=medium
+
+  * BugFix: After executing autogen.sh, a partial compilation script was missing
+  * BugFix: The bio-xxx variable value is incorrect when the --with-xxx parameter is not specified
+  * BugFix: The bindnow compilation of community multidevice driver does not take effect
+  * Update Chinese translation
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Fri, 14 Sep 2018 15:26:51 +0800
+
 biometric-authentication (0.9.55-0ubuntu2) cosmic; urgency=medium
 
   * Increase key security
-    - Due to the biometric- driving.conf file permissions of 0644, the key
+    - Due to the biometric-driving.conf file permissions of 0644, the key
       is not secure.
     - Now change the meaning of the AESKey field to specify the key file path
       and key security is guaranteed by the key file's permissions (0600)
