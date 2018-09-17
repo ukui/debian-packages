@@ -1,24 +1,4 @@
-biometric-authentication (0.9.55-1ubuntu3) cosmic; urgency=medium
-
-  * BugFix: After executing autogen.sh, a partial compilation script was missing
-  * BugFix: The bio-xxx variable value is incorrect when the --with-xxx parameter is not specified
-  * BugFix: The bindnow compilation of community multidevice driver does not take effect
-  * Update Chinese translation
-
- -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Fri, 14 Sep 2018 15:26:51 +0800
-
-biometric-authentication (0.9.55-1ubuntu2) cosmic; urgency=medium
-
-  * Increase key security
-    - Due to the biometric-driving.conf file permissions of 0644, the key
-      is not secure.
-    - Now change the meaning of the AESKey field to specify the key file path
-      and key security is guaranteed by the key file's permissions (0600)
-    - Key File: /etc/biometric-auth/key/community-multidevice-aes.key
-
- -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Tue, 11 Sep 2018 16:39:27 +0800
-
-biometric-authentication (0.9.55-1ubuntu1) cosmic; urgency=medium
+biometric-authentication (0.9.56-1ubuntu1) cosmic; urgency=medium
 
   * Initial release. (LP: #1792269)
 
