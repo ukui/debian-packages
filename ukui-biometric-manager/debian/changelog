@@ -1,5 +1,5 @@
 ukui-biometric-manager (1.0.0-1ubuntu1) cosmic; urgency=medium
 
-  * Initial Release.
+  * Initial Release. (LP: #1792267)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 08 Sep 2018 17:40:09 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 13 Sep 2018 09:51:38 +0800
