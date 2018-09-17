@@ -1,9 +1,9 @@
 Source: ukui-greeter
 Section: x11
 Priority: optional
-Maintainer: Kylin Team <team+kylin@tracker.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
-           yanghao <yanghao@kylinos.cn>
 Build-Depends: debhelper (>=11),
                pkg-config,
                qtbase5-dev,
@@ -34,4 +34,4 @@ Suggests: biometric-auth
 Description: Lightdm greeter for UKUI
  A greeter for UKUI desktop environment written by Qt5.
  The greeter supports biometric authentication which is
-provided by biometric-authentication service.
+ provided by biometric-authentication service.

@@ -1,5 +1,5 @@
-ukui-biometric-auth (1.0.0-0ubuntu1) bionic; urgency=medium
+ukui-biometric-auth (1.0.0-1ubuntu1) cosmic; urgency=medium
 
-  * Initial release
+  * Initial release.
 
- -- yanghao <yanghao@kylinos.cn>  Tue, 04 Sep 2018 15:37:52 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 08 Sep 2018 16:58:35 +0800
