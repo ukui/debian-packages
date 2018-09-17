@@ -1,5 +1,5 @@
 biometric-authentication (0.9.55-1ubuntu1) cosmic; urgency=medium
 
-  * Initial release.
+  * Initial release. (LP: #1792269)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 07 Sep 2018 14:45:52 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 13 Sep 2018 09:59:46 +0800
