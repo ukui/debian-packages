@@ -1,14 +1,8 @@
-peony-extensions (1.1.1-0ubuntu4) bionic; urgency=medium
+peony-extensions (1.1.2-0ubuntu1) cosmic; urgency=medium
 
-  * Remove peony-gksu, Add peony-admin (LP: #1764201)
+  * Add peony-admin.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 20 Apr 2018 16:53:49 +0800
-
-peony-extensions (1.1.1-0ubuntu3) bionic; urgency=medium
-
-  * Remove the tabs in debian/copyright.
-
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 20 Mar 2018 14:48:19 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 19 Sep 2018 09:46:53 +0800
 
 peony-extensions (1.1.1-0ubuntu2) bionic; urgency=medium
 
