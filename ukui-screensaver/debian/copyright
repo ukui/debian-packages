@@ -33,6 +33,7 @@ Files: Makefile
        src/monitorwatcher.h
        src/unixsignallistener.cpp
        src/gsettings.cpp
+       debian/*
 Copyright: 2018, yanghao <yanghao@kylinos.cn>
 License: GPL-3+
  
