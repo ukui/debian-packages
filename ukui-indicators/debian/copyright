@@ -74,6 +74,10 @@ Copyright: Copyright (C) 2002 Anders Carlsson <andersca@gnu.org>
            Copyright (C) 2016, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
+Files: diskstatusicon/diskstatusicon
+Copyright: Copyright (C) 2018, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
