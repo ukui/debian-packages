@@ -1,3 +1,4 @@
 diskstatusicon/diskstatusicon /usr/bin/
 data/org.freedesktop.Notifications.service /usr/share/dbus-1/services/
 data/diskstatusicon.desktop /etc/xdg/autostart/
+man/diskstatusicon.1.gz /usr/share/man/man1/
