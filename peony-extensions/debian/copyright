@@ -113,19 +113,8 @@ Files: peony-admin/AUTHORS
        peony-admin/extension/peony-admin.py.in
        peony-admin/generate-pot-file.sh
        peony-admin/peony-admin.appdata.xml
-       peony-admin/po/ar.po
-       peony-admin/po/de.po
-       peony-admin/po/de.po
-       peony-admin/po/es.po
-       peony-admin/po/fr.po
-       peony-admin/po/it.po
-       peony-admin/po/lt.po
+       peony-admin/po/*.po
        peony-admin/po/peony-admin.pot
-       peony-admin/po/pl.po
-       peony-admin/po/pt.po
-       peony-admin/po/ru.po
-       peony-admin/po/sk.po
-       peony-admin/po/zh_CN.po
        peony-admin/polkit/org.freedesktop.peony-admin.policy.in
 Copyright: 2018, quankang<quankang@kylinos.cn>
 License: GPL-2+

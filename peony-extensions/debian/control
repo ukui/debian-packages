@@ -7,6 +7,7 @@ Uploaders: liu peng <liupeng@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.16.1.1),
+               cmake,
                gettext,
                intltool,
                libpeony-extension-dev (>= 1.0.4),
@@ -31,7 +32,6 @@ Vcs-Browser: https://github.com/ukui/peony-extensions
 Package: peony-admin
 Architecture: all
 Depends: ${misc:Depends},
-         ${python:Depends},
          python-gi,
          gir1.2-gtk-3.0,
          peony,
