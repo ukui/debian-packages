@@ -1,8 +1,10 @@
 ukui-control-center (1.1.5-0ubuntu1) cosmic; urgency=medium
 
   * Didn't show 'Sleep' when can't hibernate. (LP: #1762119)
+  * Change bacrground-image when theme changed. 
+  * Add theme settings page.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 26 Jul 2018 20:40:12 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 23 Sep 2018 12:53:01 +0800
 
 ukui-control-center (1.1.4-0ubuntu1) cosmic; urgency=medium
 
