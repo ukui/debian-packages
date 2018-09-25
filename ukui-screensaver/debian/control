@@ -21,8 +21,7 @@ Package: ukui-screensaver
 Architecture: amd64 arm64
 Depends: ${misc:Depends}, ${shlibs:Depends},
          ukui-session-manager | mate-session-manager,
-         mate-desktop-common,
-         libxtst6
+         mate-desktop-common
 Replaces: ukui-screensaver-common (<< 2.0.0)
 Description: Sreensaver for UKUI desktop environment
  A simple and lightweight screensaver written by Qt5.
