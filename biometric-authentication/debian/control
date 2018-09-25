@@ -67,7 +67,7 @@ Description: Biometric Identification DRIVER API - development files
 
 Package: biometric-utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, biometric-auth, systemd, libglib2.0-0
+Depends: ${shlibs:Depends}, ${misc:Depends}, biometric-auth, systemd
 Description: Biometric authentication utils
  Biometric authentication tools.
  This package provides the biometric-config-tool and biometric-device-discover
