@@ -28,7 +28,6 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          libbiometric0 (= ${binary:Version}),
          systemd,
-         libglib2.0-0
 Provides: ${bio-app-api:Provides}
 Description: Biometric Authentication Service
  The service layer of the biometric identification authentication framework.
@@ -45,9 +44,6 @@ Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          systemd,
-         libglib2.0-0,
-         libsqlite3-0,
-         libusb-1.0-0
 Provides: ${bio-drv-api:Provides}
 Description: Biometric Identification library
  The core layer of biometric identification authentication framework.
@@ -63,7 +59,6 @@ Section: libdevel
 Depends: ${misc:Depends},
          libbiometric0 (= ${binary:Version}),
          systemd,
-         libglib2.0-0
 Description: Biometric Identification DRIVER API - development files
  It provides the development file for driver development based on biometric
  identification authentication framework.
@@ -88,7 +83,6 @@ Depends: ${shlibs:Depends},
          ${bio-drv-api:Depends},
          libbiometric0,
          biometric-utils,
-         libfprint0
 Description: Biometric Authentication Driver (community multidevice)
  Community multi-device drivers for biometric authentication.
  Community multi-device drivers use libfprint for biometric identification.

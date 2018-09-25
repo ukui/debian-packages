@@ -15,10 +15,10 @@ Vcs-Browser: https://github.com/ukui/ukui-biometric-manager
 Package: ukui-biometric-manager
 Architecture: amd64 arm64
 Depends: ${shlibs:Depends},
-	 ${misc:Depends},
-	 ${bio-app-api:Depends},
-	 biometric-auth,
-	 libpam-biometric
+         ${misc:Depends},
+         ${bio-app-api:Depends},
+         biometric-auth,
+         libpam-biometric
 Conflicts: kylin-fingerprint, kylin-fprint-login
 Description: Manager for biometric authentication
  This package is a tool to manage the drivers of biometric devices and
