@@ -17,9 +17,8 @@ Vcs-Browser: https://github.com/ukui/ukui-biometric-auth
 
 Package: libpam-biometric
 Architecture: any
-Depends: libqt5widgets5,
-         libqt5gui5,
-         libqt5core5a,
+Depends: libqt5core5a,
+         libqt5dbus5,
          ${shlibs:Depends},
          ${misc:Depends}
 Suggests: biometric-auth
