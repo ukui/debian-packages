@@ -27,7 +27,7 @@ Build-Depends: debhelper (>= 11),
                libxml2-dev,
                mate-common (>= 1.17),
                shared-mime-info,
-Standards-Version: 4.1.5
+Standards-Version: 4.2.1
 Homepage: http://www.ukui.org/
 Vcs-Git: https://github.com/ukui/peony.git
 Vcs-Browser: https://github.com/ukui/peony

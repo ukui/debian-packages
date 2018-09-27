@@ -1,3 +1,12 @@
+peony (1.1.4-0ubuntu1) cosmic; urgency=medium
+
+  * Refresh search page after peony-search changed.
+  * Hide the 'Send To Desktop' on the right menu of 'Personal',
+    'Trash' and 'Home' since they can't.
+  * Fix the wrong manpage index.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 27 Sep 2018 14:30:51 +0800
+
 peony (1.1.2-0ubuntu1) cosmic; urgency=medium
 
   * Adjust the size of the blank cd icon in desktop. (LP: #1764639)
