@@ -5,6 +5,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: debhelper (>= 11),
+               dh-python,
                automake,
                intltool,
                autopoint,
@@ -69,6 +70,7 @@ Package: biometric-utils
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
+         ${python3:Depends},
          biometric-auth,
          systemd,
          python3-prettytable,
