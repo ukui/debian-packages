@@ -6,6 +6,7 @@ libbiometric.so.0 libbiometric0 #MINVER#
  bio_close@Base 0.9.52kord
  bio_comm_feature_rename_by_db@Base 0.9.52kord
  bio_common_detect_usb_device@Base 0.9.52kord
+ bio_common_get_empty_index@Base 0.9.58kord
  bio_common_get_empty_sample_no@Base 0.9.52kord
  bio_common_get_feature_list@Base 0.9.52kord
  bio_conf_free@Base 0.9.52kord

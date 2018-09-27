@@ -67,11 +67,19 @@ Description: Biometric Identification DRIVER API - development files
 
 Package: biometric-utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, biometric-auth, systemd
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         biometric-auth,
+         systemd,
+         python3-prettytable,
+         python3-dbus,
+         python3-gi
 Description: Biometric authentication utils
  Biometric authentication tools.
  This package provides the biometric-config-tool and biometric-device-discover
  tools:
+  - biometric-auth-client: The command line client of the biometric
+    identification framework service;
   - biometric-config-tool: add, remove, configure the biometric drivers;
   - biometric-device-discover: discover the devices supported by the biometric
     framework;
