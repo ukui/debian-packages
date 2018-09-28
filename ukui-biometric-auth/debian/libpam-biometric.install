@@ -3,4 +3,4 @@
 /usr/share/ukui-biometric/bioauth-bin/*
 /usr/share/pam-configs/*
 /usr/share/ukui-biometric/biometric-auth.conf
-/usr/share/polkit-1/actions/org.freedesktop.plicykit.pkexec.bioctl.policy
+/usr/share/polkit-1/actions/*.policy
