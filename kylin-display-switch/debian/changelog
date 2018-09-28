@@ -1,6 +1,6 @@
 kylin-display-switch (1.0.3-0ubuntu1) cosmic; urgency=medium
 
-  * Fix the wrong permission of file 'instance.lock' again.
+  * Fix the wrong permission of file 'instance.lock' again. (LP: #1766491)
   * Fix the crash when press numlock.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 28 Sep 2018 15:05:40 +0800
