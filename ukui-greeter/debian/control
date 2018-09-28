@@ -5,9 +5,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: debhelper (>=11),
-               qt5-qmake,
                pkg-config,
                qtbase5-dev,
+			   qttools5-dev-tools,
                libqt5x11extras5-dev,
                libqt5svg5-dev,
                liblightdm-qt5-3-dev,
