@@ -1,5 +1,5 @@
-ukui-greeter (1.1.5-2ubuntu1) cosmic; urgency=medium
+ukui-greeter (1.1.6-0ubuntu1) cosmic; urgency=medium
 
   * Initial release. (LP: #1792261)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 13 Sep 2018 09:22:26 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 29 Sep 2018 14:47:58 +0800
