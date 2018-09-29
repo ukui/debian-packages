@@ -1,3 +1,12 @@
+ukui-desktop-environment (1.2.0) cosmic; urgency=medium
+
+  * Drop ubuntu-wallpapers.
+  * Add ubuntukylin-wallpapers.
+  * Change default theme to ukui-black.
+  * Bump standards-version to 4.2.1.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 29 Sep 2018 16:09:58 +0800
+
 ukui-desktop-environment (1.1.1) bionic; urgency=medium
 
   * Drop mate-settings-daemon, mate-media, mate-power-manager, marco.

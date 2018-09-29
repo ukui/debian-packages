@@ -2,11 +2,13 @@ Source: ukui-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Uploaders: lijianfeng <lijianfeng@kylinos.cn>,
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: debhelper (>= 11),
                lsb-release,
-Standards-Version: 4.1.5
+Standards-Version: 4.2.1
 Homepage: http://www.ukui.org/
+Vcs-Git: https://github.com/ukui/ukui-desktop-environment.git
+Vcs-Browser: https://github.com/ukui/ukui-desktop-environment
 
 Package: ukui-desktop-environment-core
 Architecture: all
@@ -46,7 +48,8 @@ Depends: ukui-desktop-environment-core (= ${binary:Version}),
          ${misc:Depends},
 Provides: ukui,
 Recommends: atril,
-            desktop-base | ubuntu-wallpapers,
+            desktop-base,
+            ubuntukylin-wallpapers,
             engrampa,
             eom,
             ffmpegthumbnailer,

@@ -14,7 +14,7 @@ Standards-Version: 4.2.1
 Homepage: https://github.com/ukui/kylin-display-switch
 Vcs-Git: https://github.com/ukui/kylin-display-switch.git
 Vcs-Browser: https://github.com/ukui/kylin-display-switch
-X-Python3-Version: >= 3.2
+X-Python3-Version: >= 3.6
 
 Package: kylin-display-switch
 Architecture: any

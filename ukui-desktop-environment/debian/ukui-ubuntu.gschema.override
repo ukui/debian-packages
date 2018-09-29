@@ -2,12 +2,12 @@
 font-name='Ubuntu 10'
 document-font-name='Ubuntu 10'
 monospace-font-name='Ubuntu Mono 12'
-gtk-theme='ukui-blue'
+gtk-theme='ukui-black'
 icon-theme='ukui-icon-theme'
 
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
-theme='ukui-blue'
+theme='ukui-black'
 titlebar-font='Ubuntu Medium 11'
 button-layout=':minimize,maximize,close'
 
