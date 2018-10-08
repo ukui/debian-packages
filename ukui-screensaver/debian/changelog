@@ -1,3 +1,10 @@
+ukui-screensaver (2.0.1-0ubuntu1) cosmic; urgency=medium
+
+  * Update translation.
+  * Change Architecture to any.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 29 Sep 2018 17:01:12 +0800
+
 ukui-screensaver (2.0.0-0ubuntu1) cosmic; urgency=medium
 
   * New design implemented with Qt5.

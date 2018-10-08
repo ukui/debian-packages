@@ -18,7 +18,7 @@ Vcs-Git: https://github.com/ukui/ukui-screensaver.git
 Vcs-Browser: https://github.com/ukui/ukui-screensaver
 
 Package: ukui-screensaver
-Architecture: amd64 arm64
+Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
          ukui-session-manager | mate-session-manager,
          mate-desktop-common
