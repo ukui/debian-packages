@@ -3,4 +3,5 @@
 /usr/share/ukui-biometric/bioauth-bin/*
 /usr/share/pam-configs/*
 /usr/share/ukui-biometric/biometric-auth.conf
+/usr/share/ukui-biometric/i18n_qm/*.qm
 /usr/share/polkit-1/actions/*.policy
