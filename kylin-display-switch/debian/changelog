@@ -5,7 +5,7 @@ kylin-display-switch (1.0.3-0ubuntu1) cosmic; urgency=medium
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 28 Sep 2018 15:05:40 +0800
 
-kylin-display-switch (1.0.2-0ubuntu1) bionic; urgency=medium
+kylin-display-switch (1.0.2-1) unstable; urgency=medium
 
   * Set StartupNotify to false.
   * Fix the wrong permission of file 'instance.lock'. (LP: #1766491)
@@ -13,7 +13,7 @@ kylin-display-switch (1.0.2-0ubuntu1) bionic; urgency=medium
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 26 Apr 2018 10:36:10 +0800
 
-kylin-display-switch (1.0.1-0ubuntu2) bionic; urgency=medium
+kylin-display-switch (1.0.1-0ubuntu1) bionic; urgency=medium
 
   * Initial release (LP: #1738366)
 

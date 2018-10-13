@@ -1,8 +1,9 @@
-peony-extensions (1.1.2-0ubuntu2) cosmic; urgency=medium
+peony-extensions (1.1.2-0ubuntu3) cosmic; urgency=medium
 
   * Add peony-admin.
+  * Fix the copyright.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 19 Sep 2018 09:46:53 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 13 Oct 2018 14:38:05 +0800
 
 peony-extensions (1.1.1-0ubuntu2) bionic; urgency=medium
 
