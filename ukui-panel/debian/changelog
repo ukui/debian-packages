@@ -1,4 +1,10 @@
-ukui-panel (1.1.4-0ubuntu1) cosmic; urgency=medium
+ukui-panel (1.1.4.1-0ubuntu1) cosmic; urgency=medium
+
+  * Fix that wrong position of applet.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 15 Oct 2018 17:13:06 +0800
+
+ukui-panel (1.1.4-1) unstable; urgency=medium
 
   * Fix that the panel appears at the top occasionally.
   * Fix the crash when customizing icons. (LP: #1766408)

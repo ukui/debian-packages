@@ -33,7 +33,7 @@ Build-Depends: debhelper (>= 11),
                lsb-release,
                mate-common (>= 1.18),
                yelp-tools,
-Standards-Version: 4.1.5
+Standards-Version: 4.2.1
 Homepage: http://www.ukui.org/
 Vcs-Git: https://github.com/ukui/ukui-panel.git
 Vcs-Browser: https://github.com/ukui/ukui-panel
