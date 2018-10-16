@@ -1,3 +1,15 @@
+ukui-biometric-manager (1.0.1-0ubuntu1) cosmic; urgency=medium
+
+  * Make the program can only start up one instance in a session.
+  * Add default device configuration.
+  * Add device's status display.
+  * Add supporting for usb device hot-plug.
+  * Fix the bug that the application continue to run but has not
+    yet been authenticated when it starts a process that requires
+    authentication.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 16 Oct 2018 09:03:07 +0800
+
 ukui-biometric-manager (1.0.0-2ubuntu1) cosmic; urgency=medium
 
   * Initial Release. (LP: #1792267)
