@@ -1,3 +1,23 @@
+biometric-authentication (0.9.59-0ubuntu1) cosmic; urgency=medium
+
+  * Enhancement: biometric-auth-client adds API check functionality
+  * Optimize the biometric-auth-client interaction
+    - The index scope can be omitted when using the search operation
+    - Update the manpage of biometric-auth-client
+  * Modify compiler dependencies
+    - Biometric identification framework services do not require higher
+      versions of GTK3.
+    - Tested version 3.18 of GTK3 can meet the requirements
+  * Update project translation
+    - Add the translation for the biometric-auth-client
+    - Fix Chinese translation errors
+    - Add French, Portuguese and Russian translations
+    - Use Google's machine translation to translate relevant text, so there
+      is no guarantee of quality for the time being
+    - Remove unwanted translations
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Tue, 16 Oct 2018 09:06:22 +0800
+
 biometric-authentication (0.9.57-0ubuntu1) cosmic; urgency=medium
 
   * Initial release. (LP: #1792269)
