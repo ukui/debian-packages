@@ -6,6 +6,7 @@ XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
 Build-Depends: debhelper (>= 11),
                dh-python,
+               python3:any,
                automake,
                intltool,
                autopoint,
