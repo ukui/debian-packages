@@ -1,4 +1,4 @@
-biometric-authentication (0.9.59-0ubuntu1) cosmic; urgency=medium
+biometric-authentication (0.9.59-0ubuntu2) cosmic; urgency=medium
 
   * Enhancement: biometric-auth-client adds API check functionality
   * Optimize the biometric-auth-client interaction
