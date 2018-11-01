@@ -1,3 +1,15 @@
+biometric-authentication (0.9.60-0ubuntu1) cosmic; urgency=medium
+
+  * Add Spanish translation
+    - Use Google's machine translation to translate relevant text,
+      so there is no guarantee of quality for the time being
+  * BugFix:
+    - Error in content caused by incorrect driver information
+    - The interface timeout period is too short, resulting in an
+      abnormal interrupt of the interaction process
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Thu, 01 Nov 2018 15:51:28 +0800
+
 biometric-authentication (0.9.59-0ubuntu2) cosmic; urgency=medium
 
   * Enhancement: biometric-auth-client adds API check functionality
@@ -12,8 +24,8 @@ biometric-authentication (0.9.59-0ubuntu2) cosmic; urgency=medium
     - Add the translation for the biometric-auth-client
     - Fix Chinese translation errors
     - Add French, Portuguese and Russian translations
-    - Use Google's machine translation to translate relevant text, so there
-      is no guarantee of quality for the time being
+      * Use Google's machine translation to translate relevant text,
+        so there is no guarantee of quality for the time being
     - Remove unwanted translations
 
  -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Tue, 16 Oct 2018 09:06:22 +0800
