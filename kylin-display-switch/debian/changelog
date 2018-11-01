@@ -1,3 +1,9 @@
+kylin-display-switch (1.0.4-0ubuntu1) cosmic; urgency=medium
+
+  * Add ru,fr,pt,es po file.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 01 Nov 2018 17:24:04 +0800
+
 kylin-display-switch (1.0.3-0ubuntu1) cosmic; urgency=medium
 
   * Fix the wrong permission of file 'instance.lock' again. (LP: #1766491)
