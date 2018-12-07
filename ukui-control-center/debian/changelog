@@ -1,3 +1,9 @@
+ukui-control-center (1.1.6.1-0ubuntu1) cosmic; urgency=medium
+
+  * upgrade version.
+
+ -- hebing <hebing@kylinos.cn>  Fri, 07 Dec 2018 16:42:22 +0800
+
 ukui-control-center (1.1.6-0ubuntu1) cosmic; urgency=medium
 
   * Change background-image when theme changed.
