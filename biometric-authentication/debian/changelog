@@ -1,3 +1,21 @@
+biometric-authentication (0.9.61-0ubuntu2) cosmic; urgency=medium
+
+  * Change the configuration file to the configuration template file
+     - Rename biometric-drivers.conf to biometric-drivers.conf.template
+     - The default configuration template file is installed to
+       /usr/share/biometric-auth/
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Thu, 06 Dec 2018 15:48:18 +0800
+
+biometric-authentication (0.9.61-0ubuntu1) cosmic; urgency=medium
+
+  * Implement the CFB mode of AES algorithm and replace the interface
+    using openssl
+    - OpenSSL's license is not compatible with GPL or LGPL, remove it
+  * Add the "bindnow" linker flag to the ELF binary
+
+ -- jianglinxuan (droiing) <jianglinxuan@kylinos.cn>  Wed, 21 Nov 2018 11:19:50 +0800
+
 biometric-authentication (0.9.60-0ubuntu1) cosmic; urgency=medium
 
   * Add Spanish translation
