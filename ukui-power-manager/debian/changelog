@@ -1,7 +1,7 @@
 ukui-power-manager (1.1.2-0ubuntu1) disco; urgency=medium
 
   * Fix the error that can't open preferences dialog. (LP: #1764669)
-  * Drop the depends on libgnome-keyring-dev.
+  * Drop the depends on libgnome-keyring. (LP: #1767165)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 24 Dec 2018 11:47:10 +0800
 
