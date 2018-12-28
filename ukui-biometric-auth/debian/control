@@ -5,11 +5,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Kylin Team <ukui@kylinos.cn>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 11),
+               cmake (>= 2.6),
                qtbase5-dev,
                libpam-dev,
                libpolkit-qt5-1-dev,
+               qttools5-dev,
                qttools5-dev-tools,
-			   pkg-config
+               pkg-config
 Standards-Version: 4.2.1
 Homepage: https://github.com/ukui/ukui-biometric-auth
 Vcs-Git: https://github.com/ukui/ukui-biometric.git
