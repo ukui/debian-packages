@@ -39,7 +39,7 @@ Vcs-Browser: https://github.com/ukui/ukui-settings-daemon
 Package: ukui-settings-daemon
 Architecture: any
 Depends: mate-desktop-common (>= 1.18),
-         mate-polkit,
+         ukui-polkit | mate-polkit,
          ukui-settings-daemon-common (= ${source:Version}),
          x11-xserver-utils,
          ${misc:Depends},

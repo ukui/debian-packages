@@ -41,7 +41,7 @@ Depends: dbus-x11,
          upower,
          ${misc:Depends},
          ${shlibs:Depends},
-Suggests: mate-polkit,
+Suggests: ukui-polkit | mate-polkit,
 Description: power management tool for the UKUI desktop
  UKUI Power Manager is a session daemon for the UKUI desktop
  that takes care of system or desktop events related to power, and

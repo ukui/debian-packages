@@ -36,7 +36,7 @@ Depends: dbus-x11,
          ${shlibs:Depends},
 Recommends: ukwm,
             ukui-panel,
-            mate-polkit,
+            ukui-polkit | mate-polkit,
             ukui-settings-daemon,
 Provides: x-session-manager,
 Description: Session manager of the UKUI desktop environment
