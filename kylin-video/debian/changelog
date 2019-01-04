@@ -1,7 +1,9 @@
-kylin-video (2.0.0-0ubuntu1) cosmic; urgency=low
+kylin-video (2.0.0-0ubuntu2) cosmic; urgency=low
 
   * Updated these modules: preferences, core, mplayerprocess and mpvprocess.
   * Rewrited playlist with model and delegate.
+  * Added OSD info.
+  * Optimized partial parameters for mpv and mplayer.
 
  -- lixiang <lixiang@kylinos.cn>  Sat, 08 Dec 2018 11:40:48 +0800
 
