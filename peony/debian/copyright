@@ -798,6 +798,22 @@ Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
            2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+ or LGPL-2+
 
+Files: src/file-manager/mime-utils.c
+       src/file-manager/mime-utils.h
+       src/file-manager/navigation-window-interface.h
+       src/file-manager/office-utils.c
+       src/file-manager/office-utils.h
+       src/file-manager/pdfviewer.c
+       src/file-manager/pdfviewer.h
+       src/file-manager/test-widget.c
+       src/file-manager/test-widget.h
+       src/peony-kdisk-createformat.c
+       src/peony-kdisk-createformat.h
+       src/peony-kdisk-format.c
+       src/peony-kdisk-format.h
+Copyright: 2019, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
