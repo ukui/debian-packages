@@ -52,8 +52,7 @@ Build-Depends: debhelper (>= 11),
                wayland-protocols (>= 1.9) [linux-any],
                xkb-data,
                xvfb <!nocheck>,
-               xauth <!nocheck>,
-               zenity
+               xauth <!nocheck>
 Standards-Version: 4.1.5
 Homepage: https://github.com/ukui/ukwm
 Vcs-Git: https://github.com/ukui/ukwm.git
