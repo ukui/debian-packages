@@ -2,10 +2,20 @@ ukui-session-manager (1.1.4-0ubuntu1) disco; urgency=medium
 
   * Add keyboard accelerators to logout button.
   * Update the translations.
+  * Move shortcuts from ukui-session to single tools.
+  * Merge from mate-session-manager:
+    - Avoid compile warning for g_type_class_add_private.
+    - Disable deprecation warnings for discheck.
+    - Add a delay setting to startup manager.
+    - Migrate from dbus-glib to gdbus.
+    - Avoid deprecated 'g_settings_list_schemas'.
+    - Don't wait for all clients to exit before exiting.
+    - Add api for detecting if this is the last session for a user.
+    - Restart user bus if last graphical session.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 08 Jan 2019 15:40:53 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 12 Feb 2019 16:25:45 +0800
 
-ukui-session-manager (1.1.3.1-0ubuntu1) cosmic; urgency=medium
+ukui-session-manager (1.1.3.1-1) unstable; urgency=medium
 
   * Fix the wrong shortcut label.
 

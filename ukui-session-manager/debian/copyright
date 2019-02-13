@@ -187,12 +187,12 @@ Files: ukui-session/gsm-logout-dialog.h
 Copyright: 2006, Vincent Untz
 License: GPL-2+
 
-Files: ukui-session/uksm-shortcuts-dialog.c
+Files: tools/uksm-shortcuts-dialog.c
 Copyright: 2006, Vincent Untz
            2018, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
-Files: ukui-session/uksm-shortcuts-dialog.h
+Files: tools/uksm-shortcuts-dialog.h
 Copyright: 2006, Vincent Untz
            2008, Red Hat, Inc.
            2018, Tianjin KYLIN Information Technology Co., Ltd.
@@ -206,6 +206,7 @@ License: GPL-3+
 
 Files: ukui-session/gsm-logout-button.c
        ukui-session/gsm-logout-button.h
+       tools/ukui-session-shortcuts.c
 Copyright: 2018 Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
