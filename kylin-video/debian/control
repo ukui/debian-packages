@@ -10,6 +10,8 @@ Build-Depends: debhelper (>= 11),
                qt5-qmake,
                qtscript5-dev,
                qttools5-dev-tools,
+               qtbase5-private-dev,
+               libcrystalhd-dev [amd64 i386],
                zlib1g-dev
 Standards-Version: 4.1.5
 Homepage: https://github.com/ukui/kylin-video

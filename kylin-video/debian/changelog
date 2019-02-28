@@ -1,3 +1,9 @@
+kylin-video (2.0.0-0ubuntu3) cosmic; urgency=low
+
+  * Added dependency package named qtbase5-private-dev for qplatformnativeinterface.h.
+
+ -- lixiang <lixiang@kylinos.cn>  Thu, 28 Feb 2019 11:57:56 +0800
+
 kylin-video (2.0.0-0ubuntu2) cosmic; urgency=low
 
   * Updated these modules: preferences, core, mplayerprocess and mpvprocess.
