@@ -17,3 +17,6 @@ minimize=['<Alt>F9']
 
 [org.ukui.ukwm]
 edge-tiling=true
+
+[org.mate.NotificationDaemon]
+theme='slide'
