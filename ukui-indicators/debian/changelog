@@ -1,3 +1,12 @@
+ukui-indicators (1.1.3-0ubuntu1) cosmic; urgency=medium
+
+  * Add support for pt, ru, fr, es.
+  * Adjust the theme.
+  * Add the function to hide the 'compatibility and incompatibility".
+  * Bump standards-version to 4.3.0, compat version to 12.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 04 Jan 2019 16:46:27 +0800
+
 ukui-indicators (1.1.2-0ubuntu1) cosmic; urgency=medium
 
   * Add the support to show disk status.
