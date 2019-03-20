@@ -1,3 +1,13 @@
+peony (1.1.5-0ubuntu1) cosmic; urgency=medium
+
+  * Add the function of preview files.
+  * Add format function.
+  * Change the name style when copy files.
+  * Simplify disk label description.
+  * Update es.po, fr.po, pt.po, ru.po.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 27 Dec 2018 20:43:29 +0800
+
 peony (1.1.4-0ubuntu1) cosmic; urgency=medium
 
   * Refresh search page after peony-search changed.
